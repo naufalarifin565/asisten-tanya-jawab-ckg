@@ -1,0 +1,42 @@
+[[hal:40]]
+BAB V 
+PENCATATAN DAN PELAPORAN 
+ 
+ Pemeriksaan kesehatan dalam program CKG Sekolah harus dicatat dan 
+dilaporkan oleh petugas Puskesmas kepada Kementerian Kesehatan melalui 
+Pencatatan platform SATUSEHAT IndonesiaKu (SSI) dengan alamat 
+sehatindonesiaku.kemkes.go.id. Pastikan petugas sudah memiliki akun website 
+SATUSEHAT IndonesiaKu (SSI). Akun SSI dapat didaftarkan oleh admin SSI di 
+Puskesmas/Dinkes Kabupaten/Kota atau Provinsi. Dashboard monitoring 
+pendaftaran dan dashboard analisis hasil layanan bagi Puskesmas/Dinkes 
+Kab/Kota/Prov/Kemenkes dapat diakses menggunakan Website SSI. 
+Untuk implementasi jangka panjang, Puskesmas dan FKTP lainnya yang 
+telah menyelenggarakan Sistem Rekam Medis Elektronik (RME) untuk 
+memudahkan pelaporan CKG sekolah harus mengadopsi modul pelayanan CKG 
+dan/atau SATUSEHAT RME agar dapat mengintegrasikan datanya ke dalam 
+SATUSEHAT. Semua pencatatan dan pelaporan wajib dilakukan secara real -
+time. 
+Platform SATUSEHAT merupakan Sistem Informasi Kesehatan Nasional 
+(SIKN) yang memiliki fungsi integrator dan standarisasi Data Kesehatan dan 
+Informasi Kesehatan. Penyelenggara Sistem Informasi Kesehatan, yang terdiri 
+dari Pemerintah Pusat, Pemerintah Daerah, Fasilitas Pelayanan Kesehatan, dan 
+masyarakat, termasuk juga korporasi wajib mengintegrasikan Data Kesehatan 
+dan Informasi Kesehatan ke Platform SATUSEHAT sesuai ketentuan pasal 345 
+ayat (3) UU No. 17 Tahun 2023 tentang Kesehatan. Berdasarkan hal tersebut, 
+atas Data dan Informasi Pelaksanaan CKG, termasuk CKG Sekolah yang 
+diproses oleh FKTP dan/atau PSE diintegrasikan ke Platform SATUSEHAT. 
+Mekanisme integrasi dilaksanakan paling sedikit sesuai ketentuan 
+sebagai berikut: 
+1. secara elektronik melalui pemrograman antarmuka ( application 
+programming interface); 
+2. memenuhi standar data dan interoperabilitas; 
+3. real time; dan 
+4. aman. 
+Pihak yang melakukan integrasi Data dan Informasi Pelaksanaan CKG 
+ke Platform SATUSEHAT menandatangani Pakta Integritas dan menyepakati 
+petunjuk teknis integrasi.
+[[hal:41]]
+Skema pencatatan dan pelaporan yang dilakukan melalui platform 
+SATUSEHAT dapat dilihat pada Gambar 7 di bawah ini: 
+ 
+Gambar 7 Skema Pencatatan dan Pelaporan

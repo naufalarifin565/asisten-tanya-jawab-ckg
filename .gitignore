@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data/raw/ SENGAJA ikut disimpan (repositori privat): isi server sumber bisa
+# berubah atau hilang, terutama server staging ASIK. Dengan mentahan ini korpus
+# dapat dibangun ulang persis tanpa mengunduh apa pun.
+
+# Berkas kunci sementara Microsoft Office (muncul saat .docx sedang dibuka)
+~$*
+
+# Pengaturan editor lokal
+.vscode/
+
+# Repositori ini khusus untuk membangun sistem dari nol sampai demo antarmuka.
+# Laporan magang, template, bahan presentasi, dan gambar referensi disimpan di luar
+# repositori. Pola diawali "/" supaya hanya berlaku di folder utama: PDF Juknis di
+# data/raw/ tetap ikut tersimpan.
+/*.docx
+/*.pdf
+/*.png
+/presentasi-final.md

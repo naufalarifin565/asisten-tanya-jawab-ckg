@@ -1,0 +1,129 @@
+{
+  "sumber": "FAQ CKG Sekolah",
+  "kategori_id": "617757c6-2104-4f71-9d6e-3b0bb0d19098",
+  "sasaran": "sekolah",
+  "tanggal_ambil": "2026-08-24",
+  "jumlah": 15,
+  "topik": [
+    {
+      "id": "6a8e868f-59ea-4311-bd43-4f5b92fad7ab",
+      "judul": "Apa itu Cek Kesehatan Gratis (CKG) Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/6a8e868f-59ea-4311-bd43-4f5b92fad7ab",
+      "berkas": "6a8e868f-59ea-4311-bd43-4f5b92fad7ab.json",
+      "status": "berhasil",
+      "sha256": "17f315059a6b43a1c3f06005bc7e2de156bd1db1341c7739a98619e966d10feb"
+    },
+    {
+      "id": "c0e49a18-0f98-4732-96b4-a88f2f1e38d4",
+      "judul": "Siapa saja yang mendapatkan layanan CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/c0e49a18-0f98-4732-96b4-a88f2f1e38d4",
+      "berkas": "c0e49a18-0f98-4732-96b4-a88f2f1e38d4.json",
+      "status": "berhasil",
+      "sha256": "42eb84c19d5cff5c21e6d68050d393a470fe43838009f0680d6df0f2a157cb51"
+    },
+    {
+      "id": "3f612f4f-c8a1-4908-866b-3da29164301a",
+      "judul": "Kapan CKG Sekolah mulai dilaksanakan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3f612f4f-c8a1-4908-866b-3da29164301a",
+      "berkas": "3f612f4f-c8a1-4908-866b-3da29164301a.json",
+      "status": "berhasil",
+      "sha256": "8f524c88014aa04d9b6451664c4578f4e95c0e319ada1492b1ed0182ebb77d37"
+    },
+    {
+      "id": "bd9a8434-9d53-47e6-b483-d10c239a59df",
+      "judul": "Dimana CKG Sekolah dilaksanakan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/bd9a8434-9d53-47e6-b483-d10c239a59df",
+      "berkas": "bd9a8434-9d53-47e6-b483-d10c239a59df.json",
+      "status": "berhasil",
+      "sha256": "b193304324cefd9a6af88e841a8ce662c810516df867908989773643df615004"
+    },
+    {
+      "id": "49dc8b5a-24b3-456f-ba8e-f3110ce7d4d7",
+      "judul": "Bagaimana cara mendaftar Cek Kesehatan Gratis (CKG) Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/49dc8b5a-24b3-456f-ba8e-f3110ce7d4d7",
+      "berkas": "49dc8b5a-24b3-456f-ba8e-f3110ce7d4d7.json",
+      "status": "berhasil",
+      "sha256": "7572831b08c8210afc7018ceb4905b657eb4fabd25aec396e58f121282ac71b8"
+    },
+    {
+      "id": "ffb7fb97-7324-4c9a-b34f-d8321546cc18",
+      "judul": "Layanan pemeriksaan apa saja yang didapatkan untuk usia Sekolah Dasar (SD)",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ffb7fb97-7324-4c9a-b34f-d8321546cc18",
+      "berkas": "ffb7fb97-7324-4c9a-b34f-d8321546cc18.json",
+      "status": "berhasil",
+      "sha256": "f7ce350356d4aac3892d18b61122a1ad0b74c99c9bd0d84e268ddc1134af7bb7"
+    },
+    {
+      "id": "f11d88ab-67ac-40a2-a5fb-cda6a4a464b2",
+      "judul": "Layanan pemeriksaan apa saja yang didapatkan untuk Anak Sekolah Menengah Pertama (SMP)",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f11d88ab-67ac-40a2-a5fb-cda6a4a464b2",
+      "berkas": "f11d88ab-67ac-40a2-a5fb-cda6a4a464b2.json",
+      "status": "berhasil",
+      "sha256": "86e2cc99cb6ba51c47b3deb7417930d7644e15ed047f52535f57621bc821e707"
+    },
+    {
+      "id": "80e03de4-ec81-4d0d-844c-e058fa9dbc7b",
+      "judul": "Layanan pemeriksaan apa saja yang didapatkan untuk Anak Sekolah Menengah Atas (SMA)",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/80e03de4-ec81-4d0d-844c-e058fa9dbc7b",
+      "berkas": "80e03de4-ec81-4d0d-844c-e058fa9dbc7b.json",
+      "status": "berhasil",
+      "sha256": "df090ad1e8d99dd8205a1f5b8bcf73d06ffc1c4ddf74b22694a855e4d9e6a9bd"
+    },
+    {
+      "id": "2f7b821f-29fd-41ef-ba1c-cbbc40990a42",
+      "judul": "Mengapa saya belum menerima hasil pemeriksaan padahal sudah menjalani skrining kesehatan CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2f7b821f-29fd-41ef-ba1c-cbbc40990a42",
+      "berkas": "2f7b821f-29fd-41ef-ba1c-cbbc40990a42.json",
+      "status": "berhasil",
+      "sha256": "f0e97638a6583dc4106fce489c066bd2008c2fe80b82c4cfa26dd8cfe6dd959e"
+    },
+    {
+      "id": "30f1601e-59fa-4fe2-be02-3d40be6f7c93",
+      "judul": "Bagaimana jika saya tidak mendapatkan notifikasi atau tidak dapat mengisi formulir skrining kesehatan mandiri setelah mendaftar CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/30f1601e-59fa-4fe2-be02-3d40be6f7c93",
+      "berkas": "30f1601e-59fa-4fe2-be02-3d40be6f7c93.json",
+      "status": "berhasil",
+      "sha256": "3c95abbea81fe30ced0551211ec921febbc1e823d914594e03f6e2c38b5bd4d8"
+    },
+    {
+      "id": "7b423f1c-9ed1-42d1-b0ca-661e17e91ef6",
+      "judul": "Bagaimana jika NISN siswa tidak dapat ditemukan saat mendaftar CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7b423f1c-9ed1-42d1-b0ca-661e17e91ef6",
+      "berkas": "7b423f1c-9ed1-42d1-b0ca-661e17e91ef6.json",
+      "status": "berhasil",
+      "sha256": "ab72246d6dbb749f98231257bc7409da7e8dfc5c08b14632bf05fd9b57e02205"
+    },
+    {
+      "id": "d4a0690c-194c-4ace-9af7-b79850f1b517",
+      "judul": "Bagaimana cara mendaftarkan anak yang tidak bersekolah atau siswa/i yang tidak memiliki NISN untuk mengikuti Program Cek Kesehatan Gratis (CKG) Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d4a0690c-194c-4ace-9af7-b79850f1b517",
+      "berkas": "d4a0690c-194c-4ace-9af7-b79850f1b517.json",
+      "status": "berhasil",
+      "sha256": "e42e2e27339afcf02a238ed6ebfcb697b3ffd54bd4ead138c403fd0510fd5dcd"
+    },
+    {
+      "id": "11f18843-ab90-4bd0-a0ef-236b1327fe7f",
+      "judul": "Bagaimana jika terdapat kesalahan dalam pendaftaran sekolah (misalnya nama sekolah, kelas, dan lain-lain)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/11f18843-ab90-4bd0-a0ef-236b1327fe7f",
+      "berkas": "11f18843-ab90-4bd0-a0ef-236b1327fe7f.json",
+      "status": "berhasil",
+      "sha256": "3e5a6e0c5c2d3f7a2189bada5ea116ba97d9a37bf980980cebf43d202c60f1dc"
+    },
+    {
+      "id": "8a1ae139-0a1b-45bb-977a-f6e48887b3a4",
+      "judul": "Saya menerima pesan dari WhatsApp resmi Kemenkes RI tentang rapor hasil Cek Kesehatan Gratis (CKG), namun saya tidak pernah mendaftar. Apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8a1ae139-0a1b-45bb-977a-f6e48887b3a4",
+      "berkas": "8a1ae139-0a1b-45bb-977a-f6e48887b3a4.json",
+      "status": "berhasil",
+      "sha256": "dd18ce0689849e2b2c7d23cff4d3cc4852ea38ac00d9e9008be51cc1879e130b"
+    },
+    {
+      "id": "487ed3ad-003f-4474-b321-45da59de2a25",
+      "judul": "Mengapa jenjang pendidikan siswa tidak muncul saat pendaftaran CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/487ed3ad-003f-4474-b321-45da59de2a25",
+      "berkas": "487ed3ad-003f-4474-b321-45da59de2a25.json",
+      "status": "berhasil",
+      "sha256": "e72ccce1fdb1164275956da5ff0f0ca84cdfb80e2219443b6ddf1384d4a79b31"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "sumber": "FAQ CKG Fasyankes",
+  "kategori_id": "7cd776af-e9d8-496a-b7fd-1f149db25232",
+  "sasaran": "nakes",
+  "tanggal_ambil": "2026-08-26",
+  "jumlah": 40,
+  "topik": [
+    {
+      "id": "171b1a53-ed00-4f90-a49c-8928d322b42f",
+      "judul": "Pencatatan Cek Kesehatan Gratis di Website ASIK Puskesmas",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/171b1a53-ed00-4f90-a49c-8928d322b42f",
+      "berkas": "171b1a53-ed00-4f90-a49c-8928d322b42f.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "d17f418d-6eff-4556-853f-7afc8f2c0fa6",
+      "judul": "Mengapa saya mendapatkan pesan \"Nomor WhatsApp sudah terdaftar\" saat registrasi akun di ASIK Web (dashboard)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d17f418d-6eff-4556-853f-7afc8f2c0fa6",
+      "berkas": "d17f418d-6eff-4556-853f-7afc8f2c0fa6.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "7b66f480-33d4-4cbd-9e07-98da0ffd8e54",
+      "judul": "Cara mengaktifkan fitur Cek Kesehatan Gratis di Sehat Indonesiaku (ASIK) Website",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7b66f480-33d4-4cbd-9e07-98da0ffd8e54",
+      "berkas": "7b66f480-33d4-4cbd-9e07-98da0ffd8e54.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "be4d6e8e-ae1d-4948-9e84-a8c7e5e6f3d3",
+      "judul": "Bagaimana cara pengajuan baru/penggantian/perubahan administrator pada akun ASIK?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/be4d6e8e-ae1d-4948-9e84-a8c7e5e6f3d3",
+      "berkas": "be4d6e8e-ae1d-4948-9e84-a8c7e5e6f3d3.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "d7b006ea-f79a-451c-a79b-46f37b1e4c1e",
+      "judul": "Cara untuk melihat hasil skrining mandiri",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d7b006ea-f79a-451c-a79b-46f37b1e4c1e",
+      "berkas": "d7b006ea-f79a-451c-a79b-46f37b1e4c1e.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "11797477-a18b-40e8-9b94-1856880c1c3b",
+      "judul": "Bagaimana cara mengakses nomor telepon pendaftar Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/11797477-a18b-40e8-9b94-1856880c1c3b",
+      "berkas": "11797477-a18b-40e8-9b94-1856880c1c3b.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "75da5524-c30c-443f-b79b-9c989b29d021",
+      "judul": "Apakah saya bisa mengubah status pelayanan saat mengisi form Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/75da5524-c30c-443f-b79b-9c989b29d021",
+      "berkas": "75da5524-c30c-443f-b79b-9c989b29d021.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "732f4f76-e711-4c29-b520-2e64149ce314",
+      "judul": "Bagaimana cara melihat rapor kesehatan di ASIK Website?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/732f4f76-e711-4c29-b520-2e64149ce314",
+      "berkas": "732f4f76-e711-4c29-b520-2e64149ce314.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "8bf2a5ec-a746-455e-877f-3e32790ada8e",
+      "judul": "Bagaimana cara update data Puskesmas di ASIK Website?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8bf2a5ec-a746-455e-877f-3e32790ada8e",
+      "berkas": "8bf2a5ec-a746-455e-877f-3e32790ada8e.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "ba687ee7-a06f-4dc8-9f7b-3eb1d0d6a282",
+      "judul": "Kenapa saya tidak bisa klik \"Hadir\" di menu Cari/Daftarkan Individu?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ba687ee7-a06f-4dc8-9f7b-3eb1d0d6a282",
+      "berkas": "ba687ee7-a06f-4dc8-9f7b-3eb1d0d6a282.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "5e3da14c-d982-4cff-a2ea-6d54989de0c1",
+      "judul": "Saya tidak tahu pengampu/pemegang akun regpus wilayah saya, bagaimana cara mengetahuinya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/5e3da14c-d982-4cff-a2ea-6d54989de0c1",
+      "berkas": "5e3da14c-d982-4cff-a2ea-6d54989de0c1.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "2bdd36e2-e7c6-4568-bcea-7e7ba919d0c0",
+      "judul": "Apakah bisa ubah tanggal atau status kehadiran peserta Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2bdd36e2-e7c6-4568-bcea-7e7ba919d0c0",
+      "berkas": "2bdd36e2-e7c6-4568-bcea-7e7ba919d0c0.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "50d28b57-fdcd-4d54-9fa5-faad694e95a3",
+      "judul": "Bagaimana pengisian data Wali bagi lansia yang tidak memiliki Wali/Pendamping?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/50d28b57-fdcd-4d54-9fa5-faad694e95a3",
+      "berkas": "50d28b57-fdcd-4d54-9fa5-faad694e95a3.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "9bef319a-addc-4572-9854-6be674b3c9c4",
+      "judul": "Apakah bisa mendaftarkan peserta Cek Kesehatan Gratis jika kuota telah habis/tertulis 0 di tanggal kalender?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/9bef319a-addc-4572-9854-6be674b3c9c4",
+      "berkas": "9bef319a-addc-4572-9854-6be674b3c9c4.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "1445acaf-785c-471a-abb3-db324427080b",
+      "judul": "Apakah petugas dapat mendaftarkan peserta Cek Kesehatan Gratis yang belum ulang tahun?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1445acaf-785c-471a-abb3-db324427080b",
+      "berkas": "1445acaf-785c-471a-abb3-db324427080b.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "209b287b-a8b5-42c1-a928-c0bf188d3eef",
+      "judul": "Apakah input BBL wajib menggunakan NIK Bayi?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/209b287b-a8b5-42c1-a928-c0bf188d3eef",
+      "berkas": "209b287b-a8b5-42c1-a928-c0bf188d3eef.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "f3e9f6ff-ab05-4aa7-b5ff-683af0aab2ec",
+      "judul": "Apakah penginputan anak sekolah tetap menggunakan SATUSEHAT IndonesiaKu?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f3e9f6ff-ab05-4aa7-b5ff-683af0aab2ec",
+      "berkas": "f3e9f6ff-ab05-4aa7-b5ff-683af0aab2ec.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "ac177c94-5452-42fa-81f0-e7428cdfc527",
+      "judul": "Apa  itu Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ac177c94-5452-42fa-81f0-e7428cdfc527",
+      "berkas": "ac177c94-5452-42fa-81f0-e7428cdfc527.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "dc89ca9e-26a2-4172-a0aa-4083d51b58dc",
+      "judul": "Siapa yang dapat menambahkan sekolah ke dalam daftar Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/dc89ca9e-26a2-4172-a0aa-4083d51b58dc",
+      "berkas": "dc89ca9e-26a2-4172-a0aa-4083d51b58dc.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "2beae5bd-42fa-46d5-8055-4e39fb84c4c0",
+      "judul": "Kapan sekolah harus ditambahkan sebagai Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2beae5bd-42fa-46d5-8055-4e39fb84c4c0",
+      "berkas": "2beae5bd-42fa-46d5-8055-4e39fb84c4c0.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "fd077301-c094-4db2-babf-8772aa534386",
+      "judul": "Bagaimana jika Puskesmas tidak menambahkan atau memetakan sekolah yang menjadi Sarana Binaan di wilayah kerjanya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/fd077301-c094-4db2-babf-8772aa534386",
+      "berkas": "fd077301-c094-4db2-babf-8772aa534386.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "3d11adf7-d50b-489f-aa68-754bc5c51042",
+      "judul": "Bagaimana cara menambahkan sekolah sebagai Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3d11adf7-d50b-489f-aa68-754bc5c51042",
+      "berkas": "3d11adf7-d50b-489f-aa68-754bc5c51042.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "d814bef2-c17a-48c9-9581-3e3ea5d02492",
+      "judul": "Bagaimana cara melihat daftar sekolah yang telah menjadi Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d814bef2-c17a-48c9-9581-3e3ea5d02492",
+      "berkas": "d814bef2-c17a-48c9-9581-3e3ea5d02492.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "9f9f44f5-dc3b-4142-850c-a3f705a8f42c",
+      "judul": "Bagaimana jika sekolah di wilayah kerja Puskesmas saya sudah ditambahkan menjadi sarana milik Puskesmas lain?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/9f9f44f5-dc3b-4142-850c-a3f705a8f42c",
+      "berkas": "9f9f44f5-dc3b-4142-850c-a3f705a8f42c.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "58fcc918-382a-4c7f-826d-3137590a87bd",
+      "judul": "Bagaimana cara menghapus sekolah dari daftar Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/58fcc918-382a-4c7f-826d-3137590a87bd",
+      "berkas": "58fcc918-382a-4c7f-826d-3137590a87bd.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "0a22e670-341a-44cb-832d-9d3c0fc5a0f8",
+      "judul": "Bagaimana jika sekolah di wilayah kerja saya belum tercantum dalam daftar sekolah yang dapat ditambahkan sebagai Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0a22e670-341a-44cb-832d-9d3c0fc5a0f8",
+      "berkas": "0a22e670-341a-44cb-832d-9d3c0fc5a0f8.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "23e2b6ce-6913-4a24-b5e3-8a6b4cfa7b98",
+      "judul": "Bagaimana cara mendaftarkan siswa sebagai peserta CKG Sekolah melalui website SATUSEHAT Indonesiaku (ASIK)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/23e2b6ce-6913-4a24-b5e3-8a6b4cfa7b98",
+      "berkas": "23e2b6ce-6913-4a24-b5e3-8a6b4cfa7b98.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "0f8ab4a4-0ad1-4e94-9534-ed66810c12f0",
+      "judul": "Mengapa nama sekolah tidak muncul, padahal sudah terinput di ASIK sebagai Sarana Binaan Puskesmas?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0f8ab4a4-0ad1-4e94-9534-ed66810c12f0",
+      "berkas": "0f8ab4a4-0ad1-4e94-9534-ed66810c12f0.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "21d1ce37-f4b9-4a0a-9b94-4009684e4344",
+      "judul": "Saat mengisi identitas siswa, mengapa data orang tua/wali yang terdaftar?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/21d1ce37-f4b9-4a0a-9b94-4009684e4344",
+      "berkas": "21d1ce37-f4b9-4a0a-9b94-4009684e4344.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "0de2444e-10ad-4ae2-b1e9-6205c5231a5c",
+      "judul": "Saat mendaftar CKG Sekolah atau mengisi skrining mandiri melalui tautan yang dikirim muncul notifikasi “Data pasien tidak sesuai”, apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0de2444e-10ad-4ae2-b1e9-6205c5231a5c",
+      "berkas": "0de2444e-10ad-4ae2-b1e9-6205c5231a5c.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "7641c41e-d145-4bb8-8503-9f9da053e894",
+      "judul": "Bagaimana jika anak tidak memiliki NISN?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7641c41e-d145-4bb8-8503-9f9da053e894",
+      "berkas": "7641c41e-d145-4bb8-8503-9f9da053e894.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "8541f971-a093-44e8-bd1c-8f3f2fcb464d",
+      "judul": "Apa yang harus dilakukan sekolah yang belum memiliki NPSN agar dapat ikut CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8541f971-a093-44e8-bd1c-8f3f2fcb464d",
+      "berkas": "8541f971-a093-44e8-bd1c-8f3f2fcb464d.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "e8215fd3-3a94-49c4-b93e-3e6c109608d6",
+      "judul": "Bagaimana jika tidak mendapatkan notifikasi atau tidak dapat mengisi formulir skrining kesehatan mandiri setelah mendaftar CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/e8215fd3-3a94-49c4-b93e-3e6c109608d6",
+      "berkas": "e8215fd3-3a94-49c4-b93e-3e6c109608d6.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "c23c93f4-df74-4b79-ad33-2265ff28a34b",
+      "judul": "Bagaimana jika siswa dan orang tua/wali tidak memiliki nomor HP/WhatsApp untuk mendaftarkan anak CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/c23c93f4-df74-4b79-ad33-2265ff28a34b",
+      "berkas": "c23c93f4-df74-4b79-ad33-2265ff28a34b.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "a21a9164-6c9a-4a1f-8797-5c559eefd2af",
+      "judul": "Saat mendaftar CKG Sekolah atau mengisi skrining mandiri melalui tautan yang dikirim muncul notifikasi “Data pasien tidak sesuai dengan KTP. Pastikan data sesuai untuk melanjutkan pendaftaran”, apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/a21a9164-6c9a-4a1f-8797-5c559eefd2af",
+      "berkas": "a21a9164-6c9a-4a1f-8797-5c559eefd2af.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "6cb7b63c-cc4b-4115-94df-3a36498b1dad",
+      "judul": "Bagaimana jika NIK siswa tidak ditemukan atau tidak valid saat didaftarkan sebagai peserta CKG Sekolah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/6cb7b63c-cc4b-4115-94df-3a36498b1dad",
+      "berkas": "6cb7b63c-cc4b-4115-94df-3a36498b1dad.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "b428aa23-481b-4a3f-bf4a-f3d65f6fd397",
+      "judul": "Bagaimana cara jika ingin ubah kata sandi pada Website SATUSEHAT IndonesiaKu?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/b428aa23-481b-4a3f-bf4a-f3d65f6fd397",
+      "berkas": "b428aa23-481b-4a3f-bf4a-f3d65f6fd397.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "daef6adb-ba88-46d0-8782-890169f96ad0",
+      "judul": "Mengapa muncul notifikasi \"Silahkan periksa Cari/Daftarkan Individu Anda secara berkala. Jika belum tercatat, silakan coba registrasi lagi atau hubungi Helpdesk kami\". Apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/daef6adb-ba88-46d0-8782-890169f96ad0",
+      "berkas": "daef6adb-ba88-46d0-8782-890169f96ad0.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "4f8e2a3c-f41f-4e14-8085-30afa117d434",
+      "judul": "Sekolah saya (MI/MTs/MA/Pesantren) sudah muncul namanya di ASIK Website, tapi kenapa nama siswanya tidak ada untuk skrining CKG?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4f8e2a3c-f41f-4e14-8085-30afa117d434",
+      "berkas": "4f8e2a3c-f41f-4e14-8085-30afa117d434.json",
+      "status": "dilewati"
+    },
+    {
+      "id": "056fa767-73b1-4b7b-bfc3-f2d0610bb220",
+      "judul": "Mengapa data pemeriksaan yang sudah terinput di SATUSEHAT IndonesiaKu belum muncul pada Dashboard?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/056fa767-73b1-4b7b-bfc3-f2d0610bb220",
+      "berkas": "056fa767-73b1-4b7b-bfc3-f2d0610bb220.json",
+      "status": "dilewati"
+    }
+  ]
+}

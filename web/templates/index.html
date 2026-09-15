@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asisten Tanya-Jawab CKG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* ============================================================
+   Palet diambil dari lambang Kemenkes: tosca, hijau limau,
+   biru langit. Netral dibiaskan ke tosca supaya satu keluarga.
+
+   GERAK: ditulis dengan CSS + Web Animations API murni, tanpa
+   satu pun pustaka. Framer Motion dipakai sebagai ACUAN RASA
+   (spring, stagger, enter/exit), bukan sebagai dependensi --
+   ia pustaka React, sedangkan halaman ini Jinja biasa. Lebih
+   penting lagi: README menjanjikan sistem ini jalan tanpa
+   internet, dan menarik pustaka dari CDN akan membatalkan itu.
+   ============================================================ */
+:root{
+  --kertas:#F1F6F6;
+  --kartu:#FFFFFF;
+  --kartu-2:#F8FBFB;
+  --tinta:#0E2F33;
+  --redup:#54706F;
+  --samar:#8AA3A2;
+  --garis:#DBE8E7;
+  --garis-kuat:#C2D8D6;
+
+  --tosca:#00A99D;
+  --tosca-tua:#00857C;
+  --tosca-lembut:#E2F4F2;
+  --limau:#A8BF12;
+  --langit:#29B7D6;
+
+  --tolak:#B4611A;
+  --tolak-lembut:#FDF2E7;
+  --tolak-garis:#EBCBA8;
+
+  --bayang:0 1px 2px rgba(14,47,51,.05), 0 10px 28px -14px rgba(14,47,51,.16);
+  --bayang-naik:0 2px 4px rgba(14,47,51,.06), 0 18px 40px -18px rgba(14,47,51,.26);
+  --radius:14px;
+  --kilau:rgba(255,255,255,.55);
+  /* Teks di atas tombol utama. Harus variabel, bukan #fff mati:
+     di mode gelap --tosca-tua menjadi mint TERANG, dan putih di
+     atasnya cuma berasio 2,02 -- jauh di bawah ambang WCAG AA 4,5.
+     Diukur, bukan dikira-kira. */
+  --teks-tombol:#FFFFFF;
+  --keping-teks:#00655E;
+
+  /* Lengkung gerak. Dua saja, dipakai konsisten:
+     --keluar  : cepat di awal lalu melandai -- untuk yang MASUK layar.
+     --pegas   : sedikit melewati target lalu balik -- untuk sentuhan. */
+  --keluar:cubic-bezier(.16,1,.3,1);
+  --pegas:cubic-bezier(.34,1.56,.64,1);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --kertas:#08191B; --kartu:#0F2629; --kartu-2:#123033;
+    --tinta:#E4EFEE; --redup:#9BB5B3; --samar:#6A8785;
+    --garis:#1D3C3E; --garis-kuat:#2A5052;
+    --tosca:#34C9BC; --tosca-tua:#5FDCD0; --tosca-lembut:#103536;
+    --limau:#C2DB2E; --langit:#5CCDE6;
+    --tolak:#E5A167; --tolak-lembut:#2B2117; --tolak-garis:#57422A;
+    --bayang:0 1px 2px rgba(0,0,0,.3), 0 10px 28px -14px rgba(0,0,0,.55);
+    --bayang-naik:0 2px 6px rgba(0,0,0,.36), 0 20px 44px -18px rgba(0,0,0,.7);
+    --kilau:rgba(255,255,255,.09);
+    --teks-tombol:#04272B;
+    --keping-teks:#8CEADF;
+  }
+}
+:root[data-theme="dark"]{
+  --kertas:#08191B; --kartu:#0F2629; --kartu-2:#123033;
+  --tinta:#E4EFEE; --redup:#9BB5B3; --samar:#6A8785;
+  --garis:#1D3C3E; --garis-kuat:#2A5052;
+  --tosca:#34C9BC; --tosca-tua:#5FDCD0; --tosca-lembut:#103536;
+  --limau:#C2DB2E; --langit:#5CCDE6;
+  --tolak:#E5A167; --tolak-lembut:#2B2117; --tolak-garis:#57422A;
+  --bayang:0 1px 2px rgba(0,0,0,.3), 0 10px 28px -14px rgba(0,0,0,.55);
+  --bayang-naik:0 2px 6px rgba(0,0,0,.36), 0 20px 44px -18px rgba(0,0,0,.7);
+  --kilau:rgba(255,255,255,.09);
+  --teks-tombol:#04272B;
+  --keping-teks:#8CEADF;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--kertas); color:var(--tinta);
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,sans-serif;
+  font-size:15.5px; line-height:1.68; -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+:focus-visible{outline:2.5px solid var(--tosca);outline-offset:2px;border-radius:6px}
+
+/* ---------------- latar aurora ----------------
+   Tiga noktah warna lambang Kemenkes yang bergerak sangat lambat.
+   Kadarnya sengaja rendah: latar tidak boleh bersaing dengan teks
+   jawaban, yang justru inti halaman ini. */
+.aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.aurora span{
+  position:absolute;border-radius:50%;filter:blur(110px);opacity:.13;
+  will-change:transform;
+}
+.aurora .a1{width:52vw;height:52vw;left:-14vw;top:-18vw;background:var(--tosca);animation:apung1 34s ease-in-out infinite}
+.aurora .a2{width:44vw;height:44vw;right:-12vw;top:6vh;background:var(--langit);animation:apung2 41s ease-in-out infinite}
+.aurora .a3{width:34vw;height:34vw;left:8vw;bottom:-20vw;background:var(--limau);opacity:.09;animation:apung3 47s ease-in-out infinite}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .aurora span{opacity:.16}}
+:root[data-theme="dark"] .aurora span{opacity:.16}
+@keyframes apung1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(6vw,7vh) scale(1.13)}}
+@keyframes apung2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-7vw,9vh) scale(.9)}}
+@keyframes apung3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(5vw,-7vh) scale(1.1)}}
+
+/* ---------------- layar pembuka ----------------
+   Menampilkan lambang Kemenkes dan SATUSEHAT bergantian sebelum halaman
+   terlihat. Tiga aturan yang dipatuhi, supaya ini tetap sambutan dan tidak
+   berubah jadi penghalang:
+
+     1. SINGKAT -- selesai dalam 2,65 detik. Layar pembuka yang berlama-lama
+        menyebalkan justru bagi orang yang paling sering memakai sistemnya.
+     2. BISA DILEWATI -- diklik atau ditekan tombol apa pun, langsung hilang.
+     3. HILANG SENDIRI TANPA JAVASCRIPT. Penghilangannya dikerjakan animasi
+        CSS, bukan JS. Kalau skripnya gagal dimuat, halaman tetap bisa dipakai
+        -- layar pembuka yang menyangkut karena JS mati akan mengunci
+        seluruh sistem, dan itu kegagalan yang jauh lebih buruk daripada
+        tidak punya animasi sama sekali. */
+.pembuka{
+  position:fixed;inset:0;z-index:100;display:flex;
+  align-items:center;justify-content:center;
+  background:var(--kertas);
+  animation:pembukaTutup .6s var(--keluar) 2.05s forwards;
+}
+@keyframes pembukaTutup{to{opacity:0;visibility:hidden;pointer-events:none}}
+.pembuka.lewati{animation:none;opacity:0;visibility:hidden;pointer-events:none;
+                transition:opacity .3s ease}
+.pembuka-isi{text-align:center;padding:20px}
+.pembuka-lambang{
+  display:flex;align-items:center;justify-content:center;gap:0;
+  margin-bottom:26px;
+}
+.pl-kemenkes{
+  width:84px;height:84px;object-fit:contain;
+  opacity:0;transform:translateX(14px) scale(.86);
+  animation:plMasukKiri .85s var(--pegas) .15s forwards;
+}
+.pl-satusehat{
+  width:74px;height:74px;
+  opacity:0;transform:translateX(-14px) scale(.86);
+  animation:plMasukKanan .85s var(--pegas) .15s forwards;
+}
+@keyframes plMasukKiri {to{opacity:1;transform:none}}
+@keyframes plMasukKanan{to{opacity:1;transform:none}}
+/* Garis pemisah tumbuh dari tengah -- gerak yang "menyatukan" kedua lambang,
+   bukan sekadar menaruhnya berdampingan. */
+.pl-garis{
+  width:1.5px;height:40px;margin:0 22px;background:var(--garis-kuat);
+  transform:scaleY(0);animation:plGaris .6s var(--keluar) .55s forwards;
+}
+@keyframes plGaris{to{transform:scaleY(1)}}
+/* Tiap kelopak SATUSEHAT masuk sendiri-sendiri, berputar sedikit dari pusat.
+   Ini yang membuat lambangnya terasa "terbentuk", bukan ditempel. */
+.pl-satusehat > *{
+  opacity:0;transform-box:fill-box;transform-origin:center;
+  animation:plKelopak .55s var(--pegas) forwards;
+}
+.pl-p1{animation-delay:.42s} .pl-p2{animation-delay:.55s}
+.pl-p3{animation-delay:.68s} .pl-p4{animation-delay:.81s}
+.pl-p5{animation-delay:.94s}
+@keyframes plKelopak{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+.pembuka-judul{
+  margin:0;font-size:19px;font-weight:800;letter-spacing:-.02em;color:var(--tinta);
+  opacity:0;transform:translateY(9px);animation:naikMasuk .6s var(--keluar) 1.18s forwards;
+}
+/* Baris instansi ditebalkan dan diberi jarak huruf. Sebelumnya setipis
+   keterangan biasa dan warnanya redup, sehingga nama kedua instansi --
+   yang justru menjadi dasar kepercayaan sistem ini -- terbaca seperti
+   catatan kaki. Warnanya ikut dinaikkan ke --tinta, karena huruf tebal
+   berwarna redup tampak kotor, bukan tegas. */
+.pembuka-sub{
+  margin:8px 0 0;font-size:13px;font-weight:700;letter-spacing:.05em;
+  color:var(--tinta);
+  opacity:0;transform:translateY(9px);animation:naikMasuk .6s var(--keluar) 1.34s forwards;
+}
+
+/* ---------------- kepala ---------------- */
+header{
+  background:color-mix(in srgb, var(--kartu) 93%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4);
+  -webkit-backdrop-filter:blur(14px) saturate(1.4);
+  border-bottom:1px solid var(--garis);
+  position:sticky; top:0; z-index:20;
+  transition:box-shadow .3s var(--keluar), border-color .3s var(--keluar);
+}
+header.melayang{box-shadow:0 6px 26px -14px rgba(14,47,51,.4);border-bottom-color:var(--garis-kuat)}
+/* Proporsi pita mengikuti lambang Kemenkes dan TIDAK dianimasikan.
+   Sempat digeser-geser supaya "hidup", lalu dibatalkan: itu lambang
+   instansi, bukan elemen hias yang boleh diubah perbandingannya. */
+.pita-warna{
+  height:4px;
+  background:linear-gradient(90deg,var(--tosca) 0%,var(--tosca) 38%,var(--limau) 38%,var(--limau) 70%,var(--langit) 70%);
+}
+.kepala{max-width:900px;margin:0 auto;padding:14px 22px;display:flex;gap:14px;align-items:center}
+/* Yang dipakai LAMBANGNYA SAJA, tanpa tulisan "Kemenkes". Sempat memakai
+   lockup mendatar berikut tulisannya, lalu dibatalkan atas masukan
+   pembimbing -- dan itu memang lebih tepat: judul di sebelahnya sudah
+   menerangkan sistem ini apa, jadi tulisan "Kemenkes" hanya mengulang dan
+   memakan ruang. Berkas lockup-nya tetap disimpan sebagai logo-mendatar.png
+   dan logo-lengkap.png untuk salindia atau sampul laporan.
+
+   Dipasang apa adanya, tanpa kotak berlatar dan tanpa animasi: ini lambang
+   instansi. Memberinya latar berwarna, membulatkan sudutnya, lalu
+   memiringkannya saat disorot memperlakukannya seperti ikon aplikasi --
+   alasan yang sama dengan kenapa pita tiga warna di atas tidak dianimasikan. */
+.logo{
+  flex:0 0 auto;display:flex;align-items:center;
+}
+.logo img{height:44px;width:auto;display:block}
+/* SVG cadangan dipakai kalau logo.png tidak ada -- bentuknya persegi, jadi
+   ukurannya diatur tersendiri. */
+.logo svg{width:40px;height:40px}
+.judul{flex:1;min-width:0}
+.judul h1{margin:0;font-size:17px;font-weight:800;letter-spacing:-.02em;line-height:1.25}
+.judul p{margin:1px 0 0;font-size:12.5px;color:var(--redup)}
+.tanda{
+  flex:0 0 auto;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  background:var(--tolak-lembut);color:var(--tolak);border:1px solid var(--tolak-garis);
+  padding:4px 11px;border-radius:999px;white-space:nowrap;
+}
+.tema{
+  flex:0 0 auto;width:34px;height:34px;padding:0;border-radius:10px;
+  background:var(--kartu-2);border:1px solid var(--garis);color:var(--redup);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+  transition:transform .45s var(--pegas), color .2s ease, border-color .2s ease;
+}
+.tema:hover{color:var(--tosca-tua);border-color:var(--tosca);transform:scale(1.08)}
+.tema:active{transform:scale(.92)}
+.tema svg{transition:transform .5s var(--pegas)}
+.tema:hover svg{transform:rotate(35deg)}
+
+.wrap{max-width:900px;margin:0 auto;padding:22px 22px 80px;position:relative}
+
+/* ---------------- masuk bertahap ----------------
+   Tiap blok utama diberi --i, lalu tundaannya dihitung dari situ.
+   Ini padanan `staggerChildren` di Framer Motion, tapi cukup
+   dengan satu variabel CSS. */
+.masuk{opacity:0;transform:translateY(14px);animation:naikMasuk .62s var(--keluar) forwards;animation-delay:calc(var(--i,0) * 70ms + 60ms)}
+@keyframes naikMasuk{to{opacity:1;transform:none}}
+
+/* ---------------- catatan klinis ---------------- */
+.klinis{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--tolak-lembut);border:1px solid var(--tolak-garis);
+  border-radius:11px;padding:13px 17px;margin-bottom:16px;font-size:13.5px;color:var(--tinta);
+}
+.klinis svg{flex:0 0 18px;margin-top:2px;color:var(--tolak)}
+
+/* ---------------- kartu ---------------- */
+.kartu{
+  background:color-mix(in srgb, var(--kartu) 96%, transparent);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border:1px solid var(--garis);
+  border-radius:var(--radius);padding:19px 21px;margin-bottom:16px;box-shadow:var(--bayang);
+  transition:box-shadow .35s var(--keluar), border-color .25s ease, transform .35s var(--keluar);
+}
+.kartu:hover{box-shadow:var(--bayang-naik);border-color:var(--garis-kuat)}
+
+.angka{display:flex;gap:0;flex-wrap:wrap}
+.angka div{padding-right:28px;margin-right:28px;border-right:1px solid var(--garis)}
+.angka div:last-child{border-right:0;padding-right:0;margin-right:0}
+.angka .n{
+  font-family:"IBM Plex Mono",monospace;font-size:23px;font-weight:500;
+  color:var(--tosca-tua);font-variant-numeric:tabular-nums;line-height:1.2;
+}
+.angka .l{font-size:11.5px;color:var(--redup);margin-top:2px}
+
+details{margin-top:14px;font-size:13px}
+summary{
+  cursor:pointer;color:var(--tosca-tua);font-weight:600;font-size:12.5px;
+  list-style:none;display:flex;align-items:center;gap:7px;
+  transition:color .18s ease;
+}
+summary::-webkit-details-marker{display:none}
+summary::before{
+  content:"";width:0;height:0;border:4.5px solid transparent;border-left-color:currentColor;
+  transition:transform .32s var(--pegas);flex:0 0 auto;
+}
+details[open] > summary::before{transform:rotate(90deg) translateX(1px)}
+summary:hover{color:var(--tosca)}
+details[open] .lipat{animation:bukaLipat .4s var(--keluar)}
+@keyframes bukaLipat{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+details table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12.5px}
+details th,details td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--garis)}
+details th{color:var(--redup);font-weight:600;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+details tr:last-child td{border-bottom:0}
+details tbody tr{transition:background .16s ease}
+details tbody tr:hover{background:var(--kartu-2)}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--redup)}
+
+/* batang kecil pembanding jumlah potongan per sumber */
+.batang{height:5px;border-radius:999px;background:var(--tosca);opacity:.75;min-width:3px;
+        transform-origin:left center;animation:tumbuhBatang .8s var(--keluar) forwards;transform:scaleX(0)}
+@keyframes tumbuhBatang{to{transform:scaleX(1)}}
+
+/* ---------------- masukan ---------------- */
+label{display:block;font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--redup);margin-bottom:6px}
+select,textarea{
+  width:100%;padding:11px 13px;border:1.5px solid var(--garis);border-radius:10px;
+  font:inherit;font-size:15px;background:var(--kartu-2);color:var(--tinta);
+  transition:border-color .16s ease, box-shadow .28s var(--keluar), background .16s ease;
+}
+select:hover,textarea:hover{border-color:var(--garis-kuat)}
+select:focus,textarea:focus{
+  outline:none;border-color:var(--tosca);background:var(--kartu);
+  box-shadow:0 0 0 4px color-mix(in srgb, var(--tosca) 16%, transparent);
+}
+textarea{resize:vertical;min-height:74px;line-height:1.6}
+.aksi{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;margin-top:14px}
+.contoh{flex:1;min-width:230px;font-size:12px;color:var(--redup)}
+/* label{} membuat semuanya KAPITAL TEBAL, yang benar untuk judul ruas
+   tapi salah untuk kotak centang -- "JAWABAN RINCI" berteriak lebih
+   keras daripada tombol utamanya. Ditimpa di sini. */
+.rinci{
+  display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--redup);
+  cursor:pointer;user-select:none;white-space:nowrap;padding-bottom:11px;
+  text-transform:none;font-weight:500;letter-spacing:normal;margin-bottom:0;
+  transition:color .18s ease;
+}
+.rinci:hover{color:var(--tosca-tua)}
+.rinci input{width:15px;height:15px;accent-color:var(--tosca-tua);cursor:pointer;margin:0;
+             transition:transform .4s var(--pegas)}
+.rinci input:checked{transform:scale(1.18)}
+button{
+  background:var(--tosca-tua);color:var(--teks-tombol);border:0;border-radius:10px;padding:11px 28px;
+  font:inherit;font-weight:700;font-size:15px;cursor:pointer;position:relative;overflow:hidden;
+  transition:background .16s ease, transform .35s var(--pegas), box-shadow .3s var(--keluar);
+}
+button:hover:not(:disabled){background:var(--tosca);transform:translateY(-1.5px);
+  box-shadow:0 10px 24px -12px var(--tosca)}
+button:active:not(:disabled){transform:translateY(0) scale(.97)}
+button:disabled{background:var(--samar);cursor:not-allowed}
+/* sapuan kilau saat disorot -- padanan whileHover di Framer Motion */
+#kirim::after{
+  content:"";position:absolute;inset:0;transform:translateX(-120%) skewX(-18deg);
+  background:linear-gradient(90deg,transparent,var(--kilau),transparent);
+  transition:transform .7s var(--keluar);
+}
+#kirim:hover:not(:disabled)::after{transform:translateX(120%) skewX(-18deg)}
+.contoh button{
+  background:var(--tosca-lembut);color:var(--keping-teks);border:1px solid var(--garis-kuat);
+  padding:5px 12px;border-radius:999px;font-size:12px;font-weight:600;margin:4px 5px 0 0;
+  opacity:0;transform:translateY(7px) scale(.96);
+  animation:naikKeping .45s var(--keluar) forwards;animation-delay:calc(var(--i,0) * 45ms);
+}
+@keyframes naikKeping{to{opacity:1;transform:none}}
+.contoh button:hover{background:var(--kartu);border-color:var(--tosca);color:var(--keping-teks);transform:translateY(-2px);
+  box-shadow:0 8px 18px -10px var(--tosca)}
+
+/* ---------------- percakapan ---------------- */
+#riwayat{display:flex;flex-direction:column;gap:18px}
+#riwayat:empty{display:none}
+/* Kepala halaman lengket setinggi ~78px, jadi tanpa jarak aman ini
+   scrollIntoView menaruh gelembung pertanyaan TEPAT DI BAWAHNYA dan
+   sebagian tertutup. */
+.tukar{display:flex;flex-direction:column;gap:10px;scroll-margin-top:96px}
+.tanya{
+  background:var(--tosca-tua);color:#fff;padding:11px 17px;
+  border-radius:14px 14px 5px 14px;max-width:80%;margin-left:auto;
+  font-size:14.5px;font-weight:500;line-height:1.55;
+  box-shadow:0 8px 20px -12px var(--tosca-tua);
+}
+.balas{
+  background:var(--kartu);border:1px solid var(--garis);
+  border-radius:5px 14px 14px 14px;padding:18px 21px;box-shadow:var(--bayang);
+  position:relative;overflow:hidden;
+}
+/* Pita samping tumbuh dari atas ke bawah, memberi kesan jawaban
+   "mengalir masuk" alih-alih muncul begitu saja. */
+.balas::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--tosca);
+  transform-origin:top center;animation:tumbuhPita .55s var(--keluar) forwards;transform:scaleY(0);
+}
+@keyframes tumbuhPita{to{transform:scaleY(1)}}
+.balas.ditolak{background:var(--tolak-lembut);border-color:var(--tolak-garis)}
+.balas.ditolak::before{background:var(--tolak)}
+.plakat{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:3px 10px;border-radius:999px;margin-bottom:11px}
+.plakat.jawab{background:var(--tosca-lembut);color:var(--tosca-tua)}
+.plakat.tolak{background:#F6DFB2;color:var(--tolak)}
+.isi{white-space:pre-wrap;font-size:15px;line-height:1.7}
+h3.sub{font-size:10.5px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--redup);margin:18px 0 8px}
+ol.sumber{margin:0;padding-left:20px;font-size:13.5px}
+ol.sumber li{margin-bottom:9px;line-height:1.5}
+ol.sumber a{color:var(--tosca-tua);word-break:break-all;font-size:11.5px;font-family:"IBM Plex Mono",monospace;
+            text-decoration-color:color-mix(in srgb,var(--tosca) 40%,transparent);
+            transition:text-decoration-color .18s ease}
+ol.sumber a:hover{text-decoration-color:var(--tosca)}
+
+/* isi jawaban muncul blok demi blok */
+.blok{opacity:0;transform:translateY(9px);animation:naikMasuk .5s var(--keluar) forwards;
+      animation-delay:calc(var(--i,0) * 85ms + 120ms)}
+
+/* ---------------- keadaan memuat ----------------
+   Rangka berkilat, bukan sekadar tiga titik: memberi tahu bahwa
+   yang ditunggu adalah beberapa PARAGRAF, bukan satu baris. */
+.memuat{color:var(--redup);font-size:13.5px;display:flex;align-items:center;gap:4px;margin-bottom:13px}
+.titik{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--tosca);margin-right:2px;animation:kedip 1.3s infinite}
+.titik:nth-child(2){animation-delay:.2s}
+.titik:nth-child(3){animation-delay:.4s}
+@keyframes kedip{0%,60%,100%{opacity:.25;transform:scale(.8)}30%{opacity:1;transform:scale(1)}}
+.rangka span{
+  display:block;height:11px;border-radius:6px;margin-bottom:9px;
+  background:linear-gradient(90deg,var(--garis) 25%,var(--kartu-2) 50%,var(--garis) 75%);
+  background-size:250% 100%;animation:kilatRangka 1.5s linear infinite;
+}
+.rangka span:nth-child(1){width:96%}
+.rangka span:nth-child(2){width:88%;animation-delay:.1s}
+.rangka span:nth-child(3){width:70%;animation-delay:.2s}
+@keyframes kilatRangka{from{background-position:150% 0}to{background-position:-150% 0}}
+
+.kaki{font-size:12px;color:var(--redup);text-align:center;margin-top:34px;line-height:1.85}
+
+@media (max-width:620px){
+  .kepala{padding:12px 16px;gap:11px}
+  .logo img{height:32px}
+  .tanda{display:none}
+  .wrap{padding:16px 16px 60px}
+  .tanya{max-width:92%}
+  .angka div{padding-right:18px;margin-right:18px}
+  .aurora span{filter:blur(60px)}
+}
+
+/* Satu tempat untuk mematikan seluruh gerak. Wajib ada: gerak yang
+   tidak bisa dimatikan bukan gaya, melainkan penghalang bagi orang
+   yang sensitif terhadap gerak. */
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  /* Layar pembuka dilewati sama sekali, bukan sekadar dihentikan geraknya.
+     Tanpa baris ini, mematikan animasi justru membuatnya MENETAP selamanya
+     -- karena yang menghilangkannya memang animasi itu sendiri. */
+  .pembuka{display:none!important}
+  .masuk,.blok,.contoh button{opacity:1!important;transform:none!important}
+  .balas::before,.batang{transform:none!important}
+  .aurora{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+
+{# Layar pembuka. Ditandai aria-hidden dan tidak bisa difokus, karena isinya
+   murni hiasan -- pembaca layar langsung sampai ke isi halaman. #}
+<div class="pembuka" id="pembuka" aria-hidden="true">
+  <div class="pembuka-isi">
+    <div class="pembuka-lambang">
+      <img class="pl-kemenkes" src="/static/logo-lambang.png" alt="">
+      <span class="pl-garis"></span>
+      <svg class="pl-satusehat" viewBox="0 0 160 160" aria-hidden="true">
+        <defs>
+          <path id="pl-kelopak"
+                d="M 40 19 A 19 19 0 0 1 78 19 L 78 76 Q 78 78 76 78
+                   L 19 78 A 19 19 0 0 1 19 40 L 40 40 Z"/>
+        </defs>
+        {# Tiap kelopak DIBUNGKUS <g>. Animasi CSS `transform: scale()` MENIMPA
+           atribut transform="rotate(...)" pada elemen yang sama, sehingga
+           keempat kelopak kehilangan rotasinya dan menumpuk di pojok kiri
+           atas. Dengan pembungkus, rotasi tinggal di dalam dan animasi
+           bekerja di luar -- keduanya tidak saling menimpa. #}
+        <g class="pl-p1"><circle cx="19" cy="19" r="19" fill="#D1DD27"/></g>
+        <g class="pl-p2"><use href="#pl-kelopak" fill="#D1DD27"/></g>
+        <g class="pl-p3"><use href="#pl-kelopak" fill="#01B3AC" transform="rotate(90 80 80)"/></g>
+        <g class="pl-p4"><use href="#pl-kelopak" fill="#01B3AC" transform="rotate(180 80 80)"/></g>
+        <g class="pl-p5"><use href="#pl-kelopak" fill="#01B3AC" transform="rotate(270 80 80)"/></g>
+      </svg>
+    </div>
+    <p class="pembuka-judul">Asisten Tanya-Jawab CKG</p>
+    <p class="pembuka-sub">Kementerian Kesehatan RI &middot; SATUSEHAT</p>
+  </div>
+</div>
+
+<header>
+  <div class="pita-warna"></div>
+  <div class="kepala">
+    <div class="logo">
+      {% if ada_logo %}
+        <img src="/static/logo.png" alt="Logo Kementerian Kesehatan">
+      {% else %}
+        <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true">
+          <rect x="19" y="4"  width="10" height="18" rx="5" fill="#00A99D"/>
+          <rect x="4"  y="19" width="18" height="10" rx="5" fill="#00A99D"/>
+          <rect x="26" y="19" width="18" height="10" rx="5" fill="#A8BF12"/>
+          <rect x="19" y="26" width="10" height="18" rx="5" fill="#A8BF12"/>
+          <rect x="19" y="19" width="10" height="10" fill="#29B7D6"/>
+        </svg>
+      {% endif %}
+    </div>
+    <div class="judul">
+      <h1>Asisten Tanya-Jawab Cek Kesehatan Gratis</h1>
+      <p>Menjawab dari dokumen resmi, selalu menyertakan sumber</p>
+    </div>
+    <div class="tanda">Prototipe magang</div>
+    <button class="tema" id="tema" type="button" title="Ganti terang / gelap" aria-label="Ganti tema terang atau gelap">
+      <svg viewBox="0 0 20 20" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+        <circle cx="10" cy="10" r="3.6"/><path d="M10 1.6v2M10 16.4v2M18.4 10h-2M3.6 10h-2M15.9 4.1l-1.4 1.4M5.5 14.5l-1.4 1.4M15.9 15.9l-1.4-1.4M5.5 5.5L4.1 4.1"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="klinis masuk" style="--i:0">
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8">
+      <circle cx="10" cy="10" r="8"/><path d="M10 6v5M10 14h.01" stroke-linecap="round"/>
+    </svg>
+    <div><strong>Bukan alat klinis.</strong> Sistem ini tidak menafsirkan hasil pemeriksaan,
+    tidak memberi saran pengobatan, dan tidak menegakkan diagnosis. Untuk hal tersebut,
+    silakan hubungi tenaga kesehatan.</div>
+  </div>
+
+  <div class="kartu masuk" style="--i:1">
+    <div class="angka">
+      <div><div class="n" data-hitung="{{ info.jumlah_potongan }}">0</div><div class="l">potongan dokumen</div></div>
+      <div><div class="n" data-hitung="{{ info.jumlah_dokumen }}">0</div><div class="l">dokumen</div></div>
+      <div><div class="n" data-hitung="{{ info.per_sumber|length }}">0</div><div class="l">sumber resmi</div></div>
+    </div>
+    <details>
+      <summary>Rincian sumber &amp; model yang dipakai</summary>
+      <div class="lipat">
+      <table>
+        <tr><th>Sumber</th><th>Potongan</th><th style="width:32%"></th></tr>
+        {% for sid, n in info.per_sumber.items() %}
+        <tr>
+          <td>{{ nama_sumber.get(sid, sid) }}</td>
+          <td class="mono">{{ n }}</td>
+          <td><div class="batang" style="width:{{ (n / info.per_sumber.values()|max * 100)|round|int }}%;animation-delay:{{ loop.index0 * 55 }}ms"></div></td>
+        </tr>
+        {% endfor %}
+      </table>
+      <p style="margin:11px 0 0;color:var(--redup);font-size:12.5px">
+        Pencarian: <span class="mono">{{ info.model_embedding }}</span><br>
+        Bahasa: <span class="mono">{{ info.model_bahasa }}</span><br>
+        Keduanya berjalan lokal — pertanyaan tidak dikirim ke luar komputer ini.
+      </p>
+      </div>
+    </details>
+  </div>
+
+  <div class="kartu masuk" style="--i:2">
+    <div>
+      <label for="sasaran">Saya bertanya sebagai</label>
+      {# Jumlah potongan (variabel `n`) sengaja TIDAK ditampilkan pada tiap
+         pilihan. "Potongan" itu istilah internal kita; bagi orang yang sedang
+         memilih dirinya siapa, angka itu tidak berarti apa-apa dan malah
+         menimbulkan pertanyaan kenapa perannya punya angka. Nilainya tetap
+         dikirim dari app_web.py supaya bisa dipakai lagi tanpa mengubah kode.
+
+         Komentar ini ditaruh DI LUAR <select>: isi <select> hanya boleh
+         <option>, jadi teks lain di dalamnya bukan HTML yang sah dan diprotes
+         pemeriksa editor -- walaupun Jinja membuangnya sebelum halaman jadi. #}
+      <select id="sasaran">
+        {% for kode, label, n in sasaran %}
+        <option value="{{ kode }}">{{ label }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div style="margin-top:14px">
+      <label for="pertanyaan">Pertanyaan</label>
+      <textarea id="pertanyaan" placeholder="Contoh: peserta tidak punya NIK, bagaimana?"></textarea>
+    </div>
+    <div class="aksi">
+      <div class="contoh" id="contoh"></div>
+      <label class="rinci" for="rinci" title="Jawaban lebih panjang dan lengkap. Sumber dan batas kewenangan sistem tidak berubah.">
+        <input type="checkbox" id="rinci"> jawaban rinci
+      </label>
+      <button id="kirim">Tanya</button>
+    </div>
+  </div>
+
+  <div id="riwayat"></div>
+
+  <p class="kaki masuk" style="--i:3">
+    Antarmuka demo lokal — bukan layanan publik.<br>
+    Pusat Bantuan ASIK · FAQ Cek Kesehatan Gratis SATUSEHAT · Juknis CKG (Kepmenkes HK.01.07/MENKES/84/2026) ·
+    Juknis CKG Sekolah (Kepmenkes HK.01.07/MENKES/770/2025) · Ayo Sehat
+  </p>
+</div>
+
+<script>
+const CONTOH = {
+  nakes: ["peserta tidak punya NIK, bagaimana?",
+          "data capaian PTM tidak muncul di dashboard",
+          "bagaimana alur pencatatan dan pelaporan CKG?",
+          "berapa dosis obat hipertensi?"],
+  masyarakat: ["bagaimana cara daftar Cek Kesehatan Gratis?",
+               "apa saja syaratnya?",
+               "pemeriksaannya apa saja?",
+               "gula darah saya 250 artinya apa?"],
+  sekolah: ["siapa saja yang mendapatkan CKG sekolah?",
+            "kapan CKG sekolah dilaksanakan?",
+            "pemeriksaan apa saja untuk siswa SD?"]
+};
+
+const elSasaran = document.getElementById('sasaran');
+const elRinci = document.getElementById('rinci');
+const elPertanyaan = document.getElementById('pertanyaan');
+const elKirim = document.getElementById('kirim');
+const elRiwayat = document.getElementById('riwayat');
+const elContoh = document.getElementById('contoh');
+const elTema = document.getElementById('tema');
+
+const hematGerak = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---- lewati layar pembuka ----
+   Hanya untuk MEMPERCEPAT. Penghilangannya sendiri dikerjakan animasi CSS,
+   jadi kalau berkas skrip ini gagal dimuat, layar pembuka tetap hilang
+   sendiri dan halaman tetap bisa dipakai. */
+(function(){
+  const el = document.getElementById('pembuka');
+  if(!el) return;
+  const lewati = () => el.classList.add('lewati');
+  el.addEventListener('click', lewati);
+  window.addEventListener('keydown', lewati, {once:true});
+  // Begitu animasinya tuntas, elemennya dibuang dari pohon dokumen supaya
+  // tidak menyisakan lapisan tak terlihat di atas halaman.
+  setTimeout(() => el.remove(), 3000);
+})();
+
+/* ---- tema terang/gelap ----
+   Pilihannya disimpan di localStorage supaya bertahan saat halaman
+   dimuat ulang di tengah demo. Dibungkus try/catch karena penyimpanan
+   bisa diblokir peramban, dan itu tidak boleh menggagalkan halaman. */
+function pasangTema(t){
+  if(t) document.documentElement.setAttribute('data-theme', t);
+  else document.documentElement.removeAttribute('data-theme');
+}
+try{ pasangTema(localStorage.getItem('tema')); }catch(e){}
+elTema.onclick = () => {
+  const sekarang = document.documentElement.getAttribute('data-theme');
+  const gelapSistem = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const berikut = sekarang ? (sekarang === 'dark' ? 'light' : 'dark')
+                           : (gelapSistem ? 'light' : 'dark');
+  pasangTema(berikut);
+  try{ localStorage.setItem('tema', berikut); }catch(e){}
+};
+
+/* ---- bayangan kepala saat digulir ---- */
+const pantau = () => document.querySelector('header').classList.toggle('melayang', window.scrollY > 6);
+document.addEventListener('scroll', pantau, {passive:true}); pantau();
+
+/* ---- angka menghitung naik ----
+   Bukan sekadar hiasan: mata jadi tertuju ke tiga angka itu, yang
+   memang hal pertama yang ditanyakan orang tentang korpus. */
+function hitungNaik(el){
+  const tujuan = parseInt(el.dataset.hitung, 10) || 0;
+  if(hematGerak){ el.textContent = tujuan; return; }
+  const durasi = 900, mulai = performance.now();
+  const langkah = (t) => {
+    const p = Math.min(1, (t - mulai) / durasi);
+    el.textContent = Math.round(tujuan * (1 - Math.pow(1 - p, 3)));   // ease-out kubik
+    if(p < 1) requestAnimationFrame(langkah);
+  };
+  requestAnimationFrame(langkah);
+}
+document.querySelectorAll('[data-hitung]').forEach((el, i) => setTimeout(() => hitungNaik(el), 260 + i * 90));
+
+function gambarContoh(){
+  const daftar = CONTOH[elSasaran.value] || [];
+  elContoh.innerHTML = daftar.length ? 'Coba: ' : '';
+  daftar.forEach((t, i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.textContent = t; b.style.setProperty('--i', i);
+    b.onclick = () => { elPertanyaan.value = t; tanya(); };
+    elContoh.appendChild(b);
+  });
+}
+elSasaran.onchange = gambarContoh;
+gambarContoh();
+
+const lolos = s => (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// **tebal** dan _miring_ diubah jadi markup SETELAH teks dilolos-HTML, supaya
+// isi jawaban tidak pernah bisa menyuntikkan markup ke halaman.
+const keMarkup = s => lolos(s)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/_\((.+?)\)_/g, '<em style="color:var(--redup)">($1)</em>');
+
+/* Jawaban muncul blok demi blok, bukan sekaligus. Urutannya sengaja:
+   plakat dulu (dijawab atau ditolak), baru isinya, baru sumbernya --
+   sama dengan urutan orang membacanya. */
+function beriTahapan(induk){
+  induk.querySelectorAll(':scope > .blok').forEach((el, i) => el.style.setProperty('--i', i));
+}
+
+async function tanya(){
+  const pertanyaan = elPertanyaan.value.trim();
+  if(!pertanyaan) return;
+  elKirim.disabled = true;
+
+  const tukar = document.createElement('div');
+  tukar.className = 'tukar';
+  tukar.innerHTML = '<div class="tanya">' + lolos(pertanyaan) + '</div>' +
+    '<div class="balas"><div class="memuat">' +
+    '<span class="titik"></span><span class="titik"></span><span class="titik"></span>' +
+    '<span style="margin-left:4px">Mencari di dokumen dan menyusun jawaban…</span></div>' +
+    '<div class="rangka"><span></span><span></span><span></span></div></div>';
+  elRiwayat.prepend(tukar);
+
+  // Gerak masuk gelembung: naik + sedikit membesar. Padanan `initial`
+  // dan `animate` di Framer Motion, dijalankan lewat Web Animations API.
+  if(!hematGerak){
+    tukar.animate(
+      [{opacity:0, transform:'translateY(16px) scale(.985)'}, {opacity:1, transform:'none'}],
+      {duration:520, easing:'cubic-bezier(.16,1,.3,1)', fill:'both'}
+    );
+  }
+
+  const balas = tukar.querySelector('.balas');
+  elPertanyaan.value = '';
+
+  // Bawa jawaban ke layar. Tanpa ini, gelembung pertanyaan muncul tepat di
+  // bawah lipatan dan jawabannya sama sekali tidak terlihat -- penanya harus
+  // menggulir sendiri untuk tahu sistemnya sedang bekerja. Ketahuan saat
+  // memeriksa tangkapan layar halaman ini, bukan dari membaca kodenya.
+  //
+  // Dipanggil DUA KALI, dan itu bukan kelalaian: saat gelembung pertama
+  // disisipkan halaman masih pendek, jadi peramban tidak bisa menggulir
+  // sejauh yang diminta. Begitu jawaban terpasang halaman memanjang dan
+  // posisi tadi jadi basi, sehingga perlu dirapikan sekali lagi.
+  const bawaKeLayar = () => requestAnimationFrame(() => tukar.scrollIntoView({
+    behavior: hematGerak ? 'auto' : 'smooth', block: 'start'
+  }));
+  bawaKeLayar();
+
+  try{
+    const r = await fetch('/tanya', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({pertanyaan, sasaran: elSasaran.value, rinci: elRinci.checked})
+    });
+    const d = await r.json();
+    if(d.galat){ balas.innerHTML = '<div class="blok">' + lolos(d.galat) + '</div>'; beriTahapan(balas); return; }
+
+    let h = '';
+    if(d.ditolak){
+      balas.classList.add('ditolak');
+      h += '<div class="blok"><span class="plakat tolak">Tidak dijawab &middot; ' +
+           lolos(d.alasan_tolak) + '</span></div>';
+    }else{
+      h += '<div class="blok"><span class="plakat jawab">Dijawab dari dokumen</span></div>';
+    }
+    h += '<div class="blok isi">' + keMarkup(d.teks) + '</div>';
+
+    if(d.sumber && d.sumber.length){
+      h += '<div class="blok"><h3 class="sub">Sumber</h3><ol class="sumber">';
+      d.sumber.forEach(s => {
+        h += '<li>' + lolos(s.nama) + '<br><a href="' + lolos(s.url) +
+             '" target="_blank" rel="noopener">' + lolos(s.url) + '</a></li>';
+      });
+      h += '</ol></div>';
+    }
+
+    if(d.kandidat && d.kandidat.length){
+      h += '<div class="blok"><details><summary>Lihat ' + d.kandidat.length +
+           ' potongan yang dipertimbangkan</summary><div class="lipat">' +
+           '<table><tr><th>Skor</th><th>Dokumen</th><th>Sumber</th></tr>';
+      d.kandidat.forEach(k => {
+        h += '<tr><td class="mono">' + k.skor + '</td><td>' + lolos(k.bagian) +
+             '</td><td>' + lolos(k.sumber_label) + '</td></tr>';
+      });
+      h += '</table></div></details></div>';
+    }
+    balas.innerHTML = h;
+    beriTahapan(balas);
+    bawaKeLayar();
+  }catch(e){
+    balas.innerHTML = '<div class="blok"><strong>Gagal menghubungi server.</strong><br>' +
+      'Pastikan jendela terminal tempat server dijalankan masih terbuka — ' +
+      'kalau ditutup atau ditekan Ctrl+C, servernya ikut berhenti.</div>';
+    beriTahapan(balas);
+  }finally{
+    elKirim.disabled = false;
+    elPertanyaan.focus();
+  }
+}
+
+elKirim.onclick = tanya;
+elPertanyaan.addEventListener('keydown', e => {
+  if(e.key === 'Enter' && (e.ctrlKey || e.metaKey)) tanya();
+});
+</script>
+</body>
+</html>

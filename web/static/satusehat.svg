@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Logo SATUSEHAT">
+  <title>SATUSEHAT</title>
+  <!--
+    Digambar ulang sebagai vektor, BUKAN diperbesar dari gambar raster.
+
+    Berkas resmi yang tersedia di satusehat.kemkes.go.id hanya PNG 480x160,
+    dan memperbesarnya hanya menghasilkan tepi yang buram. Lambang ini
+    seluruhnya geometris — empat bentuk "L" identik yang diputar 90 derajat
+    dengan sudutnya bertemu di pusat, ditambah satu lingkaran lepas di pojok
+    kiri atas — jadi bisa digambar ulang dengan tepat.
+
+    Ukurannya diukur dari berkas resmi, bukan dikira-kira:
+      lambang        162 x 160 piksel
+      kuadran        78
+      celah tengah   4
+      tebal batang   38  (jari-jari ujung membulat 19)
+      lingkaran      pusat (19,19), jari-jari 19
+    Warna disedot langsung dari piksel berkas resmi:
+      teal  #01B3AC     limau #D1DD27
+
+    Keuntungannya bukan cuma ketajaman: tiap kelopak jadi elemen tersendiri
+    yang bisa dianimasikan terpisah.
+  -->
+  <defs>
+    <!-- Satu kelopak "L": batang tegak di kanan + batang datar di bawah,
+         bertemu di sudut yang menghadap pusat lambang. -->
+    <path id="ss-kelopak"
+          d="M 40 19
+             A 19 19 0 0 1 78 19
+             L 78 76
+             Q 78 78 76 78
+             L 19 78
+             A 19 19 0 0 1 19 40
+             L 40 40 Z"/>
+  </defs>
+
+  <g class="ss-kiri-atas" fill="#D1DD27">
+    <circle cx="19" cy="19" r="19"/>
+    <use href="#ss-kelopak"/>
+  </g>
+  <use class="ss-kanan-atas"  href="#ss-kelopak" fill="#01B3AC" transform="rotate(90 80 80)"/>
+  <use class="ss-kanan-bawah" href="#ss-kelopak" fill="#01B3AC" transform="rotate(180 80 80)"/>
+  <use class="ss-kiri-bawah"  href="#ss-kelopak" fill="#01B3AC" transform="rotate(270 80 80)"/>
+</svg>

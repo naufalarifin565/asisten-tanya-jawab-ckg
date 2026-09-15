@@ -1,0 +1,38 @@
+# Versi DIKUNCI ke yang sudah diuji (Windows 11, Python 3.12.6, RTX 4060 Laptop).
+#
+# Tanpa kunci, pip memilih versi terbaru. Diperiksa 15 September 2026: pip
+# memilih torch 2.14, transformers 5.17, dan sentence-transformers 6.0, yang
+# belum pernah dijalankan dengan kode ini. Kalau ingin menaikkan versi, lakukan
+# satu per satu lalu jalankan eval/uji_guardrail.py dan eval/evaluate.py.
+#
+# PENTING: pasang PyTorch LEBIH DULU (lihat README, bagian Instalasi). Di Windows
+# baris torch di bawah akan memasang versi CPU kalau PyTorch belum ada:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#
+# Semua versi di bawah sudah diperiksa bisa di-resolve dari PyPI (pip --dry-run).
+
+# --- Model: embedding, model bahasa, kuantisasi ---
+torch==2.5.1
+# Diuji dengan transformers 5.5.0.dev0 (commit 9a9997f); 5.5.0 adalah rilis terdekat.
+transformers==5.5.0
+sentence-transformers==5.3.0
+huggingface_hub==1.8.0
+tokenizers==0.22.2
+safetensors==0.7.0
+accelerate==1.13.0           # dibutuhkan untuk device_map saat memuat model bahasa
+bitsandbytes==0.50.2         # kuantisasi 4-bit
+scipy==1.13.1                # dependensi sentence-transformers
+scikit-learn==1.5.1          # dependensi sentence-transformers
+
+# --- Pencarian ---
+numpy==2.2.6                 # vektor + pencarian (tanpa basis data vektor, lihat src/index.py)
+rank_bm25==0.2.2             # pencarian kata kunci, digabung dengan embedding
+
+# --- Pengumpulan korpus ---
+requests==2.33.0
+beautifulsoup4==4.14.3       # parser bawaan html.parser, tanpa lxml
+pypdf==6.16.2                # ekstraksi Juknis CKG dari PDF
+
+# --- Antarmuka web ---
+flask==3.1.1
+waitress==3.0.2              # server WSGI; server bawaan Flask crash bersama CUDA di Windows

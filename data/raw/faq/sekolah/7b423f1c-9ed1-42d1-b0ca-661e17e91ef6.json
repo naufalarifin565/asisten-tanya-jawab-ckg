@@ -1,0 +1,12 @@
+{
+  "id": "7b423f1c-9ed1-42d1-b0ca-661e17e91ef6",
+  "pertanyaan": "Bagaimana jika NISN siswa tidak dapat ditemukan saat mendaftar CKG Sekolah?",
+  "isi_html": "<p>Jika terjadi kendala menginput NISN siswa pada saat mendaftar CKG Sekolah, mohon input NIK orang tua/wali yang valid. Jika masih terkendala, silakan hubungi melalui email <strong><a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a></strong></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Sekolah",
+  "kategori_kunci": "sekolah",
+  "sasaran": "sekolah",
+  "sumber_nama": "FAQ CKG Sekolah",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7b423f1c-9ed1-42d1-b0ca-661e17e91ef6",
+  "tanggal_pembaruan": "2025-08-19",
+  "tanggal_ambil": "2026-08-24"
+}

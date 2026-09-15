@@ -1,0 +1,7 @@
+> For the complete documentation index, see [llms.txt](https://asiksupport-stg.dto.kemkes.go.id/asiksupport-stg/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://asiksupport-stg.dto.kemkes.go.id/asiksupport-stg/akun/pengguna-asik.md).
+
+# Pengguna ASIK
+
+Berikut adalah fungsi dan program yang dapat diakses oleh pengguna ASIK berdasarkan platform yang digunakan oleh setiap pengguna.
+
+<table><thead><tr><th>Pengguna</th><th width="124">Platform</th><th>Fungsi </th><th>Program</th></tr></thead><tbody><tr><td>Dinas Kesehatan (Dinkes)</td><td>Dashboard </td><td>Melihat capaian program di ASIK</td><td>Imunisasi, PTM, Bayi Balita, Ibu Hamil, Remaja</td></tr><tr><td>Puskesmas</td><td>Dashboard </td><td>Melihat capaian kinerja BNBA, melakukan verifikasi user, import data, dan edit data.</td><td>Imunisasi, PTM, Bayi Balita, Ibu Hamil, Remaja</td></tr><tr><td>Puskesmas (Nakes)</td><td>Mobile </td><td>Melakukan pencatatan kegiatan program dan edit data kegitan.</td><td>Imunisasi, PTM, Bayi Balita, Ibu Hamil, Remaja</td></tr><tr><td>Kader Posyandu</td><td>Mobile </td><td>Melakukan pencatatan kegiatan program dan edit data kegitan.</td><td>Imunisasi, Bayi Balita, Ibu Hamil, Remaja</td></tr><tr><td>Puskesmas (Nakes)</td><td>Whatsapp</td><td>Melakukan pencatatan kegiatan</td><td>Bayi Balita, dan PMT harian</td></tr><tr><td>Kader Posyandu</td><td>Whatsapp</td><td>Melakukan pencatatan kegiatan</td><td>Bayi Balita, dan PMT harian</td></tr></tbody></table>

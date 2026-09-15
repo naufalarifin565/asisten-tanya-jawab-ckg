@@ -1,0 +1,12 @@
+{
+  "id": "62526b82-458d-4205-a1e5-93258b2ae508",
+  "pertanyaan": "Apa syarat menambahkan profil terhubung di akun SATUSEHAT saya?",
+  "isi_html": "<p><strong>Syarat menambahkan Profil Terhubung berusia >=18 tahun</strong></p>\n<ul>\n<li>Pengguna utama &#x26; pengguna yang ditautkan adalah Warga Negara Indonesia</li>\n<li>Pengguna utama &#x26; pengguna yang ditautkan memiliki akun SATUSEHAT Mobile</li>\n<li>Akun SATUSEHAT Mobile pengguna utama &#x26; pengguna yang ditautkan sudah terverifikasi (centang biru)</li>\n</ul>\n<p><strong>Syarat menambahkan Profil Terhubung berusia &#x3C;18 tahun</strong></p>\n<ul>\n<li>Pengguna utama memiliki akun SATUSEHAT Mobile</li>\n<li>Maksimal 5 akun yang ditambahkan</li>\n</ul>\n",
+  "kategori_label": "Profil Terhubung",
+  "kategori_kunci": "profil_terhubung",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Profil Terhubung",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/62526b82-458d-4205-a1e5-93258b2ae508",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

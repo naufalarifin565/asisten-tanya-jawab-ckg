@@ -1,0 +1,12 @@
+{
+  "id": "231a4077-8d97-420f-97c4-2374a4277c20",
+  "pertanyaan": "Apakah saya dapat menghentikan penautan profil saya?",
+  "isi_html": "<p>Bisa. Anda bisa menghentikan penautan profil Anda dengan cara:</p>\n<ol>\n<li>Login ke SATUSEHAT Mobile</li>\n<li>Klik menu 'Profil'</li>\n<li>Klik fitur 'Profil Tertaut'</li>\n<li>Pilih akun yang ingin Anda hentikan aksesnya</li>\n<li>Klik tombol 'Akhiri Akses' pada halaman detil profil</li>\n<li>Klik tombol 'Hapus' untuk konfirmasi penghentian akses</li>\n<li>Akses berhasil dihentikan</li>\n</ol>\n",
+  "kategori_label": "Profil Terhubung",
+  "kategori_kunci": "profil_terhubung",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Profil Terhubung",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/231a4077-8d97-420f-97c4-2374a4277c20",
+  "tanggal_pembaruan": "2024-11-20",
+  "tanggal_ambil": "2026-08-26"
+}

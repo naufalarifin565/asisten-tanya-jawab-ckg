@@ -1,0 +1,89 @@
+{
+  "sumber": "FAQ Resume Medis SATUSEHAT",
+  "kategori_id": "bc5893fc-017c-431a-9161-66d152ec6aac",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-31",
+  "jumlah": 10,
+  "topik": [
+    {
+      "id": "18a967a3-6deb-4618-af7f-13226e97d5a8",
+      "judul": "Apa itu Resume Medis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/18a967a3-6deb-4618-af7f-13226e97d5a8",
+      "berkas": "18a967a3-6deb-4618-af7f-13226e97d5a8.json",
+      "status": "berhasil",
+      "sha256": "50d884b2a52b1f042c9db28bfb8d0f81d31baa73776cd4537f8638f2edecac48"
+    },
+    {
+      "id": "7592595c-9868-4d3b-a967-be08f23e36e2",
+      "judul": "Siapa saja yang bisa memiliki Rekam Medis Elektronik (RME)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7592595c-9868-4d3b-a967-be08f23e36e2",
+      "berkas": "7592595c-9868-4d3b-a967-be08f23e36e2.json",
+      "status": "berhasil",
+      "sha256": "a497992a072902e1d668a192e6190072eb4887d9bfbd8d133ce83e3c27ae0458"
+    },
+    {
+      "id": "337f4c56-c15b-4033-af49-2431415ad55b",
+      "judul": "Bagaimana cara mengakses Resume Medis di SATUSEHAT Mobile?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/337f4c56-c15b-4033-af49-2431415ad55b",
+      "berkas": "337f4c56-c15b-4033-af49-2431415ad55b.json",
+      "status": "berhasil",
+      "sha256": "1fcfd04c719251412b960b1bd396c457f29c15eaff9c3546ba0d7eec4d771537"
+    },
+    {
+      "id": "4678932a-220d-402f-81d4-fbf4fabe47f9",
+      "judul": "Bagaimana keamanan data untuk Rekam Medis Elektronik (RME)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4678932a-220d-402f-81d4-fbf4fabe47f9",
+      "berkas": "4678932a-220d-402f-81d4-fbf4fabe47f9.json",
+      "status": "berhasil",
+      "sha256": "e58f6491cefb03eb72924909c06711b67670fb08e2b5a909d0be47afb78cc0a3"
+    },
+    {
+      "id": "3dda922c-3643-4c9b-b069-4a5d6aa92271",
+      "judul": "Apakah saya bisa melihat RME anggota keluarga?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3dda922c-3643-4c9b-b069-4a5d6aa92271",
+      "berkas": "3dda922c-3643-4c9b-b069-4a5d6aa92271.json",
+      "status": "berhasil",
+      "sha256": "935f9a1ca620971a529538d633eee067ecf9dd70841b4e5db04204d9c088b8e8"
+    },
+    {
+      "id": "5e4e5d84-966c-4c41-b0d1-ba7e68df28bf",
+      "judul": "Data rekam medis yang muncul bukan data milik saya",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/5e4e5d84-966c-4c41-b0d1-ba7e68df28bf",
+      "berkas": "5e4e5d84-966c-4c41-b0d1-ba7e68df28bf.json",
+      "status": "berhasil",
+      "sha256": "6734ffcadbb97c06feaf9221357e66c6590dcda878f1b71f626041d1626328b5"
+    },
+    {
+      "id": "8f01ca98-31f7-4e5a-b402-67a515a3c835",
+      "judul": "Apakah data Rekam Medis Elektronik (RME) Saya akan masuk secara near real-time?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8f01ca98-31f7-4e5a-b402-67a515a3c835",
+      "berkas": "8f01ca98-31f7-4e5a-b402-67a515a3c835.json",
+      "status": "berhasil",
+      "sha256": "fc63d1d8fbc133fb6b039adf129352b406e2fb0b03a1990ce4a638b347ddb854"
+    },
+    {
+      "id": "eb321efe-760e-4d67-8d52-b524f80a08a1",
+      "judul": "Saya sudah bisa akses Rekam Medis (RME) di SATUSEHAT Mobile, tetapi kenapa data saya masih kosong?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/eb321efe-760e-4d67-8d52-b524f80a08a1",
+      "berkas": "eb321efe-760e-4d67-8d52-b524f80a08a1.json",
+      "status": "berhasil",
+      "sha256": "04f774d2b4a0e6ba45db017fa583f4ebd04f478718dd3efa077856bd5d6c7904"
+    },
+    {
+      "id": "b1816b13-64e7-4222-8b42-1cb7204520ee",
+      "judul": "Bagaimana jika data Rekam Medis Elektronik (RME) saya tidak sesuai dan/atau duplikat?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/b1816b13-64e7-4222-8b42-1cb7204520ee",
+      "berkas": "b1816b13-64e7-4222-8b42-1cb7204520ee.json",
+      "status": "berhasil",
+      "sha256": "eec0dfc90308fab4855697945760489b28dc110abacdc2e888e0c1c85c983652"
+    },
+    {
+      "id": "b105a7fc-5865-4fe3-ab62-670a19527a4f",
+      "judul": "Apakah Warga Negara Asing (WNA) bisa akses Resume Medis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/b105a7fc-5865-4fe3-ab62-670a19527a4f",
+      "berkas": "b105a7fc-5865-4fe3-ab62-670a19527a4f.json",
+      "status": "berhasil",
+      "sha256": "1211131cc6d06457079bc22dd884f53b3a4c6f1f6dd03f9e6578fb7fabe22365"
+    }
+  ]
+}

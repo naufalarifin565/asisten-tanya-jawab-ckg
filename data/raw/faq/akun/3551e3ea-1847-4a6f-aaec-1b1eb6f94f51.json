@@ -1,0 +1,12 @@
+{
+  "id": "3551e3ea-1847-4a6f-aaec-1b1eb6f94f51",
+  "pertanyaan": "Bagaimana jika verifikasi biometrik tidak berhasil saat mengaktifkan biometrik?",
+  "isi_html": "<p>Untuk pengguna iOS, jika telah mencapai maksimal retry (coba lagi) maka Anda harus memasukkan passcode perangkat ponsel Anda untuk dapat melanjutkan aktivasi Biometrik dan mengulang verifikasi biometrik.</p>\n<p>Untuk pengguna Android, jika telah mencapai maksimal retry (coba lagi) maka Anda harus menunggu beberapa saat untuk dapat melanjutkan aktivasi Biometrik dan mengulang verifikasi biometrik.</p>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3551e3ea-1847-4a6f-aaec-1b1eb6f94f51",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

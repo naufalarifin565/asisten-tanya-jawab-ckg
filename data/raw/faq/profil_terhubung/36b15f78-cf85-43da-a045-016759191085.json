@@ -1,0 +1,12 @@
+{
+  "id": "36b15f78-cf85-43da-a045-016759191085",
+  "pertanyaan": "Apa saja data yang dapat diakses apabila menambahkan Profil terhubung?",
+  "isi_html": "<p>Pada Profil Terhubung berusia &#x3C;18 tahun, data yang dapat diakses termasuk:</p>\n<ol>\n<li>Sertifikat imunisasi rutin</li>\n<li>Sertifikat vaksin COVID-19 dan non COVID-19</li>\n<li>Hasil tes COVID-19</li>\n<li>Pencatatan dan riwayat pertumbuhan anak (untuk profil berusia maksimal 60 bulan)</li>\n</ol>\n<p>Pada Profil Terhubung berusia >=18 tahun, data yang dapat diakses termasuk:</p>\n<ol>\n<li>Resume medis</li>\n<li>Sertifikat imunisasi rutin</li>\n<li>Sertifikat vaksin COVID-19 dan non COVID-19</li>\n<li>Hasil tes COVID-19</li>\n<li>Pencatatan dan riwayat pertumbuhan anak (untuk profil berusia maksimal 60 bulan)</li>\n</ol>\n",
+  "kategori_label": "Profil Terhubung",
+  "kategori_kunci": "profil_terhubung",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Profil Terhubung",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/36b15f78-cf85-43da-a045-016759191085",
+  "tanggal_pembaruan": "2024-11-20",
+  "tanggal_ambil": "2026-08-26"
+}

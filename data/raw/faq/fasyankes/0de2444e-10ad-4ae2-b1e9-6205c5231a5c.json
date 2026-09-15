@@ -1,0 +1,12 @@
+{
+  "id": "0de2444e-10ad-4ae2-b1e9-6205c5231a5c",
+  "pertanyaan": "Saat mendaftar CKG Sekolah atau mengisi skrining mandiri melalui tautan yang dikirim muncul notifikasi “Data pasien tidak sesuai”, apa yang harus dilakukan?",
+  "isi_html": "<p>Mohon pastikan data yang diinput sudah sesuai dengan identitas peserta CKG. Jika kendala masih terjadi, harap kumpulkan data identitas dengan format berikut:</p>\n<ul>\n<li>Nama peserta</li>\n<li>NIK peserta</li>\n<li>Nama wali</li>\n<li>NIK wali</li>\n</ul>\n<p>Kemudian kirimkan dokumen tersebut melalui email ke <a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a>, kemudian melakukan pendaftaran dan pengisian skrining mandiri kembali melalui tautan: <a target=_blank href=\"https://form.kemkes.go.id/ckg\">https://form.kemkes.go.id/ckg</a>.</p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0de2444e-10ad-4ae2-b1e9-6205c5231a5c",
+  "tanggal_pembaruan": "2025-08-27",
+  "tanggal_ambil": "2026-08-24"
+}

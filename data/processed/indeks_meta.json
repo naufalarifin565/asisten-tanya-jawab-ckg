@@ -1,0 +1,11 @@
+{
+  "model": "intfloat/multilingual-e5-base",
+  "awalan_dokumen": "passage: ",
+  "awalan_pertanyaan": "query: ",
+  "dimensi": 768,
+  "jumlah_potongan": 533,
+  "dinormalkan": true,
+  "korpus": "C:\\MAGANG KEMENKES 2026\\data\\processed\\korpus.jsonl",
+  "sidik_korpus": "db90bdc1c915aeea33362c3b3ae6617ad4919a4f76168068864db8eea14a6f92",
+  "tanggal_indeks": "2026-09-03"
+}

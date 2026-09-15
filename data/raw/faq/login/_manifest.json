@@ -1,0 +1,65 @@
+{
+  "sumber": "FAQ Kendala Login SATUSEHAT Mobile",
+  "kategori_id": "4d445909-f5f8-49c7-bdfa-128363974485",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-26",
+  "jumlah": 7,
+  "topik": [
+    {
+      "id": "add23e1b-9b16-4aaa-89d3-6644ea7809d3",
+      "judul": "Bagaimana jika saya Lupa Akun SATUSEHAT?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/add23e1b-9b16-4aaa-89d3-6644ea7809d3",
+      "berkas": "add23e1b-9b16-4aaa-89d3-6644ea7809d3.json",
+      "status": "berhasil",
+      "sha256": "f5153c0e6c7cbb7cb70805676c25f36bbc6d829440e8eda1cc42c1208518f5f3"
+    },
+    {
+      "id": "fd6f4848-415d-4447-b40b-9fb1108927aa",
+      "judul": "Bagaimana jika saya mengalami kendala saat masuk (Login) SATUSEHAT Mobile?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/fd6f4848-415d-4447-b40b-9fb1108927aa",
+      "berkas": "fd6f4848-415d-4447-b40b-9fb1108927aa.json",
+      "status": "berhasil",
+      "sha256": "26a71901487708e5ba2e8a970a516ec64609b691a59e9425494fd991b6e3eec8"
+    },
+    {
+      "id": "2e62c570-d081-42a1-bab5-6e660cdaa6c6",
+      "judul": "Bagaimana masuk ke akun SATUSEHAT menggunakan No. HP atau email?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2e62c570-d081-42a1-bab5-6e660cdaa6c6",
+      "berkas": "2e62c570-d081-42a1-bab5-6e660cdaa6c6.json",
+      "status": "berhasil",
+      "sha256": "11fe21045bd3aef496dad62f428634a8053be1d629709efa357c5a5824f92332"
+    },
+    {
+      "id": "cebed026-9f31-431d-81b5-6839da716893",
+      "judul": "Bagaimana masuk ke akun SATUSEHAT menggunakan  Identitas Kependudukan Digital (IKD)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/cebed026-9f31-431d-81b5-6839da716893",
+      "berkas": "cebed026-9f31-431d-81b5-6839da716893.json",
+      "status": "berhasil",
+      "sha256": "50d505bdf94de9af1c9a993eb950c86c9573e4df8c138c55741f12a31ca79687"
+    },
+    {
+      "id": "731bfb52-555d-4c5c-963e-5686bf0998e9",
+      "judul": "Bagaimana saya dapat mengubah data email?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/731bfb52-555d-4c5c-963e-5686bf0998e9",
+      "berkas": "731bfb52-555d-4c5c-963e-5686bf0998e9.json",
+      "status": "berhasil",
+      "sha256": "d96321f5c56d2245e30c375604a33fae8380bd6f4588aff4731589b4d8f3d70f"
+    },
+    {
+      "id": "c2a6501d-e774-406a-a15b-143a0caee6f7",
+      "judul": "Bagaimana saya dapat mengubah data nomor telepon?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/c2a6501d-e774-406a-a15b-143a0caee6f7",
+      "berkas": "c2a6501d-e774-406a-a15b-143a0caee6f7.json",
+      "status": "berhasil",
+      "sha256": "c17ce038c56e58779aa8eb9fdde38d735c6330926f96d4ec33b7b155bb2297e0"
+    },
+    {
+      "id": "1c23539c-58e1-49b2-8ade-ba2831e19ed8",
+      "judul": "Bagaimana cara login jika nomor HP Lupa/Ganti/Hilang?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1c23539c-58e1-49b2-8ade-ba2831e19ed8",
+      "berkas": "1c23539c-58e1-49b2-8ade-ba2831e19ed8.json",
+      "status": "berhasil",
+      "sha256": "49d1bd09a1eaa6a14a055c96983dab15adc1d542e84bab0fb91a0c53d4f907ca"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ba8dce0f-f17f-4595-b4dd-2f37d3260af4",
+  "pertanyaan": "Apakah saya bisa memperbarui PIN? Bagaimana caranya?",
+  "isi_html": "<p>Bisa. Ikuti langkah berikut untuk merubah PIN Rekam Medis Elektronik (RME) :</p>\n<ol>\n<li>Masuk ke SATUSEHAT Mobile</li>\n<li>Pilih Profil</li>\n<li>Pilih Keamanan Akun</li>\n<li>Pilih Ubah PIN</li>\n<li>Masukan PIN lama</li>\n<li>Masukan PIN baru</li>\n<li>Masukan ulang PIN baru</li>\n<li>PIN Anda telah berhasil diubah</li>\n</ol>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ba8dce0f-f17f-4595-b4dd-2f37d3260af4",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

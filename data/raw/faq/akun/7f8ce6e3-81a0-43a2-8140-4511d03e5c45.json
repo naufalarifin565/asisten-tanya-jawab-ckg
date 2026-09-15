@@ -1,0 +1,12 @@
+{
+  "id": "7f8ce6e3-81a0-43a2-8140-4511d03e5c45",
+  "pertanyaan": "Kenapa saya tidak dapat registrasi akun?",
+  "isi_html": "<p>Ada beberapa kemungkinan mengapa Anda tidak dapat mendaftarkan akun, antara lain:</p>\n<ol>\n<li>\n<p>Data Nama, NIK, dan Tanggal Lahir Anda tidak sesuai dengan data KTP dan/atau Dukcapil (Kependudukan dan Pencatatan Sipil). Anda dapat mengunjungi dan memperbarui data Anda ke Disdukcapil (Dinas Kependudukan dan Pencatatan Sipil) pada domisili atau alamat asal Anda</p>\n</li>\n<li>\n<p>Nomor telepon dan/atau email Anda sudah pernah terdaftar di SATUSEHAT Mobile. Silakan gunakan nomor telepon dan/atau email lain yang sesuai.</p>\n</li>\n<li>\n<p>NIK Anda sudah pernah terdaftar di SATUSEHAT Mobile. Silakan login dengan email atau nomor telepon yang digunakan oleh NIK tersebut.</p>\n</li>\n</ol>\n<p>Jika Anda tidak mengetahui email atau nomor telepon terdaftar, silakan melapor ke email <a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a> atau mengisi form aduan melalui <a target=_blank href=\"https://satusehat.kemkes.go.id/mobile/contact-us\">https://satusehat.kemkes.go.id/mobile/contact-us</a> (pilih kategori aduan \"Akun\"). Mohon untuk menyebutkan data nomor telepon terdaftar dan nomor telepon baru, serta keperluan pembaruan. Anda juga wajib melampirkan bukti valid berupa foto diri dengan kartu identitas yang sesuai dengan akun SATUSEHAT Mobile Anda.</p>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7f8ce6e3-81a0-43a2-8140-4511d03e5c45",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

@@ -1,0 +1,107 @@
+{
+  "sumber": "Petunjuk Teknis CKG Sekolah (Kepmenkes HK.01.07/MENKES/770/2025)",
+  "dokumen": "ckg_sekolah",
+  "url": "https://jdih.kemkes.go.id/storage/documents/pdfs/2025kepmenkes770.pdf",
+  "lingkungan": "produksi",
+  "tanggal_ambil": "2026-08-31",
+  "jumlah_halaman": 50,
+  "sertakan_bab_klinis": false,
+  "bab": [
+    {
+      "angka": "I",
+      "judul": "PENDAHULUAN",
+      "halaman_awal": 6,
+      "halaman_akhir": 8,
+      "jumlah_halaman": 3,
+      "berkas": "bab-i-pendahuluan.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 4646,
+      "sha256": "c6450858671bf3c758cf104a9e11e74dbf4caaa56af09bae6c78260e474f3740"
+    },
+    {
+      "angka": "II",
+      "judul": "PAKET PELAYANAN CEK KESEHATAN GRATIS SEKOLAH",
+      "halaman_awal": 9,
+      "halaman_akhir": 14,
+      "jumlah_halaman": 6,
+      "berkas": "bab-ii-paket-pelayanan-cek-kesehatan-gratis-sekolah.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 10034,
+      "sha256": "0ab90c786ccec948fec1db64101a47e5f53a846010773231ecb77d2fcbf9cd34"
+    },
+    {
+      "angka": "III",
+      "judul": "TAHAPAN PENYELENGGARAAN CEK KESEHATAN GRATIS SEKOLAH",
+      "halaman_awal": 15,
+      "halaman_akhir": 38,
+      "jumlah_halaman": 24,
+      "berkas": "bab-iii-tahapan-penyelenggaraan-cek-kesehatan-gratis-sekolah.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 46592,
+      "sha256": "47c46b657ece278ca4f22f53d20f42fc35b8c7244828330448d1622891796292"
+    },
+    {
+      "angka": "IV",
+      "judul": "PENDANAAN",
+      "halaman_awal": 39,
+      "halaman_akhir": 39,
+      "jumlah_halaman": 1,
+      "berkas": "bab-iv-pendanaan.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 1549,
+      "sha256": "7a1ec8094d904b5d3b5da2346d4feb85e7843bf3fbb4c818d2febcc55bd68a8f"
+    },
+    {
+      "angka": "V",
+      "judul": "PENCATATAN DAN PELAPORAN",
+      "halaman_awal": 40,
+      "halaman_akhir": 41,
+      "jumlah_halaman": 2,
+      "berkas": "bab-v-pencatatan-dan-pelaporan.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 2206,
+      "sha256": "a4d4067805d6ab6f711cea8028dbc02c3f2e28fbe5ab207dc3587e451471570f"
+    },
+    {
+      "angka": "VI",
+      "judul": "STRATEGI KOMUNIKASI, INFORMASI, DAN EDUKASI",
+      "halaman_awal": 42,
+      "halaman_akhir": 48,
+      "jumlah_halaman": 7,
+      "berkas": "bab-vi-strategi-komunikasi-informasi-dan-edukasi.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 12504,
+      "sha256": "3e061380095bf0856252c0174e617388cfa5dd555ed40fb8a9b49ce5996c8ce4"
+    },
+    {
+      "angka": "VII",
+      "judul": "MONITORING DAN EVALUASI",
+      "halaman_awal": 49,
+      "halaman_akhir": 49,
+      "jumlah_halaman": 1,
+      "berkas": "bab-vii-monitoring-dan-evaluasi.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 1836,
+      "sha256": "7dec7bd52c1fb12d82f30b1018cd6ae50c5ff1ba3c118e30dcc5838e13e96e70"
+    },
+    {
+      "angka": "VIII",
+      "judul": "PENUTUP",
+      "halaman_awal": 50,
+      "halaman_akhir": 50,
+      "jumlah_halaman": 1,
+      "berkas": "bab-viii-penutup.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 1785,
+      "sha256": "a8ddabfbf460befc316afe4ced231fd7ae9c1c1700938ac8f5d2a470f45ae996"
+    }
+  ]
+}

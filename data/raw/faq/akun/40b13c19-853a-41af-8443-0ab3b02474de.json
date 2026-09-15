@@ -1,0 +1,12 @@
+{
+  "id": "40b13c19-853a-41af-8443-0ab3b02474de",
+  "pertanyaan": "Apa yang harus dihindari ketika saya membuat PIN?",
+  "isi_html": "<ol>\n<li>\n<p>Hindari kombinasi PIN berurutan\nContoh: 123456, 654321</p>\n</li>\n<li>\n<p>Hindari kombinasi PIN berulang\nContoh: 000000, 111111</p>\n</li>\n<li>\n<p>Hindari kombinasi PIN dobel\nContoh: 123123, 121212</p>\n</li>\n</ol>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/40b13c19-853a-41af-8443-0ab3b02474de",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

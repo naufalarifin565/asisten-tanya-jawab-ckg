@@ -1,0 +1,265 @@
+{
+  "sumber": "FAQ CKG Umum",
+  "kategori_id": "e4a5f2e3-343b-4648-90e5-0fa869b6c146",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-24",
+  "jumlah": 32,
+  "topik": [
+    {
+      "id": "2451bc61-8e7f-4dd1-9680-32ce8ff07e27",
+      "judul": "Bagaimana cara mendaftar Cek Kesehatan Gratis (CKG) Umum?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2451bc61-8e7f-4dd1-9680-32ce8ff07e27",
+      "berkas": "2451bc61-8e7f-4dd1-9680-32ce8ff07e27.json",
+      "status": "berhasil",
+      "sha256": "db879e269f6a201bf265d92dc3aaa0387ce85f414ddd57d72c437a8e04abdffa"
+    },
+    {
+      "id": "ee644be0-d87d-447e-bf66-b8f338f70ad7",
+      "judul": "Apa itu Program Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ee644be0-d87d-447e-bf66-b8f338f70ad7",
+      "berkas": "ee644be0-d87d-447e-bf66-b8f338f70ad7.json",
+      "status": "berhasil",
+      "sha256": "3d28a0420d2a274ef1d119cfe710ee6054d1fb4c9f9489206bd6b51e839146eb"
+    },
+    {
+      "id": "8f75fd42-6418-4454-80b9-b67f781c0235",
+      "judul": "Mengapa hasil pemeriksaan Cek Kesehatan Gratis (CKG) Umum tahun 2025 tidak muncul?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8f75fd42-6418-4454-80b9-b67f781c0235",
+      "berkas": "8f75fd42-6418-4454-80b9-b67f781c0235.json",
+      "status": "berhasil",
+      "sha256": "43e0134b4cd47bd187da9476516d40a73a5340414d01bc61faf7a166fe515be4"
+    },
+    {
+      "id": "7db0d8b4-46af-482f-9701-2517e0e13a73",
+      "judul": "Apa tujuan utama dari program ini?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7db0d8b4-46af-482f-9701-2517e0e13a73",
+      "berkas": "7db0d8b4-46af-482f-9701-2517e0e13a73.json",
+      "status": "berhasil",
+      "sha256": "65908a9f009fc12381247cb65192c519e2ff08ab6d10142b8dbb34a89222a14a"
+    },
+    {
+      "id": "a621ead6-fd18-4c95-a631-91ffeb71b2c4",
+      "judul": "Siapa saja yang dapat mengikuti program ini?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/a621ead6-fd18-4c95-a631-91ffeb71b2c4",
+      "berkas": "a621ead6-fd18-4c95-a631-91ffeb71b2c4.json",
+      "status": "berhasil",
+      "sha256": "64da8e99749629ea7e2110d6aa0a20ff2a78ecfd61898a85920ae7d28a77aeb2"
+    },
+    {
+      "id": "64b81427-de02-4204-b0ee-198d2bfc8553",
+      "judul": "Mulai kapan program ini berjalan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/64b81427-de02-4204-b0ee-198d2bfc8553",
+      "berkas": "64b81427-de02-4204-b0ee-198d2bfc8553.json",
+      "status": "berhasil",
+      "sha256": "eab0bc9e9ca88f82c38600982d00980241230a7595d2d70adbd9ec58f65fb1e3"
+    },
+    {
+      "id": "b7ad886a-6027-4e6b-9b2f-5bdc8802a106",
+      "judul": "Apakah saat tanggal merah layanan tersedia?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/b7ad886a-6027-4e6b-9b2f-5bdc8802a106",
+      "berkas": "b7ad886a-6027-4e6b-9b2f-5bdc8802a106.json",
+      "status": "berhasil",
+      "sha256": "5380feb99bc7c431ac71413de08dda3c0cbfe68a9bf0fd0997a47a66e25a8c2e"
+    },
+    {
+      "id": "35c5f73b-9336-4e90-9063-241f76da03d2",
+      "judul": "Apakah saya bisa daftar dan dilayani segera untuk Cek Kesehatan Gratis sebelum tanggal ulang tahun? Bagaimana skemanya jika ulang tahun jatuh tepat pada hari libur?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/35c5f73b-9336-4e90-9063-241f76da03d2",
+      "berkas": "35c5f73b-9336-4e90-9063-241f76da03d2.json",
+      "status": "berhasil",
+      "sha256": "5f6a8d30a73cdaed73fed6a37c33d7d44d00167d714b266c32fce7550816caaa"
+    },
+    {
+      "id": "575a7e4c-3cd6-4c28-976a-64669a73db99",
+      "judul": "Apakah yang berulang tahun di bulan Januari 2025 bisa langsung mengikuti program atau harus menunggu Januari 2026?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/575a7e4c-3cd6-4c28-976a-64669a73db99",
+      "berkas": "575a7e4c-3cd6-4c28-976a-64669a73db99.json",
+      "status": "berhasil",
+      "sha256": "bfa70b73b09803fe37b8216c0cabf2c8d85e80c5fd48f634badf19ea45fa61db"
+    },
+    {
+      "id": "2a242863-e3ef-4e8e-b44e-8a510b772591",
+      "judul": "Bagaimana untuk warga yang saat ini tinggal tidak sesuai domisili KTP, misalnya sedang tugas lama di luar kota atau baru pindah?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/2a242863-e3ef-4e8e-b44e-8a510b772591",
+      "berkas": "2a242863-e3ef-4e8e-b44e-8a510b772591.json",
+      "status": "berhasil",
+      "sha256": "7b69675f11d5f95c7814dcf1e2e78cdf646a64343dd1ad7c653f732017fbecb1"
+    },
+    {
+      "id": "bd1889fc-6b79-47d9-b24a-d3ab31828f24",
+      "judul": "Bagaimana pelaksanaan untuk pelajar?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/bd1889fc-6b79-47d9-b24a-d3ab31828f24",
+      "berkas": "bd1889fc-6b79-47d9-b24a-d3ab31828f24.json",
+      "status": "berhasil",
+      "sha256": "76cd12b97038e2e751888fef01cb2072e02f8a337872a0b3cdb7cad133629a1a"
+    },
+    {
+      "id": "14c7fff3-240d-43c4-8b3a-0e3520fbcb36",
+      "judul": "Dimana bisa mendapatkan informasi terkini dan lengkap?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/14c7fff3-240d-43c4-8b3a-0e3520fbcb36",
+      "berkas": "14c7fff3-240d-43c4-8b3a-0e3520fbcb36.json",
+      "status": "berhasil",
+      "sha256": "bfc55a7cc3f4ca86f9ff58f1033c4b8aeb7cfa9321552ead20c4d39b953bcc37"
+    },
+    {
+      "id": "98fe966d-da96-4270-9296-db6f3f6a7e7b",
+      "judul": "Kemana kanal untuk pengaduan terkait Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/98fe966d-da96-4270-9296-db6f3f6a7e7b",
+      "berkas": "98fe966d-da96-4270-9296-db6f3f6a7e7b.json",
+      "status": "berhasil",
+      "sha256": "ac408ba6c11a7be88f0a6aa3dfe18d510cc6fdc7af32274092f6d2b0b652fd09"
+    },
+    {
+      "id": "8b07a85a-f510-4882-9a45-d3908955e104",
+      "judul": "Bagaimana cara melakukan perubahan jadwal atau lokasi Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8b07a85a-f510-4882-9a45-d3908955e104",
+      "berkas": "8b07a85a-f510-4882-9a45-d3908955e104.json",
+      "status": "berhasil",
+      "sha256": "f36a6cf7695f0fc2869714e4f8a3db465e7c35339a2236aa0802568638820294"
+    },
+    {
+      "id": "5a0b018b-5d7b-49ef-97ea-e3d6954dbd1d",
+      "judul": "Ulang tahun saya masih lama, tetapi saya ingin daftar sekarang/dalam waktu dekat, apakah bisa Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/5a0b018b-5d7b-49ef-97ea-e3d6954dbd1d",
+      "berkas": "5a0b018b-5d7b-49ef-97ea-e3d6954dbd1d.json",
+      "status": "berhasil",
+      "sha256": "f6e340af2d19ef40c896dece853b4e1b399565e245e24a02fadb95faa093794f"
+    },
+    {
+      "id": "f269827d-278e-4350-af8f-71a694cdd131",
+      "judul": "Informasi Paket Cek Kesehatan Gratis",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f269827d-278e-4350-af8f-71a694cdd131",
+      "berkas": "f269827d-278e-4350-af8f-71a694cdd131.json",
+      "status": "berhasil",
+      "sha256": "d5a7a2b71e65139bce190cbb8912351ea5581e2d355d19dece4dbb7573d46ef8"
+    },
+    {
+      "id": "d3f16ffc-95d6-4e4a-87c2-77a15b1d2ffb",
+      "judul": "Jenis pemeriksaan apa saja yang dapat dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d3f16ffc-95d6-4e4a-87c2-77a15b1d2ffb",
+      "berkas": "d3f16ffc-95d6-4e4a-87c2-77a15b1d2ffb.json",
+      "status": "berhasil",
+      "sha256": "97cff24f610f9d6ba81b223b2477b5eb09807399003d8bb605f7005228d23e67"
+    },
+    {
+      "id": "f4de3592-3ce7-46d1-b043-deca2a7aa47d",
+      "judul": "Apakah ada perbedaan pemeriksaan untuk Laki-Laki dan Perempuan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f4de3592-3ce7-46d1-b043-deca2a7aa47d",
+      "berkas": "f4de3592-3ce7-46d1-b043-deca2a7aa47d.json",
+      "status": "berhasil",
+      "sha256": "14631fd7726ad4a4a6be8f9df38aedba7416b92ca084d76d1523b31d2a5035dc"
+    },
+    {
+      "id": "a1d7264d-ca61-4dd7-a7fd-a7caca4a982b",
+      "judul": "Apa saja persyaratan Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/a1d7264d-ca61-4dd7-a7fd-a7caca4a982b",
+      "berkas": "a1d7264d-ca61-4dd7-a7fd-a7caca4a982b.json",
+      "status": "berhasil",
+      "sha256": "f88da3790cf1b398d689209e57fe23ae809b639ae22ec272f9002d7fbc8ebcfd"
+    },
+    {
+      "id": "c2047c60-c89d-4fd5-b23d-4af5b5f0505b",
+      "judul": "Bagaimana prosedur/alur Cek Kesehatan Gratis?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/c2047c60-c89d-4fd5-b23d-4af5b5f0505b",
+      "berkas": "c2047c60-c89d-4fd5-b23d-4af5b5f0505b.json",
+      "status": "berhasil",
+      "sha256": "32a1d91892177dbc74afe9d3da8e032afdb6197ad9faf1b528df72fff6f644fe"
+    },
+    {
+      "id": "e5287253-0d80-4f72-a8aa-2283edb46e83",
+      "judul": "Bagaimana tindak lanjut dari hasil pemeriksaan kesehatan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/e5287253-0d80-4f72-a8aa-2283edb46e83",
+      "berkas": "e5287253-0d80-4f72-a8aa-2283edb46e83.json",
+      "status": "berhasil",
+      "sha256": "93bace7d41d7e471a1959150baecbb89780e15980ce382f42dccfd608ebd81c3"
+    },
+    {
+      "id": "4029d95f-b43d-49cc-a57e-4bf9a94c1f35",
+      "judul": "Berapa lama hasil pemeriksaan akan masuk ke dalam aplikasi SATUSEHAT Mobile?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4029d95f-b43d-49cc-a57e-4bf9a94c1f35",
+      "berkas": "4029d95f-b43d-49cc-a57e-4bf9a94c1f35.json",
+      "status": "berhasil",
+      "sha256": "00342a55982a5f23d1895ba04f7a729a8d60cbb3852001dddd29016bbd6619e4"
+    },
+    {
+      "id": "ad081d61-c07f-40c5-b3c1-d534e0e2473a",
+      "judul": "Kenapa hasil rapor saya belum muncul atau hasil pemeriksaan kesehatan muncul namun tidak lengkap?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ad081d61-c07f-40c5-b3c1-d534e0e2473a",
+      "berkas": "ad081d61-c07f-40c5-b3c1-d534e0e2473a.json",
+      "status": "berhasil",
+      "sha256": "a07089505614a5d4f08950c06640a4b334284913e6b6ad2731097a90dc93a720"
+    },
+    {
+      "id": "16ecb246-60ec-4b4d-abe7-5164fb0390c7",
+      "judul": "Kenapa fitur Cek Kesehatan Gratis tidak muncul di aplikasi ?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/16ecb246-60ec-4b4d-abe7-5164fb0390c7",
+      "berkas": "16ecb246-60ec-4b4d-abe7-5164fb0390c7.json",
+      "status": "berhasil",
+      "sha256": "0d74d0b6323ab149c66a26e007fb063bcbd2f88275db2457ee3ebffc5fc80875"
+    },
+    {
+      "id": "f105d7ed-efe1-43ae-870e-b852e40911fb",
+      "judul": "Sudah ada Profil Tertaut, namun dimana saya bisa daftar Cek Kesehatan Gratis untuk profil tertaut saya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f105d7ed-efe1-43ae-870e-b852e40911fb",
+      "berkas": "f105d7ed-efe1-43ae-870e-b852e40911fb.json",
+      "status": "berhasil",
+      "sha256": "f9a852416665af7a60b4be7710d7da3aebeba9d2d5e1e55ac20533d101ca4857"
+    },
+    {
+      "id": "6655a26b-91fa-4f6e-b0ce-5157aea3b2e5",
+      "judul": "Apa yang harus dilakukan jika saat melakukan pendaftaran, pilihan Kecamatan tidak muncul",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/6655a26b-91fa-4f6e-b0ce-5157aea3b2e5",
+      "berkas": "6655a26b-91fa-4f6e-b0ce-5157aea3b2e5.json",
+      "status": "berhasil",
+      "sha256": "df324e405245796913a46f013156c977465f469196659b8064c5965c00c9cfbd"
+    },
+    {
+      "id": "af048d24-5f6e-42a9-8a2c-785922f3d0d1",
+      "judul": "Kendala saat mengisi Jenis Kelamin di tiket Cek Kesehatan Gratis",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/af048d24-5f6e-42a9-8a2c-785922f3d0d1",
+      "berkas": "af048d24-5f6e-42a9-8a2c-785922f3d0d1.json",
+      "status": "berhasil",
+      "sha256": "641447ad4240101657b5a8f93cd2610502f8d47ac69931e1793c56f3d6385539"
+    },
+    {
+      "id": "7e0cc317-0f7d-4cf2-81a2-a521400db075",
+      "judul": "Privasi Cek Kesehatan Gratis",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7e0cc317-0f7d-4cf2-81a2-a521400db075",
+      "berkas": "7e0cc317-0f7d-4cf2-81a2-a521400db075.json",
+      "status": "berhasil",
+      "sha256": "ad3d6036ddc4e08f6d041f6efd02976fa092e322c023e9ffc50e71a13a0ca02d"
+    },
+    {
+      "id": "f53e7531-5bd0-44ee-850b-d3e1726e3496",
+      "judul": "Mengapa saya tidak dapat membuka tautan rapor Cek Kesehatan Gratis yang dikirimkan melalui WhatsApp Kemenkes RI?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f53e7531-5bd0-44ee-850b-d3e1726e3496",
+      "berkas": "f53e7531-5bd0-44ee-850b-d3e1726e3496.json",
+      "status": "berhasil",
+      "sha256": "170a039e474cb3d71a7bd52c13a6d40659885276be86aa00e2df0544dfca6307"
+    },
+    {
+      "id": "7f2da460-17b0-4f33-a053-383e57369fa7",
+      "judul": "Apakah untuk mengikuti Cek Kesehatan Gratis (CKG) perlu mendapatkan rujukan dari fasilitas kesehatan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7f2da460-17b0-4f33-a053-383e57369fa7",
+      "berkas": "7f2da460-17b0-4f33-a053-383e57369fa7.json",
+      "status": "berhasil",
+      "sha256": "139ea4139a9e90e3c420c4e744fd9a7e7e471250213555b88efb7cb2b5d7700e"
+    },
+    {
+      "id": "426af6f6-38b0-46cb-b543-6c72091785ba",
+      "judul": "Saya menerima pesan dari WhatsApp resmi Kemenkes RI tentang rapor hasil Cek Kesehatan Gratis, namun saya tidak pernah mendaftar. Apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/426af6f6-38b0-46cb-b543-6c72091785ba",
+      "berkas": "426af6f6-38b0-46cb-b543-6c72091785ba.json",
+      "status": "berhasil",
+      "sha256": "7151eb63f68d1ef596f5c11b90fc349d065ff42b18edd349dbd22670ab16fa53"
+    },
+    {
+      "id": "24033477-3658-43af-b3a8-faa3c2d36603",
+      "judul": "Saat mendaftar CKG atau mengisi skrining mandiri melalui tautan yang dikirim muncul notifikasi “Data pasien tidak sesuai dengan KTP. Pastikan data sesuai untuk melanjutkan pendaftaran”, apa yang harus dilakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/24033477-3658-43af-b3a8-faa3c2d36603",
+      "berkas": "24033477-3658-43af-b3a8-faa3c2d36603.json",
+      "status": "berhasil",
+      "sha256": "2a1abd08be1518505eec3089ffdf2c69ba3827d34558d216f2ec8a2a45931a50"
+    }
+  ]
+}

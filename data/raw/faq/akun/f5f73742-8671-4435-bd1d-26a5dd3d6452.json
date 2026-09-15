@@ -1,0 +1,12 @@
+{
+  "id": "f5f73742-8671-4435-bd1d-26a5dd3d6452",
+  "pertanyaan": "Bagaimana cara membuat PIN?",
+  "isi_html": "<p>Pada versi 6.0.0, pengguna akan diminta untuk membuat PIN setelah login atau mendaftar akun. Berikut adalah langkah membuat PIN:</p>\n<ol>\n<li>Masuk/ daftar akun dengan email dan/atau nomor whatsapp</li>\n<li>Verifikasi OTP</li>\n<li>Jika berhasil, akan diarahkan ke halaman pembuatan PIN</li>\n<li>Input PIN yang terdiri dari 6 digit angka</li>\n<li>Input ulang PIN</li>\n<li>PIN berhasil dibuat</li>\n</ol>\n<p>Pembuatan PIN hanya dilakukan sekali. Jika Anda telah membuat PIN, Anda dapat masuk ke SATUSEHAT Mobile hanya dengan menggunakan PIN.</p>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f5f73742-8671-4435-bd1d-26a5dd3d6452",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

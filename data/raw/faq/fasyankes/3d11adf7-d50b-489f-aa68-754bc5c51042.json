@@ -1,0 +1,12 @@
+{
+  "id": "3d11adf7-d50b-489f-aa68-754bc5c51042",
+  "pertanyaan": "Bagaimana cara menambahkan sekolah sebagai Sarana Binaan Puskesmas?",
+  "isi_html": "<ol>\n<li>\n<p>Login ke website <a target=_blank href=\"https://sehatindonesiaku.kemkes.go.id/\">sehatindonesiaku.kemkes.go.id</a></p>\n</li>\n<li>\n<p>Pilih menu ‘Sarana Binaan Puskesmas’</p>\n</li>\n<li>\n<p>Klik ‘Tambah Sarana'</p>\n</li>\n<li>\n<p>Untuk memunculkan daftar sekolah, cari nama sekolah berdasarkan:</p>\n<ul>\n<li>Jenis Sarana > Sekolah</li>\n<li>Subjenis Sarana > Pilih SD, SMP, SMA, SLB, atau Pondok Pesantren</li>\n<li>Kecamatan (Pastikan Nama Kabupaten/Kota Benar)</li>\n</ul>\n</li>\n<li>\n<p>Pilih sekolah yang ingin ditambahkan dengan klik centang pada kolom paling kanan, atau klik ‘Pilih Semua Sarana’ di kanan atas tabel untuk memilih semua sarana yang muncul di tabel</p>\n</li>\n<li>\n<p>Layar akan menunjukkan berapa jumlah sekolah yang sudah dipilih. Kemudian klik ‘Tambahkan ke Daftar’</p>\n</li>\n</ol>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3d11adf7-d50b-489f-aa68-754bc5c51042",
+  "tanggal_pembaruan": "2025-09-09",
+  "tanggal_ambil": "2026-08-24"
+}

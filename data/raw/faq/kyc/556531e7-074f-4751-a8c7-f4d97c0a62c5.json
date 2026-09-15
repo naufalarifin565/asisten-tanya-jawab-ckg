@@ -1,0 +1,12 @@
+{
+  "id": "556531e7-074f-4751-a8c7-f4d97c0a62c5",
+  "pertanyaan": "Bagaimana cara melakukan verifikasi profil?",
+  "isi_html": "<h3>Bagaimana cara melakukan verifikasi profil?</h3>\n<p>Untuk melakukan verifikasi profil (KYC) SATUSEHAT Mobile, dapat dilakukan dengan :</p>\n<p>1 . <strong>Masuk aplikasi SATUSEHAT Mobile menggunakan Identitas Kependudukan Digital (IKD).</strong></p>\n<p>Jika Bapak/Ibu sudah daftar dan aktivasi IKD, silakan login SATUSEHAT Mobile menggunakan Identitas Kependudukan Digital (IKD). Otomatis akun SATUSEHAT Mobile Bapak/Ibu akan terverifikasi (centang biru)</p>\n<p>2 . <strong>Verifikasi profil (KYC) melalui Fasyankes.</strong></p>\n<p>Berikut adalah langkah untuk verifikasi profil di Fasyankes :</p>\n<ul>\n<li>Datang ke Fasyankes</li>\n<li>Petugas Fasyankes akan meminta Anda untuk menunjukan status veriﬁkasi di proﬁl pengguna</li>\n<li>Petugas Fasyankes akan memeriksa proﬁl pengguna, apakah sudah ‘Centang Biru’</li>\n<li>Jika sudah ‘Centang Biru’ maka Anda tidak perlu melakukan veriﬁkasi kembali.</li>\n<li>Jika belum ‘Centang Biru’ maka petugas akan meminta Anda untuk melakukan generate challenge code di proﬁl SATUSEHAT Mobile</li>\n<li>Petugas Fasyankes akan meminta KTP serta data nama, challenge code dan NIK yang ada pada proﬁl SATUSEHAT Mobile</li>\n<li>Petugas Fasyankes akan mengisi data ke ﬁtur KYC yang disediakan sistem RME Fasyankes</li>\n<li>Petugas Fasyankes akan melakukan validasi data Anda</li>\n<li>Jika data Anda telah selesai diperiksa oleh petugas Fasyankes dan data valid, maka veriﬁkasi proﬁl Anda telah selesai</li>\n</ul>\n",
+  "kategori_label": "Verifikasi Profil (KYC)",
+  "kategori_kunci": "kyc",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Verifikasi Profil (KYC)",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/556531e7-074f-4751-a8c7-f4d97c0a62c5",
+  "tanggal_pembaruan": "2024-12-02",
+  "tanggal_ambil": "2026-08-26"
+}

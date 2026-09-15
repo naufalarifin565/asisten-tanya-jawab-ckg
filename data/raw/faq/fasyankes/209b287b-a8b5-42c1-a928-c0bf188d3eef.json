@@ -1,0 +1,12 @@
+{
+  "id": "209b287b-a8b5-42c1-a928-c0bf188d3eef",
+  "pertanyaan": "Apakah input BBL wajib menggunakan NIK Bayi?",
+  "isi_html": "<p>Untuk input BBL tidak wajib menggunakan NIK dan silakan centang pada pilihan \"NIK tidak diketahui\", namun wajib input nomor HP. Nomor HP dapat menggunakan nomor Wali, silakan centang pada bagian \"Nomor Wali sama dengan peserta\"</p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/209b287b-a8b5-42c1-a928-c0bf188d3eef",
+  "tanggal_pembaruan": "2025-07-03",
+  "tanggal_ambil": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "66792353-0aad-44ae-bcd9-fa198d86b419",
+  "pertanyaan": "Aplikasi SATUSEHAT saya stuck/crash (Android)",
+  "isi_html": "<h3>Aplikasi SATUSEHAT saya stuck/crash (Android)</h3>\n<p>Jika aplikasi SATUSEHAT Mobile anda mengalami kendala saat masuk (Login) atau saat menggunakan fitur, coba lakukan langkah-langkah berikut:</p>\n<ol>\n<li>Pastikan versi aplikasi sudah yang terbaru, perbarui versi aplikasi di Play Store</li>\n<li>Masuk ke \"Pengaturan\" di Handphone</li>\n<li>Pilih \"Aplikasi\" -> \"SATUSEHAT Mobile\" -> \"Penyimpanan\"</li>\n<li>Pilih \"Hapus Memori\" dan \"Hapus Data\"</li>\n<li>Masuk (login) kembali ke aplikasi dengan akun terdaftar</li>\n</ol>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/66792353-0aad-44ae-bcd9-fa198d86b419",
+  "tanggal_pembaruan": "2025-10-27",
+  "tanggal_ambil": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "16ecb246-60ec-4b4d-abe7-5164fb0390c7",
+  "pertanyaan": "Kenapa fitur Cek Kesehatan Gratis tidak muncul di aplikasi ?",
+  "isi_html": "<p>1.Pastikan Bapak/Ibu menggunakan perangkat Android dan iOs</p>\n<p>2.Periksa apakah aplikasi SATUSEHAT Mobile sudah diperbarui ke versi terbaru (v7.9.1)</p>\n<ul>\n<li>Jika sudah, coba keluar dari aplikasi dan masuk kembali</li>\n<li>Jika belum, silakan masuk ke PlayStore atau AppStore, cari \"SATUSEHAT\" dan tekan 'Update'</li>\n</ul>\n<p>3.Fitur Cek Kesehatan Gratis akan muncul di Beranda</p>\n<ul>\n<li>Jika belum muncul, silakan logout terlebih dahulu dan login kembali</li>\n</ul>\n",
+  "kategori_label": "Cek Kesehatan Gratis Ulang Tahun / Umum",
+  "kategori_kunci": "umum",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ CKG Umum",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/16ecb246-60ec-4b4d-abe7-5164fb0390c7",
+  "tanggal_pembaruan": "2025-08-21",
+  "tanggal_ambil": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "58fcc918-382a-4c7f-826d-3137590a87bd",
+  "pertanyaan": "Bagaimana cara menghapus sekolah dari daftar Sarana Binaan Puskesmas?",
+  "isi_html": "<ul>\n<li>Login ke website <a target=_blank href=\"sehatindonesiaku.kemkes.go.id\">sehatindonesiaku.kemkes.go.id</a></li>\n<li>Pilih menu ‘Sarana Binaan Puskesmas’</li>\n<li>Cari nama sekolah yang ingin Anda hapus</li>\n<li>Geser tabel ke kolom ‘Aksi’ paling kanan, lalu klik ‘Hapus’</li>\n<li>Pengguna akan mendapatkan pertanyaan “Apakah yakin akan menghapus sarana yang sudah diklaim tersebut?’ Jika iya, klik tombol ‘Hapus’</li>\n</ul>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/58fcc918-382a-4c7f-826d-3137590a87bd",
+  "tanggal_pembaruan": "2025-08-27",
+  "tanggal_ambil": "2026-08-24"
+}

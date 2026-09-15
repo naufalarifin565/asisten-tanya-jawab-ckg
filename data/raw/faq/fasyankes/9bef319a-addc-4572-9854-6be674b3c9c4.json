@@ -1,0 +1,12 @@
+{
+  "id": "9bef319a-addc-4572-9854-6be674b3c9c4",
+  "pertanyaan": "Apakah bisa mendaftarkan peserta Cek Kesehatan Gratis jika kuota telah habis/tertulis 0 di tanggal kalender?",
+  "isi_html": "<p>Bapak/Ibu masih bisa mendaftarkan peserta Cek Kesehatan Gratis jika kuota telah habis, dengan syarat :</p>\n<ol>\n<li>Hanya bisa dilakukan di hari H (hari kedatangan peserta CKG ke puskesmas)</li>\n<li>Pendaftaran hanya dapat dilakukan melalui ASIK Website</li>\n<li>Silakan klik \"Lanjut\" jika muncul notifikasi \"Kuota Pemeriksaan Telah Habis\" untuk melanjutkan pemeriksaan</li>\n<li>Setelah muncul tampilan List Data Individu, klik \"Pilih\" pada data peserta yang tertampil</li>\n<li>Klik \"Daftarkan dengan NIK\" atau \"Daftarkan tanpa NIK\"</li>\n</ol>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/9bef319a-addc-4572-9854-6be674b3c9c4",
+  "tanggal_pembaruan": "2025-04-17",
+  "tanggal_ambil": "2026-08-24"
+}

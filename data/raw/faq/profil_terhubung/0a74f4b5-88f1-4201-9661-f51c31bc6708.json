@@ -1,0 +1,12 @@
+{
+  "id": "0a74f4b5-88f1-4201-9661-f51c31bc6708",
+  "pertanyaan": "Apakah saya dapat menghapus profil terhubung?",
+  "isi_html": "<p>Bisa. Anda dapat menghapus Profil Terhubung yang telah ditautkan dengan cara:</p>\n<ol>\n<li>Login ke SATUSEHAT Mobile</li>\n<li>Klik menu 'Profil'</li>\n<li>Klik fitur 'Profil Tertaut'</li>\n<li>Pilih profil terhubung yang akan dihapus</li>\n<li>Klik tombol 'Hapus' pada halaman detil profil terhubung</li>\n<li>Konfirmasi penghapusan</li>\n<li>Profil terhubung berhasil dihapus</li>\n</ol>\n",
+  "kategori_label": "Profil Terhubung",
+  "kategori_kunci": "profil_terhubung",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Profil Terhubung",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0a74f4b5-88f1-4201-9661-f51c31bc6708",
+  "tanggal_pembaruan": "2024-11-20",
+  "tanggal_ambil": "2026-08-26"
+}

@@ -1,0 +1,1048 @@
+[[hal:19]]
+BAB III 
+PERSIAPAN CEK KESEHATAN GRATIS 
+ 
+A. Persiapan di Tingkat Masyarakat 
+Pelaksanaan CKG didukung oleh platform Sistem Informasi Kesehatan 
+Nasional SATUSEHAT. Sistem ini membantu masyarakat untuk 
+mendapatkan pengingat, mengatur jadwal kunjungan, memperoleh hasil 
+pemeriksaan serta mendapatkan edukasi kesehatan sesuai hasil 
+pemeriksaan. Karena itu masyarakat harus mengunduh dan memiliki 
+akun di aplikasi SATUSEHAT Mobile (SSM) untuk mengakses CKG dengan 
+lebih mudah. Langkah-langkah persiapan untuk mendapatkan CKG 
+sebagai berikut: 
+1. Persiapan mandiri melalui SSM 
+a. Mengunduh aplikasi SSM; 
+b. Mengisi biodata diri; 
+c. Jika mengalami kesulitan untuk mendaftar melalui SSM, 
+pendaftaran CKG dapat dilakukan melalui WA Chatbot 
+Kementerian Kesehatan di nomor (0812-7887-8812); 
+d. Memilih tanggal pemeriksaan melalui aplikasi SSM atau melalui 
+WA Chatbot Kementerian Kesehatan (0812-7887-8812); 
+e. Balita dan anak prasekolah, lansia, penyandang disabilitas atau 
+yang tidak dapat mendaftar secara mandiri dapat didaftarkan 
+oleh orang tua, wali, dan/atau keluarga. 
+f. Dalam hal peserta tidak memiliki keluarga atau pendamping yang 
+dapat dihubungi, fasilitas pelayanan kesehatan dapat 
+memfasilitasi pendaftaran secara terbatas, dengan ketentuan 
+identitas peserta dan nomor kontak pendamping dicatat secara 
+terpisah untuk menjamin akurasi data, efektivitas tindak lanjut, 
+dan perlindungan data pribadi; 
+g. Bayi baru lahir didaftarkan oleh petugas kesehatan melalui 
+website SSI/ASIK. 
+2. Mendaftarkan/mengaktifkan kepesertaan JKN 
+Untuk mengantisipasi masalah kesehatan yang ditemukan pada 
+saat pemeriksaan kesehatan dan penanganannya, bagi masyarakat 
+yang belum menjadi peserta JKN atau status kepesertaan tidak aktif, 
+agar mendaftarkan diri menjadi peserta JKN atau mengaktifkan 
+kepesertaan JKN.
+[[hal:20]]
+3. Persiapan sebelum datang ke FPKTP 
+a. Masyarakat yang sudah mendaftar akan mendapatkan pesan 
+untuk mengikuti CKG melalui WA. 
+b. Mengisi kuesioner skrining mandiri melalui SSM atau WA Chatbot 
+Kemenkes. 
+c. Peserta CKG berusia 40 tahun ke atas, disarankan untuk 
+berpuasa selama 8 -10 jam sebelum CKG dengan cara tidak 
+mengonsumsi makanan dan minuman selain air putih. Setelah 
+pemeriksaan laboratorium, peserta dapat makan dan minum 
+kembali. 
+d. Peserta CKG Lansia, disarankan datang dengan pendamping. 
+e. Saat berkunjung ke FPKTP, masyarakat harus membawa: 
+1) Identitas diri seperti Kartu Tanda Penduduk (KTP)/Kartu 
+Identitas Anak/Kartu Keluarga (KK); 
+2) Buku Kesehatan Ibu dan Anak (KIA) bagi sasaran balita dan 
+anak prasekolah; 
+3) Buku Kesehatan Lanjut Usia (bagi yang memiliki); 
+4) Tiket pemeriksaan di aplikasi SSM/WA chatbot Kemenkes. 
+4. Masyarakat yang belum mendaftar atau tidak mendapatkan notifikasi, 
+dapat berkunjung langsung ke FPKTP dan membawa: 
+a. Identitas diri KTP/Kartu Identitas Anak/KK. 
+b. Telepon seluler untuk mengunduh aplikasi SSM untuk 
+melakukan pendaftaran. 
+c. Masyarakat perlu mengisi kuesioner mandiri menggunakan 
+tautan atau QR code yang disediakan di FPKTP sebelum 
+mendapatkan pelayanan CKG. 
+d. Masyarakat yang tidak memiliki telepon seluler (ponsel), petugas 
+di FPKTP akan menginput data pasien melalui website SSI/ASIK 
+dan menggunakan tautan atau QR code yang disediakan di 
+FPKTP untuk membantu pengisian kuesioner mandiri sebelum 
+memberikan pelayanan CKG. 
+e. Masyarakat yang tidak memiliki kartu identitas, petugas di 
+FPKTP akan menginput data pasien dan NIK Wali/Pendamping 
+melalui website SSI/ASIK dan menggunakan tautan atau QR 
+code yang disediakan di FPKTP untuk membantu pengisian 
+kuesioner mandiri sebelum memberikan pelayanan CKG.
+[[hal:21]]
+B. Persiapan di tingkat Dinas Kesehatan Daerah Provinsi 
+1. Menyusun dan menerbitkan kebijakan turunan sesuai surat edaran 
+(SE) Kementerian Dalam Negeri (Kemendagri) yang berlaku tentang 
+dukungan pelaksanaan CKG untuk meningkatkan keterlibatan lintas 
+sektor tingkat Provinsi. 
+2. Sosialisasi dan advokasi kepada organisasi perangkat daerah (OPD) 
+terkait, tempat kerja, organisasi kemasyarakatan dan lintas sektor 
+terkait lainnya. 
+3. Koordinasi, orientasi dan sosialisasi kepada dinas kesehatan daerah 
+kabupaten/kota tentang persiapan dan pelaksanaan CKG. 
+4. Melakukan identifikasi kesenjangan kebutuhan dan menyusun 
+strategi pemenuhan yang dapat dilakukan oleh tingkat provinsi. 
+5. Melakukan komunikasi, informasi dan edukasi kepada masyarakat. 
+6. Melakukan pemantauan persiapan CKG di seluruh kabupaten/kota di 
+wilayah kerja provinsi. 
+7. Melakukan koordinasi, sosialisasi dan pemantauan terkait pencatatan 
+dan pelaporan ketersediaan Bahan Medis Habis Pakai (BMHP) serta 
+perencanaan dan pengajuan usulan kebutuhan BMHP melalui 
+aplikasi Satu Sehat Logistik SMILE kepada Dinas Kesehatan 
+Kabupaten/Kota, Puskesmas serta Labkesmas di wilayahnya. 
+8. Melakukan koordinasi, sosialisasi dan pemantauan terkait 
+ketersediaan obat untuk penanganan awal masalah kesehatan yang 
+ditemukan. 
+ 
+C. Persiapan di tingkat Dinas Kesehatan Daerah Kabupaten/Kota 
+1. Menyusun dan menerbitkan kebijakan turunan sesuai surat edaran 
+(SE) Kementerian Dalam Negeri (Kemendagri) yang berlaku tentang 
+dukungan pelaksanaan CKG untuk meningkatkan keterlibatan lintas 
+sektor tingkat Kabupaten/Kota. 
+2. Sosialisasi dan advokasi kepada organisasi perangkat daerah (OPD), 
+Puskesmas, tempat kerja, organisasi kemasyarakatan dan lintas 
+sektor terkait lainnya. 
+3. Melakukan pemetaan sasaran penerima CKG di wilayah 
+kabupaten/kota berdasarkan: 
+a. Jumlah penduduk di wilayah kerja kabupaten/kota berdasarkan 
+alamat KTP yang berasal dari data kependudukan dan 
+pencatatan sipil (dukcapil).
+[[hal:22]]
+b. Perkiraan jumlah penduduk yang berdomisili di wilayah tersebut 
+dengan KTP luar wilayah. 
+c. Mengidentifikasi pelaksanaan CKG di FPKTP lain, tempat kerja 
+formal dan informal, komunitas (Posyandu, perguruan tinggi, dll) 
+dan menghitung sasaran. 
+d. Merencanakan distribusi sasaran CKG di Puskesmas, FPKTP 
+lain, tempat kerja formal dan informal, komunitas (Posyandu, 
+perguruan tinggi, dll) sesuai pemetaan pada huruf C dengan cara: 
+1) Perhitungan sasaran CKG: 
+Sasaran Penduduk CKG = A* + B** 
+*A: Jumlah penduduk di wilayah kerja kabupaten / kota berdasarkan alamat 
+KTP yang berasal dari data Dukcapil 
+**B: Perkiraan jumlah penduduk yang berdomisili di wilayah tersebut dengan 
+KTP luar wilayah. 
+Sasaran CKG meliputi: 
+● Bayi Baru Lahir: 0 bulan/Kelahiran Hidup. 
+● Balita dan Anak Prasekolah: 1-6 Tahun. 
+● Dewasa: 18-59 tahun. 
+● Lansia: ≥ 60 tahun. 
+2) Setelah didapatkan sasaran penduduk CKG, maka distribusi 
+sasaran CKG dapat dilakukan sebagai berikut: 
+● Sasaran Puskesmas adalah peserta JKN di Puskesmas 
+tersebut ditambah jumlah penduduk peserta JKN tidak 
+aktif dan jumlah penduduk bukan peserta JKN serta 
+penduduk luar wilayah yang berdomisili di kabupaten 
+tersebut. 
+● Sasaran FPKTP lain adalah peserta JKN aktif di FPKTP 
+tersebut atau sasaran lain sesuai kebijakan pusat atau 
+daerah. 
+● Sasaran tempat kerja adalah pekerja formal dan 
+informal. 
+● Sasaran fasilitas lain ditetapkan sesuai dengan 
+kebijakan pusat atau daerah. 
+4. Memetakan fasilitas pelayanan kesehatan yang menyelenggarakan 
+CKG: 
+a. Mengidentifikasi dan memetakan kapasitas fasilitas pelayanan 
+kesehatan yang akan menyelenggarakan CKG di wilayah
+[[hal:23]]
+Kabupaten/Kotanya yaitu Puskesmas, FPKTP lainnya, Fasyankes 
+yang melayani persalinan, Tempat Kerja, Labkesmas, serta 
+fasilitas lain sesuai kebijakan pusat atau daerah. 
+b. Memastikan ketersediaan Sumber Daya Manusia (SDM), alat 
+kesehatan dan BMHP, obat di Fasyankes sesuai kelompok 
+sasaran seperti tercantum pada tabel berikut ini: 
+ 
+Tabel 3.1. Kebutuhan Sumber Daya Manusia, Alat Kesehatan dan BMHP 
+untuk Pemeriksaan Bayi Baru Lahir 
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis 
+Pakai (BMHP) 
+1 
+Kekurangan 
+hormon tiroid 
+sejak lahir 
+Dokter/Bidan/ 
+Perawat/Tenaga 
+Teknologi 
+Laboratorium 
+Medik (TTLM) 
+ 
+Fluorescence 
+immunoassay (FIA)* 
+1. Kertas Saring 
+2. Lancet Pediatrik ketajaman 
+2 mm 
+3. Alkohol swab 
+4. Plester 
+5. Sarung tangan 
+6. Plastik untuk pengiriman 
+kertas saring (Plastik 
+Ziplock) 
+7. Desiccant/Silica Gel 
+8. Amplop 
+2 
+Kekurangan 
+enzim 
+pelindung sel 
+darah merah 
+(G6PD) 
+3 
+Kekurangan 
+hormon 
+adrenal sejak 
+lahir 
+4 
+Penyakit 
+Jantung 
+Bawaan Kritis 
+Dokter/Bidan/ 
+Perawat 
+Pulse Oximetry 
+Bayi/Neonatus 
+ 
+5 Bayi Kuning Dokter/Bidan/ 
+Perawat Buku KIA 
+6 Berat lahir 
+Dokter/Bidan/ 
+Perawat/ 
+Nutrisionis 
+1. Buku KIA (Grafik 
+Pertumbuhan Anak), 
+2. Antropometri kit: 
+alat ukur berat 
+badan bayi/baby 
+scale; 
+ 
+7 
+Status 
+imunisasi 
+hepatitis B 
+(HB0) 
+Dokter/Bidan/ 
+Perawat Buku KIA 
+ 
+*di Labkesmas Tingkat 3 atau Laboratorium Rumah Sakit Rujukan Pemeriksaan
+[[hal:24]]
+Tabel 3.2. Kebutuhan Sumber Daya Manusia, Alat Kesehatan dan BMHP pada 
+Balita dan Anak Prasekolah 
+No Pemeriksaan SDM 
+Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai (BMHP) 
+1 
+Pertumbuhan 
+(Berat Badan, 
+Panjang 
+Badan/Tinggi 
+Badan, Lingkar 
+Kepala) 
+Dokter/ 
+Bidan/ 
+Perawat/ 
+Nutrisionis 
+1. Buku KIA (Grafik 
+Pertumbuhan Anak), 
+2. Antropometri kit: 
+a. Alat ukur berat 
+badan bayi/ baby 
+scale; 
+b. Alat ukur berat 
+badan injak 
+digital/standing 
+weight; 
+c. Alat ukur 
+panjang badan 
+/infantometer/ 
+length board; 
+d. Alat ukur tinggi 
+badan/ 
+stadiometer; 
+e. Alat ukur lingkar 
+lengan atas dan 
+lingkar kepala 
+ 
+2 
+Perkembangan 
+(motorik, 
+sensorik, kognitif) 
+Dokter/ 
+Bidan/ 
+Perawat 
+Alat Deteksi Dini 
+Perkembangan (SDIDTK 
+Kit) 
+ 
+3 Tuberkulosis 
+Dokter/ 
+Bidan/ 
+Perawat/ TTLM 
+/Radiografer** 
+1. X-Ray* 
+2. Tes Cepat Molekuler 
+(TCM) 
+3. Mikroskop (BTA) 
+4. Near Point of Care 
+(NPOC) 
+1. Pot dahak 
+2. Katrid ultra TCM 
+3. Kaca slide mikroskop 
+4. Reagen ZN mikroskops 
+5. Card NPOC 
+6. Tuberkulin vial (mantoux) 
+7. Spuit jarum suntik 
+8. Alkohol swab 
+4 Telinga Dokter/ 
+Bidan/ Perawat Otoskop 
+5 Mata Dokter/ 
+Bidan/ Perawat 
+1. Oftalmoskop 
+2. Senter 
+3. Tumbling E 
+ 
+6 Gigi Dokter Gigi/ 
+Terapis Gigi Set Pemeriksaan Gigi 
+ 
+7 Anemia dan 
+Talasemia TTLM 1. Hb Meter 
+2. Hematologi Analyzer 
+1. Pemeriksaan Hb 
+a. Strip HB 
+b. Blood lancet 
+c. Alcohol swab, 
+ 
+2. Pemeriksaan Darah Lengkap 
+a. Reagen pemeriksaan 
+darah lengkap 
+b. Tabung Vacutainer, 
+c. Plester bulat 
+d. Jarum Vacutainer 
+e. Wing Needle 
+f. Sarung tangan non steril 
+8 Gula darah 
+Dokter/ 
+Perawat/ Bidan 
+/ TTLM 
+ Glukometer 
+1. Strip gula darah 
+2. alkohol swab 
+3. Lancet 
+9 Kusta Dokter/ 
+Bidan/ Perawat 
+1. Kapas pilin dan/atau 
+jarum 
+2. Mikroskop 
+1. Alcohol swab, 
+2. Sarung tangan non steril 
+3. Scalpel
+[[hal:25]]
+No Pemeriksaan SDM 
+Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai (BMHP) 
+4. Obyek glass 
+5. Ziehl Neelsen 
+10 Frambusia Dokter/ 
+Bidan/ Perawat 
+1. Blood lancet 
+2. Alcohol swab, 
+3. Sarung tangan non steril 
+4. RDT treponema 
+11 Skabies Dokter/ 
+Bidan/ Perawat Senter (bila perlu) 1. Obyek glass 
+2. Tinta 
+12 Status Imunisasi 
+Balita 
+Dokter/ 
+Perawat/ Bidan 
+*Pada Fasilitas Pelayanan Kesehatan yang Mampu 
+**Untuk pemeriksaan X-Ray 
+ 
+ Tabel 3.3. Kebutuhan Sumber Daya Manusia, Alat Kesehatan dan BMHP 
+pada Dewasa 
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai (BMHP) 
+1 Merokok Dokter/ 
+Perawat/Bidan 
+2 Tingkat 
+aktivitas fisik 
+Dokter/ 
+Perawat/Bidan 
+3 Status Gizi 
+Dokter/ 
+Perawat/Bidan
+/Nutrisionis 
+ 
+Set Antropometri 
+4 Tekanan 
+darah 
+Dokter/ 
+Perawat/Bidan Tensimeter 
+5 Gula darah Dokter/Perawat
+/Bidan/TTLM Glukometer 
+1. Strip gula darah 
+2. alkohol swab 
+3. Lancet 
+6 Risiko Stroke Dokter/Perawat
+/Bidan/TTLM 
+Alat tes darah 
+portable (rapid 
+diagnostic test) untuk 
+lipid panel 
+ 
+atau 
+ 
+Clinical Chemistry 
+Analyzer/Fotometer 
+1. Strip test lipid panel 
+2. Blood lancet 
+3. Alkohol swab 
+ 
+ 
+ 
+ 
+1. Reagen total kolesterol 
+2. Reagen Trigliserid 
+3. Reagen HDL 
+4. Jarum vacutainer 
+5. Tabung vacutainer 
+6. Plester 
+7. Tip kuning, Bahan kontrol 
+8. Alkohol Swab 
+7 Penyakit 
+Jantung Dokter/Perawat EKG 1. Thermal paper EKG 
+2. Gel EKG 
+8 Penyakit 
+Ginjal TTLM 
+ 
+Clinical Chemistry 
+Analyzer/Fotometer 
+1. Reagen ureum 
+2. Reagen kreatinin 
+3. Yellow Micropipette Tips 
+4. Hand Scoon 
+5. Jarum Vacutainer 22
+[[hal:26]]
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai (BMHP) 
+6. Alcohol Swab 
+7. Plester 
+8. Tabung Vacutainer Tutup 
+Kuning 
+9. Reagen UACR 
+9 Tuberkulosis 
+Dokter/Bidan/ 
+Perawat/ TTLM 
+/Radiografer*** 
+1. X-Ray* 
+2. Tes Cepat 
+Molekuler (TCM) 
+3. Mikroskop (BTA) 
+4. Near Point of Care 
+(NPOC) Mesin 
+TCM. mesin 
+Open PCR, 
+mikroskop, 
+NPOC Mikroskop 
+atau mesin TCM 
+1. Pot dahak 
+2. Katrid ultra TCM 
+3. Kaca slide mikroskop 
+4. Reagen ZN mikroskop 
+5. Card NPOC 
+6. Tuberkulin vial (mantoux) 
+7. Spuit jarum suntik 
+8. Alkohol swab 
+10 
+Penyakit 
+Paru 
+Obstruktif 
+Kronis 
+(PPOK) 
+Dokter/ 
+Perawat/Bidan 
+11 Kanker 
+Payudara 
+Dokter/ 
+Perawat/Bidan 
+USG dengan Probe 
+Linier* 
+Gel pelicin/pelumas untuk 
+pasien/lubricant gel untuk USG 
+12 Kanker Leher 
+Rahim Dokter/Bidan 
+PCR** 
+1. Collecting Kit (cytobrush + 
+VTM), 
+2. Reagen Ekstraksi, 
+3. Reagen PCR 
+IVA 1. Asam asetat 5% 
+2. Kapas lidi 
+13 Kanker Paru Dokter/ 
+Perawat/Bidan X-Ray* 
+14 Kanker Usus 
+Dokter/ 
+Perawat/Bidan
+/ TTLM 
+ 
+1. Pot feses 
+2. sarung tangan non steril 
+3. FOBT/Reagen darah samar 
+15 Mata Dokter/ Bidan/ 
+Perawat 
+1. Oftalmoskop 
+2. Senter 
+3. E-Tumbling / 
+Snellen Chart /E- 
+Chart/single line 
+VA Chart 
+4. Pinhole 
+5. Trial lens set 
+ 
+16 Telinga Dokter/ Bidan/ 
+Perawat 
+1. Garpu tala 512 Hz 
+2. Otoskop 
+3. Aplikasi skrining 
+pendengaran 
+ 
+17 Gigi dan 
+Mulut 
+Dokter Gigi/ 
+Dokter/Terapis 
+Gigi/Bidan 
+Set Pemeriksaan Gigi, 
+periodontal probe 
+18 Kesehatan 
+Jiwa 
+Dokter/ 
+Perawat/ 
+Bidan/Psikolog 
+Klinis
+[[hal:27]]
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai (BMHP) 
+19 Hepatitis B TTLM 
+1. Rapid test Hepatitis B (HbSAg), 
+2. Blood lancet, 
+3. Alkohol swab 
+20 Hepatitis C TTLM 
+1. Rapid test Hepatitis C (anti 
+HCV), 
+2. Blood lancet, 
+3. Alkohol swab 
+21 Fibrosis/ 
+Sirosis hati TTLM 
+1. Hematology 
+Analyzer, 
+2. Clinical Chemistry 
+Analyzer/ 
+Fotometer 
+1. Reagen Hematology Analyzer 
+(Trombosit) 
+2. Reagen Chemistry Analyzer 
+(SGOT) 
+3. Vacutainer tutup merah 
+4. Vacutainer tutup ungu 
+(EDTA) 
+5. Vacutainer Needle 
+6. Vacutainer Holder 
+7. Alcohol swab 
+8. Plester bulat bening 
+9. Handscoon 
+22 
+Calon 
+Pengantin 
+(Anemia 
+hanya pada 
+perempuan, 
+sifilis, HIV) 
+Dokter/Bidan/ 
+Perawat/TTLM Hb Meter 
+1. Rapid Hb, 
+2. Rapid Combo HIV Sifilis, 
+Rapid 2 HIV, dan Rapid 3 HIV 
+3. Blood lancet, 
+4. Alkohol swab 
+23 
+Status 
+Imunisasi 
+Status T pada 
+calon pengantin 
+perempuan 
+Dokter/ 
+Perawat/ Bidan 
+24 
+Kulit 
+● Kusta, 
+● Skabies, 
+● Frambus
+ia (pada 
+daerah 
+endemis) 
+Dokter/ Bidan/ 
+Perawat/ Nakes 
+lain (TTLM) 
+1. Senter (bila perlu) 
+2. Kapas pilin 
+dan/atau jarum 
+3. Mikroskop 
+Kusta 
+1. Alcohol swab, 
+2. Sarung tangan non steril 
+3. Scalpel 
+4. Obyek glass 
+5. Ziehl Neelsen 
+Skabies 
+1. Obyek glass 
+2. Tinta 
+Frambusia 
+1. Blood lancet 
+2. Alcohol swab, 
+3. Sarung tangan non steril 
+4. RDT treponema 
+*Pada Fasilitas Pelayanan Kesehatan yang Mampu 
+**Di Labkesmas Tingkat 2 
+***untuk pemeriksaan X-Ray
+[[hal:28]]
+Tabel 3.4. Kebutuhan Sumber Daya Manusia, Alat Kesehatan dan BMHP 
+pada Lansia 
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai 
+(BMHP) 
+1 Geriatri Dokter/Perawat/ 
+Bidan 
+2 Merokok Dokter/ 
+Perawat/Bidan 
+3 Tingkat 
+aktivitas fisik 
+Dokter/ 
+Perawat/Bidan 
+4 Status Gizi Dokter/Perawat/ 
+Bidan/Nutrisionis Set Antropometri 
+5 Tekanan darah Dokter/Perawat/B
+idan Tensimeter 
+6 Gula darah Perawat/Bidan/TT
+LM Glukometer 
+1. Strip gula darah 
+2. Alkohol swab 
+3. Lancet 
+7 Risiko Stroke Dokter/Perawat/ 
+Bidan/TTLM 
+Alat tes darah portable 
+(rapid diagnostic test) 
+untuk lipid panel 
+ 
+atau 
+ 
+Clinical Chemistry 
+Analyzer/Fotometer 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Strip test lipid panel 
+2. Blood lancet 
+3. Alkohol swab 
+ 
+ 
+ 
+1. Reagen total kolesterol 
+2. Reagen Trigliserid 
+3. Reagen HDL 
+4. Jarum vacutainer 
+5. Tabung vacutainer 
+6. Plester 
+7. Tip kuning, Bahan 
+kontrol 
+8. Alkohol Swab 
+8 
+Penyakit 
+Jantung 
+ 
+ 
+ 
+Dokter/Perawat EKG 1. Thermal paper EKG 
+2. Gel EKG 
+9 Penyakit Ginjal TTLM Clinical Chemistry 
+Analyzer/Fotometer 
+1. Reagen ureum 
+2. Reagen kreatinin 
+3. Yellow Micropipette Tips 
+4. Hand Scoon 
+5. Jarum Vacutainer 22 
+6. Alcohol Swab 
+7. Plester 
+8. Tabung Vacutainer Tutup 
+Kuning 
+9. Reagen UACR 
+10 Tuberkulosis 
+Dokter/Bidan/ 
+Perawat/ TTLM/ 
+Radiografer*** 
+1. X-Ray* 
+2. Tes Cepat Molekuler 
+(TCM) 
+3. Mikroskop (BTA) 
+4. Near Point of Care 
+(NPOC) 
+1. Pot dahak 
+2. Katrid ultra TCM 
+3. Kaca slide mikroskop 
+Reagen ZN mikroskop 
+4. Card NPOC 
+5. Tuberkulin vial (mantoux) 
+6. Spuit jarum suntik 
+7. Alkohol swab
+[[hal:29]]
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai 
+(BMHP) 
+11 
+Penyakit Paru 
+Obstruktif 
+Kronis (PPOK) 
+Dokter/ 
+Perawat/Bidan 
+12 
+Kanker 
+Payudara (pada 
+perempuan 
+hingga usia 69 
+tahun) 
+Dokter/Perawat/ 
+Bidan USG dengan Probe Linier* 
+Gel pelicin/pelumas untuk 
+pasien/lubricant gel untuk 
+USG 
+13 
+Kanker Leher 
+Rahim (pada 
+perempuan 
+hingga usia 69 
+tahun ) 
+Dokter/Bidan 
+PCR** 
+1. Collecting Kit (cytobrush + 
+VTM), 
+2. Reagen Ekstraksi, 
+3. Reagen PCR 
+IVA 1. Asam asetat 5% 
+2. Kapas lidi 
+14 Kanker Paru Dokter/ 
+Perawat/Bidan X-Ray* 
+15 Kanker Usus 
+Dokter/ 
+Perawat/Bidan/TT
+LM 
+ 
+1. Pot feses 
+2. sarung tangan non steril 
+3. FOBT/Reagen darah 
+samar 
+16 Mata Dokter/ Bidan/ 
+Perawat 
+1. Oftalmoskop 
+2. Senter 
+3. E-Tumbling / Snellen 
+Chart /E- Chart/single 
+line VA chart 
+4. pinhole 
+ 
+17 Telinga Dokter/ Bidan/ 
+Perawat 
+1. Garpu tala 512 Hz 
+2. otoskop 
+3. Aplikasi skrining 
+pendengaran 
+Alcohol Swab 
+18 Gigi dan Mulut 
+Dokter Gigi/ 
+Dokter/Terapis 
+Gigi/Bidan 
+Set Pemeriksaan Gigi, 
+periodontal probe 
+19 Kesehatan Jiwa 
+Dokter/ Perawat/ 
+Bidan/Psikolog 
+Klinis 
+ 
+20 Hepatitis B TTLM 
+1. Rapid test Hepatitis B 
+(HbSAg), 
+2. Blood lancet, 
+3. Alkohol swab 
+21 Hepatitis C TTLM 
+1. Rapid test Hepatitis C 
+(anti HCV), 
+2. Blood lancet, 
+3. Alkohol swab 
+22 Fibrosis/ 
+Sirosis hati TTLM 
+1. Hematology 
+Analyzer, 
+2. Clinical Chemistry 
+Analyzer/Fotometer 
+1. Reagen Hematology 
+Analyzer (Trombosit) 
+2. Reagen Chemistry 
+Analyzer (SGOT) 
+3. Vacutainer tutup merah 
+4. Vacutainer tutup ungu 
+(EDTA) 
+5. Vacutainer Needle 
+6. Vacutainer Holder
+[[hal:30]]
+No Pemeriksaan SDM Kesehatan 
+Kebutuhan 
+Alat Kesehatan Bahan Medis Habis Pakai 
+(BMHP) 
+7. Alcohol swab 
+8. Plester bulat bening 
+9. Handscoon 
+23 
+Kulit 
+● Kusta, 
+● Skabies, 
+● Frambusia 
+(pada 
+daerah 
+endemis) 
+Dokter/ Bidan/ 
+Perawat/ Nakes 
+lain (TTLM) 
+1. Senter (bila perlu) 
+2. Kapas pilin dan/atau 
+jarum 
+3. Mikroskop 
+Kusta 
+1. Alcohol swab, 
+2. Sarung tangan non steril 
+3. Scalpel 
+4. Obyek glass 
+5. Ziehl Neelsen 
+Skabies 
+1. Obyek glass 
+2. Tinta 
+Frambusia 
+1. Blood lancet 
+2. Alcohol swab, 
+3. Sarung tangan non steril 
+4. RDT treponema 
+*Pada Fasilitas Pelayanan Kesehatan yang Mampu 
+**Di Labkesmas Tingkat 2 
+***Untuk pemeriksaan X-Ray 
+ 
+5. Melakukan pemenuhan BMHP: 
+a. Membuat perencanaan kebutuhan BMHP berdasarkan sasaran 
+yang telah dipetakan bersama Program Pusat dengan 
+memperhitungkan data stok. Program Pusat yang dimaksud 
+adalah Program Penyakit Tidak Menular, Program Penyakit 
+Menular, Program Pelayanan Kesehatan Keluarga dan Program 
+Imunisasi. 
+b. Pemenuhan BMHP oleh Dinas Kesehatan Daerah 
+Kabupaten/Kota dapat menggunakan Dana Anggaran 
+Pendapatan dan Belanja Daerah (APBD), Anggaran Pendapatan 
+dan Belanja Negara (APBN) dan/atau sumber lainnya yang tidak 
+mengikat sesuai peraturan perundang-undangan yang berlaku. 
+c. Melakukan pengajuan BMHP yang bersumber APBN kepada 
+Direktorat Jenderal Farmasi dan Alat Kesehatan (Farmalkes) 
+paling lambat setiap tanggal 15 bulan Januari (untuk tahun 2026 
+bisa sampai 15 Februari) dan Juli tahun berjalan melalui Satu 
+Sehat Logistik SMILE. 
+d. Dalam hal pengajuan BMHP pada poin 5c didasarkan pada 
+pemetaan sasaran, rencana pelaksanaan CKG, serta kapasitas 
+layanan di daerah.
+[[hal:31]]
+e. Melakukan distribusi BMHP kepada Puskesmas dan Fasyankes 
+lainnya. Distribusi Kepada Fasyankes lainnya dapat dilakukan 
+secara langsung atau melalui Puskesmas penanggung jawab 
+wilayah. 
+f. Melakukan pemantauan ketersediaan BMHP di wilayahnya. 
+6. Menyusun tata hubungan kerja antar fasyankes yang 
+menyelenggarakan CKG. 
+a. Dinas Kesehatan dengan Fasilitas Pelayanan Kesehatan yang 
+menyelenggarakan CKG: 
+1) Dinas Kesehatan Daerah Kabupaten/Kota menetapkan alur 
+rujukan sesuai dengan kemampuan Fasyankes 
+penyelenggara CKG. 
+2) Fasyankes penyelenggara CKG melaporkan pemakaian 
+BMHP ke Dinas Kesehatan Daerah Kabupaten/Kota paling 
+sedikit 1 kali dalam sebulan. 
+3) Dinas Kesehatan Daerah Kabupaten/Kota melakukan 
+monitoring dan evaluasi capaian CKG. 
+b. Puskesmas dengan Fasyankes penyelenggara CKG di wilayah 
+kerjanya: 
+1) Puskesmas membuatkan akun SSI/ASIK kepada Fasyankes 
+penyelenggara CKG di wilayah kerjanya. 
+2) Puskesmas mendistribusikan BMHP kepada Fasyankes 
+penyelenggara CKG di wilayah kerjanya berdasarkan 
+delegasi dari Dinas Kesehatan Kabupaten/Kota. 
+3) Puskesmas menerima rujukan Fasyankes penyelenggara 
+CKG di wilayah kerjanya untuk melengkapi pemeriksaan 
+sesuai paket layanan CKG lengkap. Contoh: 
+● Rujukan untuk melengkapi pemeriksaan PJBK pada 
+bayi baru lahir menggunakan newborn pulse oximeter. 
+● Rujukan untuk pemeriksaan kelainan jantung dengan 
+EKG pada usia 40 tahun dengan hipertensi/diabetes 
+melitus (DM). 
+4) Puskesmas melakukan koordinasi berkala dengan 
+Fasyankes penyelenggara CKG di wilayah kerjanya dalam 
+rangka evaluasi penyelenggaraan dan capaian CKG. 
+c. Fasyankes penyelenggara CKG dengan Labkesmas Tingkat 2 atau 
+Labkesmas Tingkat 3
+[[hal:32]]
+1) Puskesmas dapat merujuk spesimen pemeriksaan kepada 
+Labkesmas Tingkat 2 dan/atau Labkesmas Tingkat 3 di 
+wilayahnya sesuai kebutuhan. 
+2) Fasyankes penyelenggara CKG selain Puskesmas dapat 
+merujuk spesimen pemeriksaan kesehatan ke Labkesmas 
+Tingkat 2 dan/atau Labkesmas Tingkat 3 jika Puskesmas di 
+wilayahnya tidak memiliki SDM atau alat kesehatan sesuai 
+standar. 
+7. Memfasilitasi pelaksanaan simulasi CKG di Fasyankes penyelenggara 
+CKG. 
+8. Melakukan komunikasi, informasi dan edukasi kepada masyarakat. 
+ 
+D. Persiapan di Tingkat Puskesmas 
+1. Menghitung sasaran penerima CKG di wilayah Puskesmas sesuai 
+kelompok usia sebagaimana pada poin C-3. 
+2. Memetakan Fasyankes dan komunitas di wilayah kerja Puskesmas 
+yang berpotensi menyelenggarakan CKG: 
+a. Mengidentifikasi dan memetakan kapasitas Fasyankes yang akan 
+menyelenggarakan CKG di wilayahnya. 
+b. Memastikan ketersediaan Sumber Daya Manusia (SDM), alat 
+kesehatan dan BMHP serta obat di Fasyankes pada wilayah 
+kerjanya sesuai Tabel 3.1., Tabel 3.2., Tabel 3.3., dan Tabel 3.4. 
+3. Melakukan pemenuhan BMHP: 
+a. Membuat perencanaan kebutuhan BMHP berdasarkan sasaran 
+yang telah dipetakan bersama Program Pusat dengan 
+memperhitungkan data stok. Program Pusat yang dimaksud 
+adalah Program Penyakit Tidak Menular, Program Penyakit 
+Menular, Program Pelayanan Kesehatan Keluarga dan Program 
+Imunisasi. 
+b. Membuat perencanaan BMHP melalui Satu Sehat Logistik SMILE 
+untuk kemudian ditindaklanjuti oleh Dinas Kesehatan Daerah 
+Kabupaten/Kota. 
+c. Melakukan distribusi BMHP kepada Fasyankes di wilayah 
+kerjanya atas delegasi Dinas Kesehatan Daerah Kabupaten/Kota. 
+d. Melakukan pemantauan ketersediaan BMHP di wilayahnya. 
+4. Menghitung kebutuhan dan memastikan ketersediaan obat untuk tata 
+laksana hasil CKG.
+[[hal:33]]
+5. Membuat rancangan alur pelayanan dan alur rujukan, identifikasi 
+petugas Puskesmas yang akan memberikan pelayanan CKG. 
+6. Melakukan simulasi pelayanan CKG untuk dapat memperkirakan 
+beban kerja dan kendala yang akan dihadapi. 
+7. Menyiapkan media dan melakukan komunikasi, informasi dan 
+edukasi kepada masyarakat. 
+8. Menunjuk dan mendaftarkan administrator website SSI/ASIK kepada 
+Kementerian Kesehatan bagi Puskesmas yang belum memiliki/akan 
+mengganti admin SSI/ASIK. 
+9. Bagi Puskesmas yang akan mengganti atau menambah tenaga 
+kesehatan penginput data layanan CKG, maka administrator 
+SSI/ASIK mendaftarkan di website SSI/ASIK. 
+10. Membuatkan akun SSI/ASIK kepada Fasyankes penyelenggara CKG 
+di wilayah kerjanya. 
+11. Mengatur jadwal pelayanan CKG (hari, jam buka, dan kuota layanan 
+pendaftaran online) melalui website SSI/ASIK. 
+ 
+E. Persiapan di tingkat Fasyankes penyelenggara CKG selain Puskesmas 
+(termasuk Fasyankes yang menyelenggarakan persalinan) 
+1. Berkoordinasi dengan Puskesmas untuk pelaksanaan CKG termasuk 
+untuk mendapatkan akun SSI/ASIK. 
+2. Menentukan sasaran penerima CKG. 
+3. Memetakan ketersediaan alat kesehatan dan menghitung kebutuhan 
+BMHP. 
+4. Menyampaikan kebutuhan BMHP kepada Puskesmas dan/atau Dinas 
+Kesehatan Kabupaten/Kota untuk pelaksanaan CKG. 
+5. Khusus Fasyankes di lingkungan TNI/Polri permintaan BMHP 
+dikoordinasikan oleh Pusat Kesehatan (Puskes) TNI/Pusat Kedokteran 
+dan Kesehatan (Pusdokkes) Polri untuk disampaikan kepada 
+Direktorat Jenderal Farmasi dan Alat Kesehatan Kementerian 
+Kesehatan. 
+6. Menghitung kebutuhan dan memastikan ketersediaan obat untuk tata 
+laksana hasil CKG. 
+7. Menunjuk petugas kesehatan yang akan menginput data layanan CKG 
+di website SSI/ASIK. 
+8. Membuat rancangan alur pelayanan dan alur rujukan. 
+9. Melakukan simulasi pelayanan CKG.
+[[hal:34]]
+10. Menyiapkan media dan melakukan komunikasi, informasi dan 
+edukasi kepada masyarakat. 
+ 
+F. Persiapan CKG di Tempat Kerja Formal 
+1. Tempat kerja formal yang memiliki Fasyankes, maka mengikuti 
+langkah-langkah di poin E. 
+2. Tempat kerja formal yang tidak memiliki Fasyankes dapat 
+bekerjasama dengan Puskesmas atau FPKTP lainnya. 
+ 
+G. Persiapan CKG di Tempat Kerja Informal 
+1. Koordinator kelompok pekerja informal menentukan sasaran 
+penerima CKG (anggota kelompok pekerja). 
+2. Koordinator kelompok pekerja informal berkoordinasi dengan 
+Puskesmas untuk menginformasikan jumlah sasaran dan jadwal 
+pelaksanaan. 
+3. Menyiapkan tempat pelaksanaan CKG. 
+4. Melakukan sosialisasi kepada kelompok pekerja (jadwal, tempat dan 
+mekanisme pelaksanaan CKG). 
+ 
+H. Persiapan CKG di Komunitas oleh mitra 
+1. Melakukan koordinasi dengan Dinas Kesehatan Kabupaten/Kota 
+dan/atau Puskesmas, FPKTP lain untuk dapat menyelenggarakan 
+CKG. 
+2. Menghitung kebutuhan BMHP mengacu dengan jumlah sasaran yang 
+akan dilayani. 
+3. Memastikan kesiapan tenaga medis dan tenaga kesehatan, 
+ruang/tempat pelayanan, alat kesehatan dan BMHP. 
+4. Dalam hal terdapat keterbatasan tenaga medis dan tenaga kesehatan, 
+serta alat kesehatan dan BMHP, mitra dapat bekerjasama dengan 
+Puskesmas atau FPKTP lain. 
+ 
+I. Persiapan CKG di Labkesmas tingkat 2, tingkat 3 dan tingkat 4 
+1. Labkesmas tingkat 2 
+a. Menghitung reagen dan BMHP yang diperlukan untuk CKG. 
+b. Mendampingi Labkesmas tingkat 1 dalam identifikasi kesiapan 
+sumber daya dan penghitungan kebutuhan serta pengelolaan
+[[hal:35]]
+sumber daya yang dibutuhkan pada pelaksanaan cek Kesehatan 
+gratis. 
+c. Bersama Dinas Kesehatan Daerah Kabupaten/Kota 
+mengidentifikasi ketersediaan dan menghitung kebutuhan 
+sumber daya yang memerlukan dukungan program terkait di 
+Kementerian Kesehatan untuk pelaksanaan CKG. 
+d. Melakukan pemenuhan Reagen dan BMHP sesuai dengan 
+kebutuhan menggunakan alokasi Anggaran Pendapatan dan 
+Belanja Daerah (APBD), Anggaran Pendapatan dan Belanja 
+Negara (APBN) dan/atau sumber lainnya sesuai peraturan 
+perundangan-undangan yang berlaku, seperti pembelian BMHP 
+HPV DNA bersumber dari DAK Non Fisik kabupaten/kota. 
+2. Labkesmas tingkat 3 
+a. Mendampingi Labkesmas tingkat 2 dalam identifikasi kesiapan 
+sumber daya dan penghitungan kebutuhan serta pengelolaan 
+sumber daya yang dibutuhkan pada pelaksanaan cek kesehatan 
+gratis. 
+b. Memastikan Pemantapan Mutu Internal (PMI) dan Pemantapan 
+Mutu Eksternal (PME) dilakukan sesuai ketentuan. 
+c. Berkoordinasi dengan Dinas Kesehatan Daerah Provinsi dan 
+Dinas Kesehatan Daerah Kabupaten/Kota memetakan 
+ketersediaan dan menghitung kebutuhan sumber daya yang 
+memerlukan dukungan program terkait di Kementerian 
+Kesehatan untuk pelaksanaan CKG. 
+3. Labkesmas tingkat 4 
+Melakukan koordinasi berjenjang dengan Labkesmas Tingkat 3 dan 
+Tingkat 2 untuk memastikan kesiapan pemeriksaan laboratorium 
+dalam CKG di wilayahnya.

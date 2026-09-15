@@ -1,0 +1,12 @@
+{
+  "id": "24033477-3658-43af-b3a8-faa3c2d36603",
+  "pertanyaan": "Saat mendaftar CKG atau mengisi skrining mandiri melalui tautan yang dikirim muncul notifikasi “Data pasien tidak sesuai dengan KTP. Pastikan data sesuai untuk melanjutkan pendaftaran”, apa yang harus dilakukan?",
+  "isi_html": "<p>Mohon pastikan data yang diinput sudah sesuai dengan identitas peserta CKG. Jika kendala masih terjadi, harap kumpulkan data identitas dengan format berikut:</p>\n<ol>\n<li>Nama peserta</li>\n<li>NIK peserta</li>\n<li>Tanggal lahir peserta</li>\n<li>Foto KTP</li>\n</ol>\n<p>Kemudian kirimkan dokumen tersebut melalui email ke <a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a> untuk divalidasi, dan setelah menerima informasi telah divalidasi kemudian melakukan pengisian ulang dari tautan yang dikirimkan.</p>\n<p>Atau dapat langsung melakukan pendaftaran dan pengisian skrining mandiri melalui tautan: <a target=_blank href=\"https://form.kemkes.go.id/ckg\">Form Skrining Mandiri CKG</a></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis Ulang Tahun / Umum",
+  "kategori_kunci": "umum",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ CKG Umum",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/24033477-3658-43af-b3a8-faa3c2d36603",
+  "tanggal_pembaruan": "2026-06-23",
+  "tanggal_ambil": "2026-08-24"
+}

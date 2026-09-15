@@ -1,0 +1,141 @@
+[[hal:36]]
+BAB IV 
+PELAKSANAAN CEK KESEHATAN GRATIS 
+ 
+Pelaksanaan CKG baik yang dilakukan di FPKTP, tempat kerja maupun 
+komunitas serta fasilitas lainnya secara umum adalah sebagai berikut: 
+1. Konfirmasi oleh petugas: 
+Peserta CKG melakukan registrasi ulang dan petugas 
+Fasyankes/penyelenggara CKG akan mengkonfirmasi: 
+a. Tiket pendaftaran di SSM/WA 
+b. Identitas diri: KTP/Kartu Identitas Anak/KK. 
+c. Jika belum mendaftar melalui SSM/WA Chatbot Kemenkes, petugas 
+mendaftarkan ke website SSI/ASIK. 
+2. Pelayanan CKG: 
+a. Petugas mengidentifikasi kondisi disabilitas untuk menyesuaikan cara 
+komunikasi, interaksi dan pemeriksaan kesehatan serta kebutuhan 
+alat/media bantu. 
+b. Petugas mengkaji hasil pengisian mandiri kuesioner yang meliputi 
+riwayat kesehatan dan gejala penyakit pasien. 
+c. Petugas memberikan pelayanan CKG dan menindaklanjuti sesuai 
+standar program. 
+d. Petugas mencatat hasil pemeriksaan di website SSI/ASIK secara real 
+time agar masyarakat mendapat hasil pemeriksaan segera. 
+e. Melakukan rujukan horizontal ke Puskesmas atau kepada Labkesmas 
+untuk pemeriksaan yang tidak dapat dilakukan. 
+3. Pemberian informasi hasil CKG: 
+a. Tenaga medis/tenaga kesehatan menjelaskan hasil CKG secara rinci 
+kepada peserta CKG. 
+b. Tenaga medis/tenaga kesehatan menjelaskan pengobatan/tata 
+laksana yang diperlukan. 
+c. Tenaga medis/tenaga kesehatan menjelaskan perubahan perilaku 
+kesehatan yang perlu dilakukan oleh peserta CKG. 
+d. Tenaga medis/tenaga kesehatan menjelaskan kapan peserta perlu 
+kembali untuk pemeriksaan/pengobatan lanjutan atau pembacaan 
+hasil yang belum tersedia pada hari itu. 
+e. Tenaga medis/tenaga kesehatan menjelaskan bahwa keseluruhan 
+hasil CKG dikirimkan melalui WA dan dapat diakses melalui akun
+[[hal:37]]
+SSM dan membantu mengunduh aplikasi SSM bila peserta belum 
+menggunakannya. 
+4. Bilamana CKG dilakukan bukan di Fasyankes dan pemeriksaan yang 
+diberikan tidak lengkap, maka tenaga medis/tenaga 
+Kesehatan/penyelenggara CKG harus menyampaikan kepada peserta 
+untuk melengkapi pemeriksaan di Fasyankes dalam kurun waktu 30 hari. 
+5. Tindak lanjut hasil pemeriksaan dilakukan sesuai Tabel 4.1. 
+ 
+Tabel 4.1. Tindak Lanjut Cek Kesehatan Gratis 
+ 
+ 
+Hasil Pemeriksaan Keterangan Tindak Lanjut 
+Hasil pemeriksaan 
+normal dan faktor 
+risiko tidak 
+terdeteksi 
+Hasil pemeriksaan 
+menunjukkan tidak ada 
+masalah kesehatan dan tidak 
+terdapat faktor risiko 
+kesehatan 
+● Berikan apresiasi dan lakukan edukasi 
+tentang Pola Hidup Sehat dan Pencegahan 
+Penyakit 
+● Informasikan untuk melakukan CKG 
+kembali tahun depan 
+Hasil pemeriksaan 
+normal dengan 
+faktor risiko 
+Hasil pemeriksaan 
+menunjukkan tidak ada 
+masalah kesehatan namun 
+terdapat faktor risiko 
+kesehatan 
+(Overweight/Underweight, 
+merokok, tingkat aktivitas 
+fisik cukup atau kurang) 
+● Berikan edukasi dan nasihat singkat 
+berhenti merokok serta memodifikasi gaya 
+hidup agar faktor risiko turun atau hilang 
+dengan mengikuti layanan konseling 
+berhenti merokok atau konseling gizi 
+● Informasikan untuk melakukan CKG 
+kembali tahun depan 
+Hasil pemeriksaan 
+menunjukkan 
+kondisi pra 
+penyakit 
+Hasil pemeriksaan 
+menunjukkan kondisi 
+Prehipertensi, Prediabetes, 
+Obesitas 
+● Berikan tata laksana Prehipertensi dan 
+Prediabetes sesuai standar agar tidak 
+menjadi Hipertensi dan Diabetes 
+● Berikan edukasi dan konseling untuk 
+mengatasi obesitas, seperti pengaturan 
+pola makan, pola aktivitas yang sehat, dan 
+latihan fisik yang teratur 
+● Berikan edukasi untuk memodifikasi gaya 
+hidup menjadi lebih baik untuk mencegah 
+penyakit 
+● Berikan konseling penurunan berat badan 
+● Informasikan untuk melakukan CKG 
+kembali tahun depan 
+Hasil pemeriksaan 
+menunjukkan 
+kondisi penyakit 
+Tata laksana dalam 
+kompetensi FPKTP 
+● Beri edukasi terkait hasil pemeriksaan 
+● Lakukan tata laksana/pengobatan sesuai 
+dengan Panduan Praktis Klinis bagi Dokter 
+di FPKTP dan/atau petunjuk teknis dari 
+
+● Dalam hal tidak terdapat tenaga medis di 
+FPKTP, tata laksana/pengobatan dapat 
+dilakukan oleh tenaga kesehatan 
+berdasarkan pelimpahan kewenangan dari 
+tenaga medis, atau berdasarkan ketentuan 
+pemberian pelayanan kesehatan di luar 
+kewenangan sesuai dengan ketentuan 
+peraturan perundang-undangan 
+Tata laksana di luar 
+kompetensi Tenaga Medis di 
+FPKTP 
+● Beri edukasi terkait hasil pemeriksaan 
+● Rujuk ke FPKTL sesuai ketentuan
+[[hal:38]]
+6. Melakukan mitigasi untuk menurunkan angka missing visit/pasien tidak 
+datang kembali kepada masyarakat yang terdiagnosis penyakit pada CKG 
+dan membutuhkan tindak lanjut atau pengobatan lanjutan. Beberapa 
+langkah yang dapat diambil antara lain: 
+a. Pelibatan Kader Kesehatan untuk membantu mengingatkan keluarga 
+baik saat hari buka Posyandu atau saat kunjungan rumah agar pasien 
+kembali ke FPKTP untuk tindak lanjut pengobatan atau pemeriksaan 
+lanjutan. 
+b. Bekerja sama dengan RT/RW untuk memantau warga yang belum 
+kembali melakukan pemeriksaan lanjutan dan memastikan mereka 
+melanjutkan pengobatan. 
+c. ⁠Pemanfaatan Whatsapp Group (WAG) Puskesmas dengan Kader 
+Kesehatan dan Pasien untuk mengingatkan jadwal kunjungan dan 
+memberi dukungan.

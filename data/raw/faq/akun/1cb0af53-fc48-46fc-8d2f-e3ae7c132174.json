@@ -1,0 +1,12 @@
+{
+  "id": "1cb0af53-fc48-46fc-8d2f-e3ae7c132174",
+  "pertanyaan": "Bagaimana cara mengaktifkan biometrik?",
+  "isi_html": "<ol>\n<li>Login ke SATUSEHAT Mobile</li>\n<li>Buka ‘Profil’</li>\n<li>Klik fitur ’Keamanan Akun’</li>\n<li>Klik ‘Biometrik’, aktifkan toggle biometrik dan menyetujui syarat penggunaan biometrik</li>\n<li>Lakukan verifikasi pindai wajah/sidik jari dan masukkan PIN SATUSEHAT Mobile</li>\n<li>Biometrik Anda sudah aktif</li>\n</ol>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1cb0af53-fc48-46fc-8d2f-e3ae7c132174",
+  "tanggal_pembaruan": "2024-11-21",
+  "tanggal_ambil": "2026-08-26"
+}

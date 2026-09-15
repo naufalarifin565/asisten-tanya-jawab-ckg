@@ -1,0 +1,129 @@
+{
+  "sumber": "FAQ Akun dan Keamanan SATUSEHAT",
+  "kategori_id": "66a03477-fecd-4a34-a181-e8c0bf580beb",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-26",
+  "jumlah": 15,
+  "topik": [
+    {
+      "id": "7f8ce6e3-81a0-43a2-8140-4511d03e5c45",
+      "judul": "Kenapa saya tidak dapat registrasi akun?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7f8ce6e3-81a0-43a2-8140-4511d03e5c45",
+      "berkas": "7f8ce6e3-81a0-43a2-8140-4511d03e5c45.json",
+      "status": "berhasil",
+      "sha256": "a508349daeda387ff55cc77dc88f38fe534b7bd2ef708750fb86db21c2e8980a"
+    },
+    {
+      "id": "3f82b644-fa40-4f72-9372-52f3e55042b5",
+      "judul": "Bagaimana jika data saya (misalnya NIK) tertukar dengan data orang lain di profil SATUSEHAT Mobile?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3f82b644-fa40-4f72-9372-52f3e55042b5",
+      "berkas": "3f82b644-fa40-4f72-9372-52f3e55042b5.json",
+      "status": "berhasil",
+      "sha256": "a7aefa425991edf7dbce484a0cac59636f0a840d7a6d1076e9c34ee4613891d1"
+    },
+    {
+      "id": "ba26ec3e-970c-40eb-a987-8f7c215cbd40",
+      "judul": "Apa itu PIN?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ba26ec3e-970c-40eb-a987-8f7c215cbd40",
+      "berkas": "ba26ec3e-970c-40eb-a987-8f7c215cbd40.json",
+      "status": "berhasil",
+      "sha256": "e6a97cdec84f492d7ab19cd5bb371978368624e3da13b9e9b205063495997a78"
+    },
+    {
+      "id": "f5f73742-8671-4435-bd1d-26a5dd3d6452",
+      "judul": "Bagaimana cara membuat PIN?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f5f73742-8671-4435-bd1d-26a5dd3d6452",
+      "berkas": "f5f73742-8671-4435-bd1d-26a5dd3d6452.json",
+      "status": "berhasil",
+      "sha256": "4f6590d02134a241d3a5e6ba47e607dcae624c740394f2b6e232e5c1a1de654b"
+    },
+    {
+      "id": "40b13c19-853a-41af-8443-0ab3b02474de",
+      "judul": "Apa yang harus dihindari ketika saya membuat PIN?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/40b13c19-853a-41af-8443-0ab3b02474de",
+      "berkas": "40b13c19-853a-41af-8443-0ab3b02474de.json",
+      "status": "berhasil",
+      "sha256": "477478bf4cc3b8dc81f0b57dbd938f77cbbaee777af9defef37fcb8b3fc9829a"
+    },
+    {
+      "id": "ba8dce0f-f17f-4595-b4dd-2f37d3260af4",
+      "judul": "Apakah saya bisa memperbarui PIN? Bagaimana caranya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ba8dce0f-f17f-4595-b4dd-2f37d3260af4",
+      "berkas": "ba8dce0f-f17f-4595-b4dd-2f37d3260af4.json",
+      "status": "berhasil",
+      "sha256": "c64742e36776554a2cb3c91000531802ca0e49f22283d2732d157f0dceb633a8"
+    },
+    {
+      "id": "06d78b2e-d907-4449-83d8-25122bdfd558",
+      "judul": "Saya lupa PIN, apakah bisa diubah? Bagaimana caranya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/06d78b2e-d907-4449-83d8-25122bdfd558",
+      "berkas": "06d78b2e-d907-4449-83d8-25122bdfd558.json",
+      "status": "berhasil",
+      "sha256": "da91ab2b3d8e290de639b5fd5ce3111f2d12718334105c37f0bdca09f3afe7b2"
+    },
+    {
+      "id": "4a6e3a6e-acbb-419b-b67f-0c38b5e46d24",
+      "judul": "Apa itu Biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4a6e3a6e-acbb-419b-b67f-0c38b5e46d24",
+      "berkas": "4a6e3a6e-acbb-419b-b67f-0c38b5e46d24.json",
+      "status": "berhasil",
+      "sha256": "cccb2fc170ef2f8c076f38caa6d16f86873a3f6cec453f2b68fdd58fee3be7fe"
+    },
+    {
+      "id": "0a69c258-09c7-47f9-9601-a33fb125d8a2",
+      "judul": "Apa syarat untuk mengaktifkan biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0a69c258-09c7-47f9-9601-a33fb125d8a2",
+      "berkas": "0a69c258-09c7-47f9-9601-a33fb125d8a2.json",
+      "status": "berhasil",
+      "sha256": "6cee5c679cd82d3cb9ecb8afa85e0d6783ab6eb60d125d1a6f3180317237dad5"
+    },
+    {
+      "id": "1cb0af53-fc48-46fc-8d2f-e3ae7c132174",
+      "judul": "Bagaimana cara mengaktifkan biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1cb0af53-fc48-46fc-8d2f-e3ae7c132174",
+      "berkas": "1cb0af53-fc48-46fc-8d2f-e3ae7c132174.json",
+      "status": "berhasil",
+      "sha256": "2a18423a8fa747bc642a85cd87e0744935fe7767831fa2a68547afde30da9f85"
+    },
+    {
+      "id": "4ae729d6-d380-47d8-80bc-a6abd794f06f",
+      "judul": "Apa manfaat penggunaan biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4ae729d6-d380-47d8-80bc-a6abd794f06f",
+      "berkas": "4ae729d6-d380-47d8-80bc-a6abd794f06f.json",
+      "status": "berhasil",
+      "sha256": "b78d32c5cdea5a34350d12f552a8763b445fb91a935ca1111087a620276d89cc"
+    },
+    {
+      "id": "86a465d4-d973-42fa-a92f-3f203f8e928e",
+      "judul": "Bagaimana cara menonaktifkan biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/86a465d4-d973-42fa-a92f-3f203f8e928e",
+      "berkas": "86a465d4-d973-42fa-a92f-3f203f8e928e.json",
+      "status": "berhasil",
+      "sha256": "1b0e5ede9e79fa656e022cac4776dc723b1b166685c12c8dc25063bcc3216423"
+    },
+    {
+      "id": "3551e3ea-1847-4a6f-aaec-1b1eb6f94f51",
+      "judul": "Bagaimana jika verifikasi biometrik tidak berhasil saat mengaktifkan biometrik?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3551e3ea-1847-4a6f-aaec-1b1eb6f94f51",
+      "berkas": "3551e3ea-1847-4a6f-aaec-1b1eb6f94f51.json",
+      "status": "berhasil",
+      "sha256": "fd87a1d575bdd6cb0ed0158b03fd0789622ee25784881b4f458771fcd1318602"
+    },
+    {
+      "id": "f5107616-02f7-49dd-91e0-a88217a76647",
+      "judul": "Bagaimana jika verifikasi biometrik tidak berhasil saat mengakses Rekam Medis Elektronik (RME) dan/atau Riwayat Imunisasi Rutin?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/f5107616-02f7-49dd-91e0-a88217a76647",
+      "berkas": "f5107616-02f7-49dd-91e0-a88217a76647.json",
+      "status": "berhasil",
+      "sha256": "12d4d03a2fa3a0d3bdd72d58740821ad40776ddb03aed181d8654a1d26c75795"
+    },
+    {
+      "id": "66792353-0aad-44ae-bcd9-fa198d86b419",
+      "judul": "Aplikasi SATUSEHAT saya stuck/crash (Android)",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/66792353-0aad-44ae-bcd9-fa198d86b419",
+      "berkas": "66792353-0aad-44ae-bcd9-fa198d86b419.json",
+      "status": "berhasil",
+      "sha256": "7e4f4e883ecf66d7655fcf252e6a17a128270379ce4512a4f39701b929669192"
+    }
+  ]
+}

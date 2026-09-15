@@ -1,0 +1,12 @@
+{
+  "id": "daef6adb-ba88-46d0-8782-890169f96ad0",
+  "pertanyaan": "Mengapa muncul notifikasi \"Silahkan periksa Cari/Daftarkan Individu Anda secara berkala. Jika belum tercatat, silakan coba registrasi lagi atau hubungi Helpdesk kami\". Apa yang harus dilakukan?",
+  "isi_html": "<p>Notifikasi tersebut muncul apabila peserta CKG didaftarkan lebih dari satu kali dalam rentang waktu yang berdekatan. Sistem menerapkan mekanisme <strong>idle time</strong> sekitar <strong>15 menit</strong> sejak pendaftaran pertama dilakukan untuk mencegah terjadinya duplikasi data. Oleh karena itu, silakan menunggu kurang lebih 15 menit sebelum mencoba melakukan pendaftaran kembali.</p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/daef6adb-ba88-46d0-8782-890169f96ad0",
+  "tanggal_pembaruan": "2026-06-23",
+  "tanggal_ambil": "2026-08-24"
+}

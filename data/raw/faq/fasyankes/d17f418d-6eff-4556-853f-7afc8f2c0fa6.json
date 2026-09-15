@@ -1,0 +1,12 @@
+{
+  "id": "d17f418d-6eff-4556-853f-7afc8f2c0fa6",
+  "pertanyaan": "Mengapa saya mendapatkan pesan \"Nomor WhatsApp sudah terdaftar\" saat registrasi akun di ASIK Web (dashboard)?",
+  "isi_html": "<p>Pesan ini muncul karena nomor WhatsApp yang digunakan sudah terdaftar dalam sistem. Untuk menyelesaikan proses registrasi, pengguna PKM/Dinkes Kab/Ko, Dinkes Provinsi, Nasional perlu menambahkan email melalui ASIK Mobile dengan mengikuti langkah-langkah berikut:</p>\n<ol>\n<li>Login ke Aplikasi Sehat IndonesiaKu (ASIK) Mobile</li>\n<li>Masukkan nomor HP yang sudah terdaftar</li>\n<li>Lakukan verifikasi dengan mengisi NIK yang terdaftar</li>\n<li>Konfirmasi bahwa nomor HP pernah digunakan untuk mendaftar di Puskesmas wilayah</li>\n<li>Tambahkan email pribadi yang akan digunakan untuk login ke ASIK Web (Dashboard)</li>\n<li>Buat dan konfirmasi PIN untuk keamanan akun</li>\n<li>Administrator dapat mengulangi proses pendaftaran pengguna di ASIK Web (Dashboard) dengan menggunakan email yang sudah didaftarkan di ASIK Mobile</li>\n<li>Pengguna login ke ASIK Web (Dashboard) menggunakan email yang telah ditambahkan di ASIK Mobile</li>\n<li>Proses selesai, akun siap digunakan</li>\n</ol>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/d17f418d-6eff-4556-853f-7afc8f2c0fa6",
+  "tanggal_pembaruan": "2025-02-19",
+  "tanggal_ambil": "2026-08-24"
+}

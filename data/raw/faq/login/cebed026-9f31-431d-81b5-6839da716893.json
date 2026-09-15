@@ -1,0 +1,12 @@
+{
+  "id": "cebed026-9f31-431d-81b5-6839da716893",
+  "pertanyaan": "Bagaimana masuk ke akun SATUSEHAT menggunakan  Identitas Kependudukan Digital (IKD)?",
+  "isi_html": "<p><strong>Masuk dengan Identitas Kependudukan Digital (IKD)</strong></p>\n<ol>\n<li>Klik “Masuk” pada halaman login</li>\n<li>Pilih masuk dengan Identitas Kependudukan Digital (IKD)</li>\n<li>Masukkan NIK, PIN Identitas Kependudukan, dan CAPTCHA, kemudian tekan “Lanjut” untuk login</li>\n<li>Sukses masuk ke akun SATUSEHAT dan profil Anda otomatis terverifikasi (centang biru) untuk dapat mengakses catatan medis di menu Resume Medis</li>\n</ol>\n",
+  "kategori_label": "Kendala Login SATUSEHAT Mobile",
+  "kategori_kunci": "login",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Kendala Login SATUSEHAT Mobile",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/cebed026-9f31-431d-81b5-6839da716893",
+  "tanggal_pembaruan": "2025-01-24",
+  "tanggal_ambil": "2026-08-26"
+}

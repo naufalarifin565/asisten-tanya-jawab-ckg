@@ -1,0 +1,12 @@
+{
+  "id": "39278af7-3b5a-4428-8fee-463e28406e9a",
+  "pertanyaan": "Sudah centang biru, tapi catatan medis saya belum muncul",
+  "isi_html": "<h3>Sudah centang biru, tapi catatan medis saya belum muncul</h3>\n<p>Catatan medis akan muncul di 'Resume Medis' jika fasyankes tempat Anda berobat telah terintegrasi dan mengirimkan data ke SATUSEHAT.</p>\n",
+  "kategori_label": "Verifikasi Profil (KYC)",
+  "kategori_kunci": "kyc",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Verifikasi Profil (KYC)",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/39278af7-3b5a-4428-8fee-463e28406e9a",
+  "tanggal_pembaruan": "2024-08-08",
+  "tanggal_ambil": "2026-08-26"
+}

@@ -1,0 +1,73 @@
+{
+  "sumber": "FAQ Profil Terhubung",
+  "kategori_id": "19b8c7f7-b004-4525-8243-a79dda305af3",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-26",
+  "jumlah": 8,
+  "topik": [
+    {
+      "id": "a47c30b2-a8cd-40d5-ae3a-3e33e552375a",
+      "judul": "Apa itu Profil Terhubung?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/a47c30b2-a8cd-40d5-ae3a-3e33e552375a",
+      "berkas": "a47c30b2-a8cd-40d5-ae3a-3e33e552375a.json",
+      "status": "berhasil",
+      "sha256": "9b53369db5c4709b45d38ecb64bb5fe7d0c484be724dd3c702b47a9cf151c4f4"
+    },
+    {
+      "id": "62526b82-458d-4205-a1e5-93258b2ae508",
+      "judul": "Apa syarat menambahkan profil terhubung di akun SATUSEHAT saya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/62526b82-458d-4205-a1e5-93258b2ae508",
+      "berkas": "62526b82-458d-4205-a1e5-93258b2ae508.json",
+      "status": "berhasil",
+      "sha256": "35635c153c965484fbc24c8bbbcd6173bde728b21a1cc5f78dbe2c2ee328c327"
+    },
+    {
+      "id": "1e72f5ce-1d64-468f-a717-7c399ab4763a",
+      "judul": "Bagaimana cara menambahkan profil terhubung?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1e72f5ce-1d64-468f-a717-7c399ab4763a",
+      "berkas": "1e72f5ce-1d64-468f-a717-7c399ab4763a.json",
+      "status": "berhasil",
+      "sha256": "4b2a2cc9164c9f36f7856863305fc4da1ae161686993632f9c9b11bbfcfd93a0"
+    },
+    {
+      "id": "80b7ebb0-655b-4f16-afb5-d7fbe6a3960a",
+      "judul": "Apakah saya diwajibkan untuk verifikasi profil (centang biru) untuk menambahkan profil terhubung di akun SATUSEHAT?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/80b7ebb0-655b-4f16-afb5-d7fbe6a3960a",
+      "berkas": "80b7ebb0-655b-4f16-afb5-d7fbe6a3960a.json",
+      "status": "berhasil",
+      "sha256": "50074d63210928372dbd539d60896c07759673b5cc2e69ded0a550fcea781e62"
+    },
+    {
+      "id": "067e7b2e-bcf1-4346-ab08-d3f678a6bc9e",
+      "judul": "Apakah saya dapat menambahkan profil terhubung Warga Negara Asing?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/067e7b2e-bcf1-4346-ab08-d3f678a6bc9e",
+      "berkas": "067e7b2e-bcf1-4346-ab08-d3f678a6bc9e.json",
+      "status": "berhasil",
+      "sha256": "caf22870e93225ed2bdfa9e8acda9455f8307dc0c3a01ea8b23469c5b15fe180"
+    },
+    {
+      "id": "36b15f78-cf85-43da-a045-016759191085",
+      "judul": "Apa saja data yang dapat diakses apabila menambahkan Profil terhubung?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/36b15f78-cf85-43da-a045-016759191085",
+      "berkas": "36b15f78-cf85-43da-a045-016759191085.json",
+      "status": "berhasil",
+      "sha256": "6d4c53792cf3ccead5383370088c9fcf42ccacf0e659a4e091e622907360ac11"
+    },
+    {
+      "id": "0a74f4b5-88f1-4201-9661-f51c31bc6708",
+      "judul": "Apakah saya dapat menghapus profil terhubung?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0a74f4b5-88f1-4201-9661-f51c31bc6708",
+      "berkas": "0a74f4b5-88f1-4201-9661-f51c31bc6708.json",
+      "status": "berhasil",
+      "sha256": "9a60090403a44f2bef0dc72502f1cced2874e0bf526280831edeb0b436ad9332"
+    },
+    {
+      "id": "231a4077-8d97-420f-97c4-2374a4277c20",
+      "judul": "Apakah saya dapat menghentikan penautan profil saya?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/231a4077-8d97-420f-97c4-2374a4277c20",
+      "berkas": "231a4077-8d97-420f-97c4-2374a4277c20.json",
+      "status": "berhasil",
+      "sha256": "965b186b4a906b908363c2fef28d919bfaea4865ed9942e66c487a26069c430d"
+    }
+  ]
+}

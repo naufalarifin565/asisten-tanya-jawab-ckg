@@ -1,0 +1,12 @@
+{
+  "id": "731bfb52-555d-4c5c-963e-5686bf0998e9",
+  "pertanyaan": "Bagaimana saya dapat mengubah data email?",
+  "isi_html": "<p>Anda harus login untuk dapat memperbarui email. Jika sudah login, cara memperbarui data email dapat dilakukan melalui menu Profil.</p>\n<ol>\n<li>Klik menu 'Profil' pada bagian bawah aplikasi</li>\n<li>Pada halaman 'Profil', pilih ikon pensil yang terdapat di sebelah nama</li>\n<li>Lalu, Anda akan diarahkan ke halaman Edit Akun</li>\n<li>Pilih tombol \"Ubah\" pada bagian email</li>\n<li>Anda akan diminta untuk memasukkan email baru yang valid</li>\n<li>Kode verifikasi akan dikirimkan ke email lama dan email baru</li>\n<li>Masukkan kode verifikasi 6 digit yang diterima di email lama</li>\n<li>Jika kode verifikasi sesuai, Anda akan diminta memasukkan kode verifikasi 6 digit yang diterima di email baru</li>\n<li>Jika verifikasi email baru sukses, email akun Anda berhasil diperbarui</li>\n<li>Selanjutnya, Anda dapat login ke akun menggunakan email baru Anda</li>\n</ol>\n<p>Jika Anda tidak memiliki akses lagi ke email terdaftar, Anda dapat mempelajari petunjuk pada FAQ <a target=_blank href=\"https://satusehat.kemkes.go.id/mobile/faq/topic/69929d20-146c-4675-a3ae-035464418a66\">\"Saya tidak memiliki akses ke email saya\"</a>.</p>\n",
+  "kategori_label": "Kendala Login SATUSEHAT Mobile",
+  "kategori_kunci": "login",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Kendala Login SATUSEHAT Mobile",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/731bfb52-555d-4c5c-963e-5686bf0998e9",
+  "tanggal_pembaruan": "2025-01-24",
+  "tanggal_ambil": "2026-08-26"
+}

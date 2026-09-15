@@ -1,0 +1,38 @@
+{
+  "sumber": "Halaman web publik CKG",
+  "lingkungan": "produksi",
+  "tanggal_ambil": "2026-08-31",
+  "jumlah": 3,
+  "halaman": [
+    {
+      "url": "https://ayosehat.kemkes.go.id/diet-sehat/cek-kesehatan-gratis",
+      "nama": "Ayo Sehat — Cek Kesehatan Gratis",
+      "sasaran": "masyarakat",
+      "berkas": "diet-sehat-cek-kesehatan-gratis.md",
+      "status": "berhasil",
+      "ukuran": 5082,
+      "sha256": "f4e96c15113dfc2e41b06319b64e0123130c6be7139992c3c809549a84c6725e",
+      "tanggal_ambil": "2026-08-31"
+    },
+    {
+      "url": "https://ayosehat.kemkes.go.id/agenda-kegiatan/cek-kesehatan-gratis-ckg-sekolah",
+      "nama": "Ayo Sehat — Cek Kesehatan Gratis (CKG) Sekolah",
+      "sasaran": "sekolah",
+      "berkas": "agenda-kegiatan-cek-kesehatan-gratis-ckg-sekolah.md",
+      "status": "berhasil",
+      "ukuran": 1838,
+      "sha256": "e9bf83430b66a34f5319746de453e8fc66f76eee40659313b244828fd6db75d4",
+      "tanggal_ambil": "2026-08-31"
+    },
+    {
+      "url": "https://ayosehat.kemkes.go.id/cek-kesehatan-gratis",
+      "nama": "Ayo Sehat — Cek Kesehatan Gratis: Manfaat dan Jenis Pemeriksaan",
+      "sasaran": "masyarakat",
+      "berkas": "cek-kesehatan-gratis.md",
+      "status": "berhasil",
+      "ukuran": 4354,
+      "sha256": "b1874e1699218782d276ee2f48dfb4e5ea8a82b15cec4bd1cbb0ece1454dc311",
+      "tanggal_ambil": "2026-08-31"
+    }
+  ]
+}

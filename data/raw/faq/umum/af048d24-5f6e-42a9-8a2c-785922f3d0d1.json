@@ -1,0 +1,12 @@
+{
+  "id": "af048d24-5f6e-42a9-8a2c-785922f3d0d1",
+  "pertanyaan": "Kendala saat mengisi Jenis Kelamin di tiket Cek Kesehatan Gratis",
+  "isi_html": "<h1>Cara melengkapi Jenis Kelamin di profil SATUSEHAT Mobile :</h1>\n<ol>\n<li>Masuk ke SATUSEHAT Mobile menggunakan email/nomor terdaftar</li>\n<li>Pilih menu profil</li>\n<li>Pilih icon \"Pensil\" disamping nama Bapak/Ibu pada bagian kanan atas</li>\n<li>Dibagian bawah, pastikan nomor telepon dan Email sudah terisi. Jika email belum terisi, silakan untuk input email terlebih dahulu.</li>\n<li>Jika sudah berhasil input email, pada bagian \"Info Profil\" klik \"Ubah\"</li>\n<li>Isi Jenis Kelamin lalu klik \"Simpan\"</li>\n<li>Pilih verifikasi menggunakan email dan Bapak/Ibu akan diminta untuk input kode OTP yang dikirimkan melalui email</li>\n<li>Silakan coba kembali untuk melakukan pendaftaran Cek Kesehatan Gratis</li>\n</ol>\n",
+  "kategori_label": "Cek Kesehatan Gratis Ulang Tahun / Umum",
+  "kategori_kunci": "umum",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ CKG Umum",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/af048d24-5f6e-42a9-8a2c-785922f3d0d1",
+  "tanggal_pembaruan": "2025-08-21",
+  "tanggal_ambil": "2026-08-24"
+}

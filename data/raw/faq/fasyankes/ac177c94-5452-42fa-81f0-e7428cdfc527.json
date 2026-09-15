@@ -1,0 +1,12 @@
+{
+  "id": "ac177c94-5452-42fa-81f0-e7428cdfc527",
+  "pertanyaan": "Apa  itu Sarana Binaan Puskesmas?",
+  "isi_html": "<p>Dalam konteks pelaksanaan layanan Cek Kesehatan Gratis (CKG) Sekolah, Sarana Binaan Puskesmas adalah daftar sekolah yang menjadi sasaran program CKG Sekolah dan berada di bawah wilayah kerja serta pembinaan Puskesmas setempat.</p>\n<p>Data sekolah ini diambil dari Data Pokok Pendidikan (Dapodik) milik Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) RI, yang terhubung ke Master Sarana milik Kementerian Kesehatan (Kemenkes) RI. Data tersebut kemudian dapat diakses melalui website SATUSEHAT IndonesiaKu (ASIK) dan digunakan oleh Puskesmas untuk mendukung layanan CKG Sekolah.</p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/ac177c94-5452-42fa-81f0-e7428cdfc527",
+  "tanggal_pembaruan": "2025-08-27",
+  "tanggal_ambil": "2026-08-24"
+}

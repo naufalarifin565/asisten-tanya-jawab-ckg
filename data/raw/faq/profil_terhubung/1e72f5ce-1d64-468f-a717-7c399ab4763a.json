@@ -1,0 +1,12 @@
+{
+  "id": "1e72f5ce-1d64-468f-a717-7c399ab4763a",
+  "pertanyaan": "Bagaimana cara menambahkan profil terhubung?",
+  "isi_html": "<p>Bapak/Ibu dapat menambahkan Profil Terhubung di SATUSEHAT Mobile dengan cara:</p>\n<ol>\n<li>Login ke SATUSEHAT Mobile</li>\n<li>Masuk ke 'Profil'</li>\n<li>Klik 'Profil Tertaut'</li>\n<li>Klik 'Tambah Profil'</li>\n<li>Isi dan lengkapi profil yang ingin ditambahkan</li>\n<li>Klik 'Tambah Anggota'</li>\n</ol>\n<p>Profil berusia &#x3C;18 tahun akan langsung terhubung. Sementara pada profil berusia >=18 tahun, SATUSEHAT Mobile akan mengirimkan permintaan akses (consent) kepada pengguna yang akan ditautkan untuk dapat terhubung.</p>\n<p>Pada pengguna berusia  >=18 tahun, berikut langkah-langkah yang harus dilakukan saat menerima notifikasi permintaan akses penautan profil:</p>\n<ol>\n<li>Klik notifikasi yang muncul</li>\n<li>Klik 'Terima' permintaan</li>\n<li>Beri tanda centang pada form persetujuan akses data</li>\n<li>Profil berhasil terhubung</li>\n</ol>\n",
+  "kategori_label": "Profil Terhubung",
+  "kategori_kunci": "profil_terhubung",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Profil Terhubung",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1e72f5ce-1d64-468f-a717-7c399ab4763a",
+  "tanggal_pembaruan": "2024-11-29",
+  "tanggal_ambil": "2026-08-26"
+}

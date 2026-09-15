@@ -1,0 +1,12 @@
+{
+  "id": "3f82b644-fa40-4f72-9372-52f3e55042b5",
+  "pertanyaan": "Bagaimana jika data saya (misalnya NIK) tertukar dengan data orang lain di profil SATUSEHAT Mobile?",
+  "isi_html": "<ul>\n<li>Jika pengguna sudah melakukan verifikasi profil (centang biru) maka data yang dapat diubah secara mandiri hanyalah email.</li>\n<li>Jika pengguna belum melakukan verifikasi profil (centang biru), maka data yang dapat diubah secara mandiri adalah nama, tanggal lahir dan email.</li>\n</ul>\n<p>Jika data profil Anda tertukar atau terdapat ketidaksesuaian identitas di SATUSEHAT Mobile, silakan laporkan melalui <a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a> dengan melampirkan dokumen identitas diri yang valid, atau mengisi form aduan melalui <a target=_blank href=\"https://satusehat.kemkes.go.id/mobile/contact-us\">https://satusehat.kemkes.go.id/mobile/contact-us</a> (pilih kategori aduan \"Akun\").</p>\n<p>Jika data Anda tertukar dengan data anak, suami, atau anggota keluarga lainnya, mohon lampirkan juga data diri masing-masing pada laporan dengan format berikut:</p>\n<p>Data diri saya,</p>\n<ul>\n<li>Nama:</li>\n<li>NIK:</li>\n<li>Tanggal lahir:</li>\n<li>Nomor HP:</li>\n<li>Alamat email:</li>\n</ul>\n<p>Data diri yang salah,</p>\n<ul>\n<li>Nama:</li>\n<li>NIK:</li>\n<li>Tanggal lahir:</li>\n<li>Nomor HP:</li>\n<li>Alamat email:</li>\n</ul>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/3f82b644-fa40-4f72-9372-52f3e55042b5",
+  "tanggal_pembaruan": "2025-12-02",
+  "tanggal_ambil": "2026-08-26"
+}

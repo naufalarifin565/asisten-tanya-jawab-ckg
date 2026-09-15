@@ -1,0 +1,12 @@
+{
+  "id": "06d78b2e-d907-4449-83d8-25122bdfd558",
+  "pertanyaan": "Saya lupa PIN, apakah bisa diubah? Bagaimana caranya?",
+  "isi_html": "<p>Jika Anda lupa PIN, silakan lakukan langkah berikut :</p>\n<ol>\n<li>Buka aplikasi SATUSEHAT Mobile</li>\n<li>Masuk menggunakan email atau nomor terdaftar</li>\n<li>Pilih \"masuk dengan kode verifikasi Email\" atau \"masuk dengan kode verifikasi WhatsApp\"</li>\n<li>Input kode OTP yang masuk melalui Email atau WhatsApp</li>\n<li>Pilih Proﬁl</li>\n<li>Pilih Keamanan Akun</li>\n<li>Klik “Lupa PIN”</li>\n<li>Masukkan NIK sesuai dengan KTP dan klik “Selanjutnya”</li>\n<li>Masukkan PIN baru</li>\n<li>Masukkan ulang PIN baru</li>\n<li>Pilih cara veriﬁkasi. Bisa melalui nomor telepon atau email yang terdaftar pada SATUSEHAT Mobile</li>\n<li>Masukkan kode OTP yang dikirim ke nomor telepon atau email dan klik “Selanjutnya”</li>\n<li>PIN Anda telah berhasil diubah</li>\n</ol>\n",
+  "kategori_label": "Akun dan Keamanan",
+  "kategori_kunci": "akun",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Akun dan Keamanan SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/06d78b2e-d907-4449-83d8-25122bdfd558",
+  "tanggal_pembaruan": "2025-01-28",
+  "tanggal_ambil": "2026-08-26"
+}

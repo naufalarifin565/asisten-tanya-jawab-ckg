@@ -1,0 +1,119 @@
+{
+  "sumber": "Petunjuk Teknis CKG (Kepmenkes HK.01.07/MENKES/84/2026)",
+  "dokumen": "ckg",
+  "url": "https://kesprimkom.kemkes.go.id/assets/uploads/contents/others/2026kepmenkes084.pdf",
+  "lingkungan": "produksi",
+  "tanggal_ambil": "2026-08-31",
+  "jumlah_halaman": 122,
+  "sertakan_bab_klinis": false,
+  "bab": [
+    {
+      "angka": "I",
+      "judul": "PENDAHULUAN",
+      "halaman_awal": 5,
+      "halaman_akhir": 7,
+      "jumlah_halaman": 3,
+      "berkas": "bab-i-pendahuluan.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 4018,
+      "sha256": "0f84b673c5158c63cab22daa8e32e67342c1c121309b460562fc9888f0a9bbf0"
+    },
+    {
+      "angka": "II",
+      "judul": "CEK KESEHATAN GRATIS",
+      "halaman_awal": 8,
+      "halaman_akhir": 18,
+      "jumlah_halaman": 11,
+      "berkas": "bab-ii-cek-kesehatan-gratis.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 18312,
+      "sha256": "ebe536e2533e310ea5e977d1036a0a20caf388bb1ad06685ef9e881e9c251bfc"
+    },
+    {
+      "angka": "III",
+      "judul": "PERSIAPAN CEK KESEHATAN GRATIS",
+      "halaman_awal": 19,
+      "halaman_akhir": 35,
+      "jumlah_halaman": 17,
+      "berkas": "bab-iii-persiapan-cek-kesehatan-gratis.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 28289,
+      "sha256": "b12955a2c2a39969abc404f08af668fb373a395ad75f71f4224d2b88c140c4ea"
+    },
+    {
+      "angka": "IV",
+      "judul": "PELAKSANAAN CEK KESEHATAN GRATIS",
+      "halaman_awal": 36,
+      "halaman_akhir": 38,
+      "jumlah_halaman": 3,
+      "berkas": "bab-iv-pelaksanaan-cek-kesehatan-gratis.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 5100,
+      "sha256": "71329ee6280e7955ae0e832994deda6ddd5e7c95a9738afc9ac4b789a97a8cb5"
+    },
+    {
+      "angka": "V",
+      "judul": "ALUR DAN TINDAK LANJUT CEK KESEHATAN GRATIS",
+      "halaman_awal": 39,
+      "halaman_akhir": 99,
+      "jumlah_halaman": 61,
+      "berkas": "",
+      "diambil": false,
+      "alasan_dilewati": "pedoman klinis (CLAUDE.md §2 no. 3 dan §3)",
+      "ukuran": 0,
+      "sha256": ""
+    },
+    {
+      "angka": "VI",
+      "judul": "PENCATATAN DAN PELAPORAN",
+      "halaman_awal": 100,
+      "halaman_akhir": 108,
+      "jumlah_halaman": 9,
+      "berkas": "bab-vi-pencatatan-dan-pelaporan.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 13121,
+      "sha256": "c2f33057c62ac75cd646786bf3e15fc9aa266e054d5c68897f0abd905beec809"
+    },
+    {
+      "angka": "VII",
+      "judul": "STRATEGI KOMUNIKASI, INFORMASI, DAN EDUKASI",
+      "halaman_awal": 109,
+      "halaman_akhir": 118,
+      "jumlah_halaman": 10,
+      "berkas": "bab-vii-strategi-komunikasi-informasi-dan-edukasi.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 20240,
+      "sha256": "c712d6de0d8066858c7c3c083c77b0ea85e0502648831412aaea0f09bb61b6a7"
+    },
+    {
+      "angka": "VIII",
+      "judul": "PEMANTAUAN DAN EVALUASI",
+      "halaman_awal": 119,
+      "halaman_akhir": 121,
+      "jumlah_halaman": 3,
+      "berkas": "bab-viii-pemantauan-dan-evaluasi.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 4856,
+      "sha256": "7c4d1c51ad09ad40df356aeeeff0ca57eafeeec8c2071dfd5432c393307ca3ec"
+    },
+    {
+      "angka": "IX",
+      "judul": "PENUTUP",
+      "halaman_awal": 122,
+      "halaman_akhir": 122,
+      "jumlah_halaman": 1,
+      "berkas": "bab-ix-penutup.txt",
+      "diambil": true,
+      "alasan_dilewati": "",
+      "ukuran": 1711,
+      "sha256": "c83fc547b80a268cec5737e2fe00a3352c4beb1cb0f0c912c8d3185f1c07d273"
+    }
+  ]
+}

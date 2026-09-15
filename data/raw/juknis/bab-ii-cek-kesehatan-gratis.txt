@@ -1,0 +1,416 @@
+[[hal:8]]
+BAB II 
+CEK KESEHATAN GRATIS 
+ 
+Cek Kesehatan Gratis (CKG) merupakan upaya strategis yang dirancang 
+oleh pemerintah untuk meningkatkan kesadaran masyarakat tentang 
+pentingnya kesehatan serta sebagai pengingat bagi individu untuk melakukan 
+deteksi dini terhadap kondisi kesehatan yang berpotensi berkembang menjadi 
+penyakit serius. Program ini mengedepankan upaya promotif dan preventif 
+melalui pemberian layanan kesehatan gratis kepada masyarakat dan pemberian 
+edukasi untuk memahami hasil pemeriksaan serta langkah-langkah tindak 
+lanjut yang diperlukan. CKG diharapkan dapat mengurangi beban pelayanan 
+kesehatan rujukan serta meningkatkan produktivitas masyarakat. 
+Pelaksanaan program ini didukung inovasi teknologi kesehatan melalui 
+pemanfaatan Sistem Informasi Kesehatan Nasional (SIKN) yaitu Platform 
+SATUSEHAT, Aplikasi SATUSEHAT Mobile (SSM), website SATUSEHAT 
+IndonesiaKu yang sebelumnya disebut ASIK (SSI/ASIK), dan/atau sistem 
+elektronik yang dikelola Penyelenggara Sistem Elektronik (PSE) yang bekerja 
+sama dengan Kementerian Kesehatan, yang memungkinkan pendaftaran, hasil 
+pemeriksaan dicatat dan dipantau secara real-time. PSE yang dimaksud adalah 
+setiap orang, penyelenggara negara, badan usaha, dan masyarakat yang 
+menyediakan, mengelola, dan/atau mengoperasikan sistem elektronik secara 
+sendiri-sendiri maupun bersama-sama kepada pengguna sistem elektronik 
+untuk keperluan dirinya dan/atau keperluan pihak lain, termasuk untuk 
+kepentingan di bidang kesehatan seperti Telekesehatan atau Telemedisin. 
+ 
+A. Tujuan dan Sasaran CKG 
+CKG dimaksudkan untuk meningkatkan akses masyarakat dalam 
+pemeriksaan kesehatan dengan tujuan: 
+1. Mengidentifikasi faktor risiko kesehatan agar masyarakat tetap sehat 
+dan tidak berlanjut menyebabkan timbulnya penyakit 
+2. Mendeteksi kondisi pra-penyakit agar tidak berkembang menjadi 
+penyakit 
+3. Mendeteksi penyakit lebih awal sehingga peluang kesembuhan akan 
+lebih tinggi 
+4. Memberikan penanganan awal yang tepat baik pada temuan faktor 
+risiko, kondisi pra-penyakit, dan kondisi penyakit agar dapat 
+mencegah terjadinya penyakit maupun terjadinya komplikasi serta
+[[hal:9]]
+menurunkan risiko kecacatan dan kematian. 
+Sasaran CKG meliputi: 
+a. bayi baru lahir (usia 2 hari); 
+b. balita dan anak prasekolah (usia 1 tahun - usia 6 tahun); 
+c. anak usia sekolah dan remaja (usia 7 tahun - usia 17 tahun); 
+d. dewasa (usia 18 tahun - usia 59 tahun); dan 
+e. lanjut usia (usia 60 tahun ke atas). 
+Pelaksanaan CKG pada usia sekolah dan remaja mengikuti Petunjuk 
+Teknis CKG Sekolah. 
+B. Waktu dan Tempat Pelaksanaan 
+Waktu pelaksanaan: 
+1. CKG bagi bayi baru lahir dilaksanakan pada usia bayi dua hari (>24 
+jam) untuk memastikan spesimen yang diambil memiliki arti klinis. 
+2. CKG bagi kelompok balita dan anak prasekolah (usia 1-6 tahun), 
+dewasa dan lansia dilaksanakan setahun sekali dengan jadwal yang 
+dapat ditentukan oleh peserta dan/atau pihak terkait. 
+Tempat pelaksanaan: 
+1. CKG bagi bayi baru lahir dilaksanakan di fasilitas pelayanan 
+kesehatan yang melayani persalinan baik FPKTP maupun FPKTL. 
+2. CKG bagi kelompok usia balita dan anak prasekolah (1-6 tahun), 
+dewasa dan lansia di Puskesmas dan FPKTP lain. 
+3. Puskesmas dapat mendelegasikan CKG kepada Puskesmas Pembantu 
+atau Unit Pelayanan Kesehatan di Desa/Kelurahan lainnya sesuai 
+alur Integrasi Pelayanan Kesehatan Primer (ILP). 
+4. CKG bagi kelompok pekerja dilaksanakan sebagai berikut: 
+a. Pekerja formal: 
+1) Dilaksanakan di fasilitas pelayanan kesehatan di tempat 
+kerja. 
+2) Integrasi data hasil pemeriksaan kesehatan berkala pekerja 
+(Annual Medical Check Up) dengan pelaporan data CKG. 
+b. Pekerja Informal: dilaksanakan oleh Puskesmas atau FPKTP lain 
+di pos Upaya Kesehatan Kerja (UKK) atau tempat lainnya yang 
+disepakati. 
+5. CKG di komunitas dilaksanakan sebagai berikut: 
+a. Di Posyandu atau lokasi lainnya oleh Puskesmas atau oleh mitra, 
+organisasi kemasyarakatan, dan organisasi lainnya.
+[[hal:10]]
+b. Di perguruan tinggi: dapat dilaksanakan oleh fasilitas pelayanan 
+kesehatan di perguruan tinggi atau bekerjasama dengan 
+Puskesmas atau FPKTP lain. 
+6. Pemeriksaan laboratorium: 
+a. Bagi bayi baru lahir dilaksanakan di laboratorium jejaring yang 
+telah ditetapkan 
+b. Bagi kelompok balita dan anak prasekolah (usia 1-6 tahun), 
+dewasa dan lansia dilaksanakan di FPKTP dan Laboratorium 
+Kesehatan Masyarakat (Labkesmas). Labkesmas dapat menjadi 
+tempat rujukan pemeriksaan spesimen pemeriksaan yang tidak 
+dapat dilaksanakan di Puskesmas. 
+7. Fasilitas lainnya dapat berpartisipasi dalam pelaksanaan CKG di 
+bawah koordinasi Dinas Kesehatan Daerah Kabupaten/Kota dan 
+Puskesmas setempat. 
+C. Integrasi Skrining Kesehatan 
+Skrining kesehatan yang sebelumnya dilaksanakan secara terpisah 
+berdasarkan program yang memiliki sasaran dan jenis pemeriksaan yang 
+sama diinterintegrasikan dalam CKG. Pelaksanaan integrasi skrining 
+tersebut adalah sebagai berikut: 
+1. Skrining Penyakit Tidak Menular (PTM) 
+Skrining PTM tidak lagi dilakukan secara terpisah. Setiap melakukan 
+skrining PTM (misalnya kanker leher rahim, tekanan darah, diabetes 
+melitus) maka yang dilakukan adalah CKG lengkap. 
+2. Skrining Calon Pengantin (Catin) 
+Pemeriksaan HIV, Sifilis, Hepatitis B dan Anemia pada Catin 
+disediakan dalam program CKG. Daerah dapat menambahkan 
+skrining di luar keempat pemeriksaan sesuai standar program. 
+Peserta CKG dapat dirujuk ke layanan skrining Catin untuk 
+melengkapi pemeriksaan Catin. 
+3. Skrining Lansia 
+Skrining Lansia tidak lagi dilakukan secara terpisah. Setiap 
+melakukan skrining Lansia (misalnya di Posyandu atau komunitas 
+lainnya) maka yang dilakukan adalah CKG lengkap. 
+4. Skrining Kesehatan Jiwa (Keswa) 
+Skrining Keswa tidak lagi dilakukan secara terpisah. Setiap 
+melakukan skrining Keswa (misalnya di komunitas) maka yang
+[[hal:11]]
+dilakukan adalah CKG lengkap. 
+5. Skrining Integrasi Pelayanan Kesehatan Primer (ILP) 
+Setiap orang yang hadir di Puskesmas dan jejaringnya untuk 
+mendapatkan layanan kesehatan apapun, diberikan paket pelayanan 
+CKG. Untuk mendapatkan Surat Keterangan Sehat, pemohon 
+diberikan paket pelayanan CKG. 
+D. Jenis Pemeriksaan 
+1. Jenis pemeriksaan pada bayi baru lahir meliputi: 
+a. Kekurangan Hormon Tiroid sejak Lahir; 
+b. Kekurangan enzim pelindung sel darah merah (G6PD); 
+c. Kekurangan hormon adrenal sejak lahir; 
+d. Penyakit jantung bawaan (PJB) kritis; 
+e. Bayi kuning; 
+f. Berat lahir; dan 
+g. Status imunisasi hepatitis B (HB0). 
+2. Jenis pemeriksaan pada balita dan anak prasekolah meliputi: 
+a. Pertumbuhan; 
+b. Perkembangan; 
+c. Tuberkulosis; 
+d. Telinga; 
+e. Mata; 
+f. Gigi; 
+g. Gula darah (mulai usia 2 tahun); 
+h. Anemia dan Talasemia (usia 2 tahun); 
+i. Kusta, Skabies, Frambusia; dan 
+j. Status imunisasi balita. 
+3. Jenis pemeriksaan pada dewasa meliputi: 
+a. Kardiovaskular: 
+1) Merokok; 
+2) Tingkat aktivitas fisik; 
+3) Status gizi; 
+4) Tekanan darah; 
+5) Gula darah; 
+6) Risiko stroke (mulai usia 40 tahun pada penyandang 
+hipertensi dan/atau DM); 
+7) Penyakit Jantung (mulai usia 40 tahun pada penyandang
+[[hal:12]]
+hipertensi dan/atau DM); dan 
+8) Penyakit Ginjal (mulai usia 40 tahun pada penyandang 
+hipertensi dan/atau DM), 
+b. Paru: 
+1) Tuberkulosis; dan 
+2) Penyakit paru obstruktif kronis (PPOK) (mulai usia 40 
+tahun), 
+c. Kanker: 
+1) Kanker payudara (pada perempuan mulai usia 30 tahun); 
+2) Kanker leher rahim (pada perempuan mulai usia 30 tahun 
+yang telah menikah atau pernah melakukan hubungan 
+seksual); 
+3) Kanker paru (mulai usia 45 tahun); dan 
+4) Kanker usus (mulai usia 45 tahun), 
+d. Fungsi Indera: 
+1) Mata; dan 
+2) Telinga, 
+e. Gigi dan Mulut; 
+f. Kesehatan Jiwa; 
+g. Hati: 
+1) Hepatitis B; 
+2) Hepatitis C; dan 
+3) Fibrosis/sirosis hati (pada penyandang Hepatitis B dan/atau 
+Hepatitis C dan/atau usia >40 tahun dengan DM dan/atau 
+Obesitas Sentral dan/atau Dislipidemia); 
+h. Calon Pengantin: 
+1) Sifilis; 
+2) HIV; 
+3) Anemia (hanya pada perempuan); dan 
+4) Status Imunisasi T (hanya pada perempuan), 
+i. Kulit: 
+1) Kusta; 
+2) Skabies; dan 
+3) Frambusia (pada daerah endemis). 
+4. Jenis pemeriksaan pada lanjut usia (Lansia) meliputi: 
+a. Seluruh jenis pemeriksaan pada dewasa kecuali Catin; dan 
+b. Geriatri.
+[[hal:13]]
+E. Metode Pemeriksaan 
+1. Metode pemeriksaan pada bayi baru lahir: 
+a. Kekurangan Hormon Tiroid sejak Lahir, Kekurangan enzim 
+pelindung sel darah merah (G6PD), Kekurangan hormon adrenal 
+sejak lahir: pengambilan spesimen darah tumit dengan kertas 
+saring diikuti pemeriksaan spesimen di laboratorium rujukan. 
+b. PJB kritis: pengukuran saturasi oksigen menggunakan newborn 
+oximetry (oksimeter khusus bayi baru lahir) pada tangan kanan 
+dan kaki. 
+c. Berat lahir: pengukuran antropometri berat badan. 
+d. Bayi kuning: pengamatan warna kulit dan tinja dengan mengacu 
+pada buku KIA 
+e. Status Imunisasi HB0: anamnesis riwayat imunisasi HB0. 
+2. Metode pemeriksaan pada balita dan anak prasekolah: 
+a. Pertumbuhan: pengukuran berat badan dan panjang 
+badan/tinggi badan serta lingkar kepala menggunakan 
+antropometer. 
+b. Perkembangan: 
+1) Anamnesis dan pemeriksaan dengan menggunakan 
+kuesioner pra skrining perkembangan (KPSP) sesuai usia. 
+2) Pada yang berisiko, dilanjutkan dengan anamnesis 
+menggunakan kuesioner Modified Checklist for Autism in 
+Toddlers-Revised (MCHAT-R), Kuesioner Masalah Perilaku 
+Emosi (KMPE) dan Gangguan Pemusatan Perhatian dan 
+Hiperaktivitas (GPPH). 
+c. Tuberkulosis: 
+1) Hasil pengukuran antropometri menunjukkan status 
+malnutrisi (berat badan kurang, gizi kurang, gizi buruk dan 
+stunting) dilanjutkan dengan pemeriksaan TB. 
+2) Di luar kondisi malnutrisi di atas, dilakukan anamnesis 
+untuk menentukan skoring risiko TB. 
+3) Pemeriksaan X-Ray dada pada Faskes yang mampu. 
+4) Pemeriksaan dahak bagi yang dinyatakan terduga TB. 
+d. Telinga: 
+1) Pemeriksaan fisik telinga luar menggunakan otoskop 
+melihat adanya serumen impaksi atau infeksi telinga. 
+2) Pemeriksaan pendengaran dengan menggunakan instrumen
+[[hal:14]]
+tes daya dengar (TDD). 
+e. Mata: 
+1) Pemeriksaan pupil putih dengan tes refleks merah/Bruckner 
+Test atau blitz kamera atau menggunakan senter untuk 
+anak usia 1-2 tahun. 
+2) Tes daya lihat untuk anak usia 3-6 tahun menggunakan ‘E’ 
+Tumbling. 
+f. Gigi: pemeriksaan karies menggunakan set pemeriksaan gigi. 
+g. Gula Darah: 
+1) Pemeriksaan glukosa darah sewaktu (GDS) menggunakan 
+glukometer bagi setiap anak usia 2 tahun. 
+2) Penapisan risiko menggunakan kuesioner mandiri pada 
+aplikasi SSM atau Whatsapp (WA) Chatbot Kemenkes bagi 
+balita usia 3-6 tahun. 
+3) Pemeriksaan GDS menggunakan glukometer bagi usia 3-6 
+tahun yang berisiko. 
+h. Anemia dan Talasemia: 
+1) Pemeriksaan kadar hemoglobin menggunakan Hb-Meter 
+pada setiap anak usia 2 tahun. 
+2) Pemeriksaan darah lengkap bila Hb <11 g/dL menggunakan 
+Hematologi Analyzer. 
+i. Kusta, Skabies dan Frambusia: pemeriksaan fisik kelainan kulit 
+dari kepala hingga kaki secara menyeluruh: 
+1) Kusta: apakah ada bercak yang ada penurunan/mati, rasa 
+pada kulit atau kelumpuhan/kecacatan/luka pada 
+tangan/kaki yang tidak rasa/tidak nyeri/tidak sakit saat 
+disentuh atau ditekan. 
+2) Skabies: apakah ada koreng yang bergerombol yang disertai 
+gatal luar biasa terutama pada malam hari, di lipatan/sela 
+jari/lipatan paha. 
+3) Frambusia: apakah ada koreng bernanah/tertutup krusta. 
+j. Status Imunisasi Balita: pengisian kuesioner mandiri pada 
+aplikasi SSM atau WA Chatbot Kemenkes oleh orang tua 
+berdasarkan buku KIA atau catatan kesehatan lainnya. 
+3. Metode pemeriksaan pada dewasa: 
+a. Merokok: pengisian kuesioner mandiri pada aplikasi SSM atau 
+WA Chatbot Kemenkes.
+[[hal:15]]
+b. Tingkat aktivitas fisik: pengisian kuesioner mandiri pada aplikasi 
+SSM atau WA Chatbot Kemenkes. 
+c. Status gizi: pengukuran tinggi badan, berat badan, penghitungan 
+indeks massa tubuh serta lingkar perut menggunakan 
+antropometer. 
+d. Gigi dan Mulut: 
+1) Pemeriksaan karies gigi, gigi goyang, gigi hilang 
+menggunakan set pemeriksaan gigi. 
+2) Pemeriksaan jaringan periodontal (mulai usia 25 tahun) 
+menggunakan set pemeriksaan gigi. 
+e. Tekanan darah: 
+1) Pengukuran tekanan darah menggunakan tensimeter. 
+2) Jika pada pengukuran pertama tekanan darah ≥ 140/90 
+mmHg, maka dilakukan pengukuran ulang dengan jeda 3-5 
+menit, dan dihitung rerata 2 kali pengukuran untuk 
+penegakan diagnosis. 
+f. Gula darah: 
+1) Pemeriksaan GDS menggunakan glukometer. Apabila 
+pemeriksaan GDS menunjukkan hasil ≥140 mg/dL, 
+dilakukan pemeriksaan kadar GDS ulang dengan jeda waktu 
+30 menit sampai 1 jam untuk penegakan diagnosis. 
+2) Pada usia 40 tahun ke atas dapat dilakukan pemeriksaan 
+glukosa darah puasa (GDP). 
+g. Risiko stroke: pemeriksaan profil lipid menggunakan clinical 
+chemistry analyzer atau POCT lipid panel. 
+h. Penyakit jantung: pemeriksaan rekam jantung/elektrokardiografi 
+menggunakan elektrokardiogram (EKG). 
+i. Penyakit ginjal: pemeriksaan ureum dan kreatinin darah untuk 
+menghitung estimasi laju filtrasi glomerulus (eLFG) dan/atau 
+rasio albumin kreatinin urin menggunakan clinical chemistry 
+analyzer. 
+j. Tuberkulosis: 
+1) Pengisian kuesioner mandiri pada aplikasi SSM atau WA 
+Chatbot Kemenkes. 
+2) Pemeriksaan X-Ray dada pada Faskes yang mampu. 
+3) Pemeriksaan dahak bagi yang dinyatakan terduga TB. 
+k. PPOK: anamnesis menggunakan kuesioner penilaian untuk
+[[hal:16]]
+mendeteksi awal Penyakit Paru Obstruksi Kronis (PUMA PPOK). 
+l. Kanker payudara: 
+1) Pemeriksaan payudara klinis (SADANIS). 
+2) USG payudara menggunakan USG dengan Probe Linear 
+pada Faskes yang mampu. 
+m. Kanker leher rahim: 
+1) Peserta CKG dengan hasil tes IVA negatif dan DNA HPV 
+negatif pada tahun sebelumnya tidak dilakukan 
+pemeriksaan (pemeriksaan dilakukan 10 tahun setelahnya). 
+2) Peserta CKG dengan hasil tes DNA HPV selain tipe 16/18 
+pada tahun sebelumnya tidak dilakukan pemeriksaan 
+(pemeriksaan dilakukan 3 tahun setelahnya). 
+3) Peserta CKG dengan hasil tes HPV DNA tipe 16/18 pada 
+tahun sebelumnya atau belum pernah dilakukan skrining 
+kanker leher rahim dilakukan pemeriksaan sebagai berikut: 
+a) Pemeriksaan inspekulo. 
+b) Peserta dengan hasil inspekulo normal dilakukan 
+pengambilan spesimen DNA HPV oleh tenaga kesehatan 
+dilanjutkan dengan pemeriksaan Inspeksi Visual Asam 
+Asetat (IVA). 
+c) Pada puskesmas yang belum mampu laksana untuk 
+pemeriksaan DNA HPV, dilakukan pemeriksaan 
+inspekulo dan dilanjutkan dengan pemeriksaan IVA. 
+4) Peserta CKG dengan hasil IVA positif pada tahun lalu dan 
+telah dilakukan krioterapi atau thermal ablation, maka 
+dilakukan pengambilan spesimen DNA HPV 
+n. Kanker paru: 
+1) Penapisan risiko menggunakan kuesioner mandiri pada 
+aplikasi SSM atau WA Chatbot Kemenkes. 
+2) Anamnesis dengan kuesioner risiko kanker paru 
+3) Pemeriksaan X-Ray dada pada Faskes yang mampu bagi 
+peserta berisiko. 
+o. Kanker usus: 
+1) Pengisian kuesioner mandiri Asia Pacific Colorectal Screening 
+(APCS) pada aplikasi SSM atau WA Chatbot Kemenkes. 
+2) Pemeriksaan colok dubur dan darah samar feses (FOBT) bagi 
+peserta dengan hasil skoring APCS risiko tinggi.
+[[hal:17]]
+p. Mata: 
+1) Tes tajam penglihatan atau pemeriksaan visus 
+menggunakan E-tumbling/snellen/E-chart/lainnya dan 
+koreksi pinhole. 
+2) Pada usia > 40 tahun dilanjutkan dengan skrining katarak 
+menggunakan senter. 
+q. Telinga: 
+1)
+ Pemeriksaan fisik telinga luar menggunakan otoskop untuk 
+melihat adanya serumen impaksi atau infeksi telinga. 
+2) Pemeriksaan fungsi pendengaran menggunakan tes bisik 
+modifikasi atau aplikasi skrining pendengaran. 
+r. Kesehatan jiwa: pengisian kuesioner mandiri pada aplikasi SSM 
+atau WA Chatbot Kemenkes. 
+s. Hepatitis B: 
+1) Penapisan risiko dengan kuesioner mandiri pada aplikasi 
+SSM atau WA Chatbot Kemenkes. 
+2) Pemeriksaan darah menggunakan RDT Hepatitis B bagi yang 
+berisiko. 
+t. Hepatitis C: 
+1) Penapisan risiko dengan kuesioner mandiri pada aplikasi 
+SSM atau WA Chatbot Kemenkes. 
+2) Pemeriksaan darah menggunakan RDT Hepatitis C bagi yang 
+berisiko. 
+u. Fibrosis/Sirosis hati: 
+1) Penapisan risiko dengan pengisian kuesioner mandiri pada 
+aplikasi SSM atau WA Chatbot Kemenkes. 
+2) Pemeriksaan SGOT dan Trombosit darah, dilanjutkan 
+dengan penghitungan skor AST to Platelet Ratio Index (APRI). 
+v. Anemia: pemeriksaan kadar hemoglobin menggunakan Hb-
+Meter. 
+w. HIV: pemeriksaan HIV menggunakan RDT HIV-Sifilis Combo, jika 
+hasil reaktif dilanjutkan dengan RDT 2 dan 3 HIV. 
+x. Sifilis: pemeriksaan Sifilis menggunakan RDT HIV-Sifilis Combo. 
+y. Status imunisasi Tetanus (Status T): pengisian Kuesioner mandiri 
+pada aplikasi SSM atau atau WA Chatbot Kemenkes pada calon 
+pengantin perempuan. Diisi berdasarkan catatan imunisasi atau 
+berdasarkan ingatan.
+[[hal:18]]
+z. Kusta, Skabies dan Frambusia: pemeriksaan fisik kelainan kulit 
+dari kepala hingga kaki secara menyeluruh: 
+1) Kusta: apakah ada bercak yang ada penurunan/mati, rasa 
+pada kulit atau kelumpuhan/kecacatan/luka pada 
+tangan/kaki yang tidak rasa/tidak nyeri/tidak sakit saat 
+disentuh atau ditekan. 
+2) Skabies: apakah ada koreng yang bergerombol yang disertai 
+gatal luar biasa terutama pada malam hari, di lipatan/sela 
+jari/lipatan paha. 
+3) Frambusia: apakah ada koreng bernanah/tertutup krusta. 
+4. Metode pemeriksaan pada lanjut usia: 
+a. Metode pemeriksaan pada lanjut usia mengikuti metode dan jenis 
+pemeriksaan yang sama dengan dewasa, dengan penambahan 
+skrining geriatri. 
+b. Geriatri: 
+1) Skrining geriatri dilakukan menggunakan instrumen Activity 
+Daily Living (ADL), dan Skrining Lansia Sederhana (SKILAS) 
+yang terdiri dari pemeriksaan 6 domain kapasitas intrinsik, 
+meliputi kapasitas kognitif, mobilitas, malnutrisi, 
+penglihatan, pendengaran, dan gejala depresi (Skrining 
+penglihatan dan pendengaran dapat menggunakan hasil 
+skrining Mata dan Telinga pada paket CKG lengkap). 
+2) Hasil pemeriksaan menggunakan instrumen ADL 
+ditindaklanjuti sesuai hasil skor. 
+3) Hasil SKILAS dilanjutkan dengan: 
+a) Mini-Cog dan AD-8 jika ada gangguan kognitif; 
+b) Short Physical Performance Battery (SPPB) jika ada 
+gangguan mobilitas; 
+c) Mini Nutritional Assessment -Short Form (MNA-SF) jika 
+ada gangguan nutrisi; 
+d) Geriatric Depression Scale (GDS-4) jika ada gejala 
+depresi; 
+4) Skrining lanjutan dilakukan menggunakan kuesioner 
+Instrumental Activities of Daily Living Scale (IADL) Lawton 
+pada seluruh lansia dan menggunakan f railty syndrome 
+questionnaire dan SARC-CalF jika ditemukan gangguan 
+pada hasil SKILAS.

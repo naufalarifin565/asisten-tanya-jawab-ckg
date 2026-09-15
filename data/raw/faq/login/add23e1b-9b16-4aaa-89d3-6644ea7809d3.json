@@ -1,0 +1,12 @@
+{
+  "id": "add23e1b-9b16-4aaa-89d3-6644ea7809d3",
+  "pertanyaan": "Bagaimana jika saya Lupa Akun SATUSEHAT?",
+  "isi_html": "<h1>Bagaimana jika saya Lupa Akun SATUSEHAT?</h1>\n<ol>\n<li>\n<p>Klik ‘Lupa Akun’ pada halaman login</p>\n</li>\n<li>\n<p>Masukkan data diri untuk verifikasi akun yang terdaftar pada SATUSEHAT</p>\n</li>\n<li>\n<p>Setelah memasukkan nomor data diri, Bapak/Ibu akan mendapatkan pilihan cara verifikasi :</p>\n<h1>3.1 Cara Verifikasi Menggunakan nomor telepon</h1>\n<ul>\n<li>Bapak/Ibu harus konfirmasi nomor telepon yang terdaftar, nomor telfon akan ditampilakan beberapa digit, jika nomor masih aktif, Bapak/Ibu dapat mencoba MASUK menggunakan nomor tersebut</li>\n<li>Jika nomor telepon sudah tidak aktif, Bapak/Ibu dapat mengganti pada halaman selanjutnya</li>\n<li>Bapak/Ibu akan diminta untuk konfirmasi OTP pada nomor telepon baru</li>\n<li>Jika sudah berhasil, Bapak/Ibu akan di arahkan untuk membuat enam digit PIN</li>\n<li>Sukses masuk ke akun SATUSEHAT, selanjutnya Bapak/Ibu hanya perlu memasukkan PIN untuk masuk ke akun SATUSEHAT</li>\n</ul>\n<h1>3.2 Cara Verifikasi Menggunakan Email</h1>\n<ul>\n<li>Bapak/Ibu harus konfirmasi email yang terdaftar, email akan ditampilakan beberapa huruf, jika email masih aktif, Bapak/Ibu dapat mencoba kembali MASUK menggunakan nomor tersebut</li>\n<li>Jika email sudah tidak aktif, Bapak/Ibu dapat mengganti pada halaman selanjutnya</li>\n<li>Bapak/Ibu akan diminta untuk konfirmasi OTP pada email baru</li>\n<li>Jika sudah berhasil, Bapak/Ibu akan di arahkan untuk membuat enam digit PIN</li>\n<li>Sukses masuk ke akun SATUSEHAT, selanjutnya Bapak/Ibu hanya perlu memasukkan PIN untuk masuk ke akun SATUSEHAT</li>\n</ul>\n<p>Apabila Bapak/Ibu tidak dapat mengonfirmasi Email/Nomor telepon terdaftar, Bapak/Ibu dapat hubungi helpdesk melalui <a target=_blank href=\"https://satusehat.kemkes.go.id/mobile/contact-us\">Form Aduan</a></p>\n</li>\n</ol>\n",
+  "kategori_label": "Kendala Login SATUSEHAT Mobile",
+  "kategori_kunci": "login",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Kendala Login SATUSEHAT Mobile",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/add23e1b-9b16-4aaa-89d3-6644ea7809d3",
+  "tanggal_pembaruan": "2026-05-21",
+  "tanggal_ambil": "2026-08-26"
+}

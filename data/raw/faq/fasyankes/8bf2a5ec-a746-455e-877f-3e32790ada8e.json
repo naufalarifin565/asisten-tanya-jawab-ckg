@@ -1,0 +1,12 @@
+{
+  "id": "8bf2a5ec-a746-455e-877f-3e32790ada8e",
+  "pertanyaan": "Bagaimana cara update data Puskesmas di ASIK Website?",
+  "isi_html": "<h1>Cara update data Puskesmas di ASIK Website</h1>\n<ol>\n<li>Pastikan data wilayah Puskesmas sudah diperbarui di sistem Registrasi Pusdatin (Regpus)</li>\n<li>Jika sudah → pastikan perubahan data sudah diverifikasi/disetujui statusnya oleh sistem Regpus, lalu kirim email konfirmasi ke <a target=_blank href=\"mailto:helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a> dengan menyertakan tangkapan layar (screenshot) sistem Regpus</li>\n<li>Jika belum → silakan Bapak/Ibu menghubungi Dinas Kesehatan (Dinkes) Provinsi/Kabupaten/Kota untuk mengajukan permohonan pembaruan data</li>\n</ol>\n<p>Berikut gambar cara update data Puskesmas di ASIK Website:</p>\n<p><img src=\"https://cms-satusehatmobile.kemkes.go.id/assets/25a34638-f874-4e99-a289-822727d66247\" alt=\"\"></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/8bf2a5ec-a746-455e-877f-3e32790ada8e",
+  "tanggal_pembaruan": "2025-02-21",
+  "tanggal_ambil": "2026-08-24"
+}

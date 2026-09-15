@@ -1,0 +1,12 @@
+{
+  "id": "eb321efe-760e-4d67-8d52-b524f80a08a1",
+  "pertanyaan": "Saya sudah bisa akses Rekam Medis (RME) di SATUSEHAT Mobile, tetapi kenapa data saya masih kosong?",
+  "isi_html": "<h3>Saya sudah bisa akses Rekam Medis (RME) di SATUSEHAT Mobile, tetapi kenapa data saya masih kosong?</h3>\n<p>SATUSEHAT Mobile hanya menampilkan data Rekam Medis Elektronik (RME) yang sudah dikirimkan oleh <a target=_blank href=\"https://satusehat.kemkes.go.id/platform/healthcare-list\">Fasyankes terintegrasi</a> ke SATUSEHAT.</p>\n<p>Ada beberapa kemungkinan mengapa riwayat rekam medis Anda tidak muncul.</p>\n<ol>\n<li>Data Anda belum diperbarui oleh fasilitas kesehatan terkait</li>\n<li>Fasilitas kesehatan yang Anda kunjungi belum terintegrasi dengan SATUSEHAT.</li>\n</ol>\n<p>Untuk melihat daftar fasilitas kesehatan yang sudah terintegrasi SATUSEHAT silakan cek melalui : <a target=_blank href=\"https://satusehat.kemkes.go.id/platform/healthcare-list\">Fasyankes Terintegrasi</a></p>\n<p>atau daftar fasilitas kesehatan yang terintegrasi SATUSEHAT dapat dicek melalui aplikasi SATUSEHAT Mobile dengan cara :</p>\n<ol>\n<li>Masuk ke aplikasi SATUSEHAT Mobile menggunakan email terdaftar</li>\n<li>Pilih menu fitur lalu cari \"Lokasi Verifikasi (KYC)\"</li>\n<li>Silakan filter pada \"Jenis Layanan SATUSEHAT\" dan pilih 'Semua' lalu klik Simpan</li>\n<li>Silakan cari nama fasilitas kesehatan pada kolom Cari Fasilitas Kesehatan atau Bapak/Ibu dapat filter berdasarkan provinsi, kota/kabupaten, dan kecamatan</li>\n</ol>\n<p>Jika terdapat kendala lebih lanjut, Anda juga dapat melaporkan aduan melalui formulir <a target=_blank href=\"https://satusehat.kemkes.go.id/mobile/contact-us\">Hubungi Kami</a>.</p>\n",
+  "kategori_label": "Resume Medis",
+  "kategori_kunci": "resume_medis",
+  "sasaran": "masyarakat",
+  "sumber_nama": "FAQ Resume Medis SATUSEHAT",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/eb321efe-760e-4d67-8d52-b524f80a08a1",
+  "tanggal_pembaruan": "2024-10-31",
+  "tanggal_ambil": "2026-08-31"
+}

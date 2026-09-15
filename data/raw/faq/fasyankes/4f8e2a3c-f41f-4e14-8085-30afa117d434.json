@@ -1,0 +1,12 @@
+{
+  "id": "4f8e2a3c-f41f-4e14-8085-30afa117d434",
+  "pertanyaan": "Sekolah saya (MI/MTs/MA/Pesantren) sudah muncul namanya di ASIK Website, tapi kenapa nama siswanya tidak ada untuk skrining CKG?",
+  "isi_html": "<p>Data individu siswa untuk sekolah di bawah Kementerian Agama (MI, MTs, MA, Pesantren) diambil dari sistem DAPODIK Kemdikdasmen. Jika data siswa belum diperbarui di DAPODIK, maka nama siswa tidak akan muncul di ASIK Website meskipun nama sekolahnya sudah terdata.</p>\n<p>Langkah yang perlu dilakukan sekolah:</p>\n<ol>\n<li>Lengkapi/update data siswa di DAPODIK.</li>\n<li>Setelah data tersinkron, nama siswa akan otomatis tampil di ASIK Website dan bisa dilakukan skrining CKG.</li>\n</ol>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4f8e2a3c-f41f-4e14-8085-30afa117d434",
+  "tanggal_pembaruan": "2026-07-13",
+  "tanggal_ambil": "2026-08-24"
+}

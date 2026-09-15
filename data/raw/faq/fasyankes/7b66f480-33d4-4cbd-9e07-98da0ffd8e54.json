@@ -1,0 +1,12 @@
+{
+  "id": "7b66f480-33d4-4cbd-9e07-98da0ffd8e54",
+  "pertanyaan": "Cara mengaktifkan fitur Cek Kesehatan Gratis di Sehat Indonesiaku (ASIK) Website",
+  "isi_html": "<h1><strong>Untuk mengaktifkan fitur Cek Kesehatan Gratis di Sehat Indonesiaku (ASIK) Website, silakan mengikuti langkah berikut :</strong></h1>\n<p>1.Masuk ke Sehat Indonesiaku (ASIK) Website</p>\n<p>2.Klik menu Kelola Pengguna</p>\n<p>3.Pilih menu Akun Pengguna lalu klik Tambah Pengguna</p>\n<p>4.Isi informasi dasar lalu Simpan dan Lanjutkan</p>\n<ul>\n<li>Pastikan Email dan Nomor WhatsApp aktif (bisa menggunakan akun ASIK Mobile)</li>\n<li>Pastikan Nama dan NIK benar dan valid</li>\n</ul>\n<p>5.Pilih Grup Pengguna lalu Simpan dan Lanjutkan</p>\n<ul>\n<li>Administrator tingkat Provinsi dan Dinkes Kabupaten/Kota dapat mengatur pengguna sampai ke tingkat Puskesmas di Wilayah kerjanya</li>\n</ul>\n<p>6.Pilih Peran Pengguna dan Izin Akses</p>\n<ul>\n<li>Untuk mengakses layanan CKG, Administrator Tingkat Provinsi, Kabupaten/Kota, Puskesmas dapat mencentang akses di bawah menu \"CKG\"</li>\n</ul>\n<p>7.Pilih izin akses yang akan diberikan lalu klik Simpan</p>\n<p>8.Periksa Kembali data pengguna yang ditambahkan lalu klik Selesai dan Simpan</p>\n<p><strong>Berikut gambar panduan cara mengaktifkan fitur Cek Kesehatan Gratis di Sehat Indonesiaku (ASIK) Website:</strong></p>\n<p><img src=\"https://cms-satusehatmobile.kemkes.go.id/assets/d5457a64-6fdb-4fea-98b3-184279bf0d07\" alt=\"\"></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7b66f480-33d4-4cbd-9e07-98da0ffd8e54",
+  "tanggal_pembaruan": "2025-02-18",
+  "tanggal_ambil": "2026-08-24"
+}

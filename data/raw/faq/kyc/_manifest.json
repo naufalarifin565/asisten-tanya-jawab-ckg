@@ -1,0 +1,145 @@
+{
+  "sumber": "FAQ Verifikasi Profil (KYC)",
+  "kategori_id": "23b96d27-240a-49ba-acaf-75fafd7ec758",
+  "sasaran": "masyarakat",
+  "tanggal_ambil": "2026-08-26",
+  "jumlah": 17,
+  "topik": [
+    {
+      "id": "574e4f56-e529-4259-bfb7-b6fab80426e1",
+      "judul": "Apa itu verifikasi profil (KYC)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/574e4f56-e529-4259-bfb7-b6fab80426e1",
+      "berkas": "574e4f56-e529-4259-bfb7-b6fab80426e1.json",
+      "status": "berhasil",
+      "sha256": "4fe8ab025a32b4483325addd268b2f40a0ee77df197332efd136ac22ad0198a8"
+    },
+    {
+      "id": "12bfb0e4-625d-41b9-8cb0-5e835a648416",
+      "judul": "Mengapa perlu dilakukan verifikasi profil?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/12bfb0e4-625d-41b9-8cb0-5e835a648416",
+      "berkas": "12bfb0e4-625d-41b9-8cb0-5e835a648416.json",
+      "status": "berhasil",
+      "sha256": "bb3725f57b8afaa30895af6623f9b18a842a1235de040b806c956a82f0bb2453"
+    },
+    {
+      "id": "70e28cd9-3fda-4ab2-b1c3-1c13ff640e98",
+      "judul": "Apakah verifikasi profil dapat dilakukan secara online?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/70e28cd9-3fda-4ab2-b1c3-1c13ff640e98",
+      "berkas": "70e28cd9-3fda-4ab2-b1c3-1c13ff640e98.json",
+      "status": "berhasil",
+      "sha256": "924c6011f875240562f0091c0ea418516d16836b12cdd4b71a92b764ddb8a832"
+    },
+    {
+      "id": "926f9863-8445-4749-a861-c5dbb9deacb2",
+      "judul": "Kenapa proses verifikasi profil dilakukan di Fasyankes?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/926f9863-8445-4749-a861-c5dbb9deacb2",
+      "berkas": "926f9863-8445-4749-a861-c5dbb9deacb2.json",
+      "status": "berhasil",
+      "sha256": "64f1bb9d46ca54912094875b1a7c23336331d94b979f55c7ce49cdd28a949983"
+    },
+    {
+      "id": "1e4c9d33-4886-4277-bfec-cd722f6ec30a",
+      "judul": "Di Fasyankes mana saya bisa melakukan proses verifikasi profil atau KYC?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1e4c9d33-4886-4277-bfec-cd722f6ec30a",
+      "berkas": "1e4c9d33-4886-4277-bfec-cd722f6ec30a.json",
+      "status": "berhasil",
+      "sha256": "fa13e98a359a39cf421b9b5c57742b7a52a7dac9a1d35c9845a641571772a6f0"
+    },
+    {
+      "id": "5a842a0e-6ba0-4d6b-a6e0-43afaf130da7",
+      "judul": "Apa yang harus dipersiapkan untuk melakukan verifikasi profil di Fasyankes?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/5a842a0e-6ba0-4d6b-a6e0-43afaf130da7",
+      "berkas": "5a842a0e-6ba0-4d6b-a6e0-43afaf130da7.json",
+      "status": "berhasil",
+      "sha256": "df210a94890438050c6e4a485098478e8507ec110b43258f18e18f7cc1c90667"
+    },
+    {
+      "id": "821312f2-4919-4f33-9fb4-ba9e1c835805",
+      "judul": "Apakah saya bisa menggunakan SIM, paspor, atau dokumen lainnya sebagai pengganti KTP?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/821312f2-4919-4f33-9fb4-ba9e1c835805",
+      "berkas": "821312f2-4919-4f33-9fb4-ba9e1c835805.json",
+      "status": "berhasil",
+      "sha256": "670b7bbf6dd397172d2442334b66d288cabb962bd39612c77e9f0da85d125b21"
+    },
+    {
+      "id": "556531e7-074f-4751-a8c7-f4d97c0a62c5",
+      "judul": "Bagaimana cara melakukan verifikasi profil?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/556531e7-074f-4751-a8c7-f4d97c0a62c5",
+      "berkas": "556531e7-074f-4751-a8c7-f4d97c0a62c5.json",
+      "status": "berhasil",
+      "sha256": "d376ce67fc72fde75efdd8e010ba378e5f7702c2c581ce548837c1578f75eb09"
+    },
+    {
+      "id": "15f2e5f6-0213-4461-ac9b-f8540f153a85",
+      "judul": "Apakah ada batasan usia minimal untuk verifikasi profil?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/15f2e5f6-0213-4461-ac9b-f8540f153a85",
+      "berkas": "15f2e5f6-0213-4461-ac9b-f8540f153a85.json",
+      "status": "berhasil",
+      "sha256": "a24fa8f1acaf12ed2a1f80741a02ee278e52edd58e54c2f9f7cadbacf5407348"
+    },
+    {
+      "id": "1ceeb8f9-c51c-434c-8108-55caf2c3faa7",
+      "judul": "Apa yang terjadi jika verifikasi profil saya gagal?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/1ceeb8f9-c51c-434c-8108-55caf2c3faa7",
+      "berkas": "1ceeb8f9-c51c-434c-8108-55caf2c3faa7.json",
+      "status": "berhasil",
+      "sha256": "58bc323269bb2a38f163135f23cd502e4f5a19ed78a89f66cffe000db2734e80"
+    },
+    {
+      "id": "4b03127a-cfb3-4f5a-95a3-1753b7776bf9",
+      "judul": "Apakah verifikasi profil perlu dilakukan setiap melakukan kunjungan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/4b03127a-cfb3-4f5a-95a3-1753b7776bf9",
+      "berkas": "4b03127a-cfb3-4f5a-95a3-1753b7776bf9.json",
+      "status": "berhasil",
+      "sha256": "4080c0cad0200f7b7e32880682f0b1fb662e58a8fa5ef3d18d008f0151f28c81"
+    },
+    {
+      "id": "e86658be-44ab-450c-9a9f-c6d51980f0ff",
+      "judul": "Apakah saya bisa memberikan wewenang kepada pihak lain untuk mengurus proses verifikasi profil SATUSEHAT Mobile?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/e86658be-44ab-450c-9a9f-c6d51980f0ff",
+      "berkas": "e86658be-44ab-450c-9a9f-c6d51980f0ff.json",
+      "status": "berhasil",
+      "sha256": "e8e13c0c38d9523ee37d0298775251bc41004e858f4ca29f46e2ae6f0b954d20"
+    },
+    {
+      "id": "10a6d625-719c-48c2-84f5-c6cc4489aa78",
+      "judul": "Apakah saya akan dikenakan biaya untuk verifikasi profil?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/10a6d625-719c-48c2-84f5-c6cc4489aa78",
+      "berkas": "10a6d625-719c-48c2-84f5-c6cc4489aa78.json",
+      "status": "berhasil",
+      "sha256": "9a698445dc8cf006a5690545ecd5663bbc4f21e255b7888d0b086b2f30baf0ed"
+    },
+    {
+      "id": "7a785e10-253e-43f6-b18b-79933a0f4645",
+      "judul": "Apakah saya dapat melakukan Verifikasi Profil (KYC) atau akses Rekam Medis Elektronik dari profil tertaut?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/7a785e10-253e-43f6-b18b-79933a0f4645",
+      "berkas": "7a785e10-253e-43f6-b18b-79933a0f4645.json",
+      "status": "berhasil",
+      "sha256": "3988246493e9677b337bf94a6e9eededf0a50f358328e27ccce7f5c1d6615ad4"
+    },
+    {
+      "id": "0d9090bc-2bcd-4900-bc67-e35a597a32de",
+      "judul": "Profil saya sudah terverifikasi, lalu apa yang harus saya lakukan?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0d9090bc-2bcd-4900-bc67-e35a597a32de",
+      "berkas": "0d9090bc-2bcd-4900-bc67-e35a597a32de.json",
+      "status": "berhasil",
+      "sha256": "616882729f639a08b910d860002ed33d901a5b67c8a554f9f495d180e3b93c5a"
+    },
+    {
+      "id": "16aaeb9e-faa0-4d15-8620-ec5652395727",
+      "judul": "Di mana saya bisa melakukan Verifikasi Profil (KYC)?",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/16aaeb9e-faa0-4d15-8620-ec5652395727",
+      "berkas": "16aaeb9e-faa0-4d15-8620-ec5652395727.json",
+      "status": "berhasil",
+      "sha256": "43bcffec0eef77777d45413d133d6cced741ef45507fc4708ceaadf73be2f419"
+    },
+    {
+      "id": "39278af7-3b5a-4428-8fee-463e28406e9a",
+      "judul": "Sudah centang biru, tapi catatan medis saya belum muncul",
+      "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/39278af7-3b5a-4428-8fee-463e28406e9a",
+      "berkas": "39278af7-3b5a-4428-8fee-463e28406e9a.json",
+      "status": "berhasil",
+      "sha256": "682c77f509e5a60f007f74e0574ae306f78e75844305a0be86276e65687edd76"
+    }
+  ]
+}

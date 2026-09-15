@@ -1,0 +1,12 @@
+{
+  "id": "6cb7b63c-cc4b-4115-94df-3a36498b1dad",
+  "pertanyaan": "Bagaimana jika NIK siswa tidak ditemukan atau tidak valid saat didaftarkan sebagai peserta CKG Sekolah?",
+  "isi_html": "<p>Tenaga Puskesmas diminta mengumpulkan data siswa yang mengalami kendala NIK yang tidak valid atau tidak ditemukan ke dalam satu dokumen excel berisi informasi berikut:</p>\n<ul>\n<li>Nama Siswa</li>\n<li>NIK Siswa</li>\n<li>Nama Wali</li>\n<li>NIK Wali</li>\n</ul>\n<p>Dokumen tersebut dapat dikirimkan melalui email <a target=_blank href=\"helpdesk@kemkes.go.id\">helpdesk@kemkes.go.id</a></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/6cb7b63c-cc4b-4115-94df-3a36498b1dad",
+  "tanggal_pembaruan": "2025-08-27",
+  "tanggal_ambil": "2026-08-24"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0a22e670-341a-44cb-832d-9d3c0fc5a0f8",
+  "pertanyaan": "Bagaimana jika sekolah di wilayah kerja saya belum tercantum dalam daftar sekolah yang dapat ditambahkan sebagai Sarana Binaan Puskesmas?",
+  "isi_html": "<p>Daftar sekolah yang muncul di dalam website SATUSEHAT IndonesiaKu (ASIK) berasal dari Data Pokok Pendidikan (Dapodik) Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) RI, yang diperbarui secara otomatis dan berkala.</p>\n<p>Langkah yang dapat dilakukan:</p>\n<ol>\n<li>Arahkan pihak sekolah untuk memastikan datanya telah terdaftar dan diperbarui ke sistem Dapodik milik Kemendikdasmen RI.</li>\n<li>Data yang telah masuk Dapodik Kemendikdasmen RI akan otomatis terhubung ke Master Sarana milik Kementerian Kesehatan (Kemenkes) RI</li>\n<li>Setelah itu, sekolah dapat ditambahkan sebagai Sarana Binaan Puskesmas melalui website SATUSEHAT IndonesiaKu (ASIK). Sekolah dapat ditambahkan sebagai Sarana Binaan Puskesmas oleh Administrator level Puskesmas, KabKo dan Provinsi. Administrator juga dapat memberikan izin akses Sarana Binaan untuk role Koordinator Program.</li>\n</ol>\n<p>Untuk memudahkan monitoring dan koordinasi, Puskesmas atau Dinas Kesehatan Kabupaten/Kota dapat melaporkan daftar sekolah yang belum tercantum dalam daftar Sarana Binaan Puskesmas melalui melalui tautan berikut ini:\n<a target=_blank href=\"https://s.kemkes.go.id/SosialisasiPencatatanCKG\">https://s.kemkes.go.id/SosialisasiPencatatanCKG</a></p>\n",
+  "kategori_label": "Cek Kesehatan Gratis - Fasyankes",
+  "kategori_kunci": "fasyankes",
+  "sasaran": "nakes",
+  "sumber_nama": "FAQ CKG Fasyankes",
+  "url": "https://satusehat.kemkes.go.id/mobile/faq/topic/0a22e670-341a-44cb-832d-9d3c0fc5a0f8",
+  "tanggal_pembaruan": "2025-08-27",
+  "tanggal_ambil": "2026-08-24"
+}

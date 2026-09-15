@@ -81,7 +81,7 @@ dan jawabannya tetap ditempeli sumber resmi. Dua kelemahan penyebabnya:
    Jawaban pendek mudah berbagi kata umum dengan potongan konteks meskipun isi
    pokoknya (angka, nama obat) dikarang. Kedua jawaban tadi berliputan 0,18 dan 0,38.
 
-Rinciannya ada di [hasil-evaluasi.md](hasil-evaluasi.md#pengujian-pengaman).
+Rinciannya ada di [eval/README.md](../eval/README.md#pengujian-pengaman).
 
 ### Penapis klinis: bentuk yang paling wajar justru sempat lolos
 

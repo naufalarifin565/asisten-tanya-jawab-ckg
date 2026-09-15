@@ -29,7 +29,7 @@ penonton masuk. Pertanyaan pertama selalu paling lambat.
 Kalau demo lewat proyektor dan perlu dibuka dari laptop lain:
 `python web/app_web.py --host 0.0.0.0`
 
-**Siapkan juga** [docs/hasil-evaluasi.md](hasil-evaluasi.md) di jendela lain.
+**Siapkan juga** [eval/README.md](../eval/README.md) di jendela lain.
 Kalau ditanya angka, tunjukkan berkasnya, jangan mengandalkan ingatan.
 
 ---
@@ -100,7 +100,7 @@ bagaimana cara mengganti oli motor?
 
 ### 6. Tutup dengan angka evaluasi, termasuk yang jelek
 
-Buka [hasil-evaluasi.md](hasil-evaluasi.md).
+Buka [eval/README.md](../eval/README.md).
 
 > "87 pertanyaan uji, 14 di antaranya sengaja tidak ada jawabannya. Recall@3 82%,
 > tidak ada pengarangan pada berkas uji. Tetapi 9 pertanyaan yang ada jawabannya
@@ -164,5 +164,5 @@ Buka [hasil-evaluasi.md](hasil-evaluasi.md).
 | "Indeks tidak cocok dengan korpus" | `chunk.py` dijalankan tanpa `index.py` | `python src/index.py`, lalu nyalakan ulang |
 | Jawaban meleset | kelemahan pencarian yang memang ada | buka panel penelusuran, jelaskan apa adanya |
 
-Kalau sistemnya benar-benar mati saat demo, buka [hasil-evaluasi.md](hasil-evaluasi.md).
+Kalau sistemnya benar-benar mati saat demo, buka [eval/README.md](../eval/README.md).
 Angka dan temuannya tetap bisa dipresentasikan tanpa sistem yang berjalan.

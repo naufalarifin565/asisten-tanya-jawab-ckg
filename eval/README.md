@@ -1,15 +1,31 @@
-# Hasil Evaluasi
+# Evaluasi
 
-Ringkasan seluruh pengukuran sistem, dengan kelemahannya. Laporan yang dihasilkan
-otomatis ada di [eval/laporan_evaluasi.md](../eval/laporan_evaluasi.md); dokumen ini
-menambahkan penelusuran kegagalan dan uji pengaman yang dijalankan pada
-15 September 2026.
+Folder ini berisi alat ukur sistem beserta hasilnya. Jalankan semua perintah dari
+folder utama repositori.
+
+## Isi folder ini
+
+| Berkas | Fungsi |
+|---|---|
+| `pertanyaan_uji.jsonl` | 87 pertanyaan uji berlabel (73 berjawab, 14 sengaja tanpa jawaban) |
+| `buat_pertanyaan_uji.py` | menyusun `pertanyaan_uji.jsonl` dari daftar di dalam berkas dan memverifikasi dokumen acuannya; tidak punya opsi, dan menjalankannya menulis ulang berkas uji |
+| `uji_guardrail.py` | penapis klinis, pembuangan tautan, kalimat penolakan (tanpa GPU) |
+| `uji_retrieval.py` | Recall@k, MRR, pemisahan skor pencarian (tanpa GPU) |
+| `uji_jawaban.py` | ketepatan sumber, kejujuran menolak, kesesuaian bahasa (butuh GPU) |
+| `evaluate.py` | menjalankan semua uji dan menulis `laporan_evaluasi.md` |
+| `laporan_evaluasi.md` | laporan otomatis; **tertimpa setiap kali `evaluate.py` dijalankan** |
+| `README.md` | dokumen ini: hasil lengkap dan analisis tambahan yang tidak dihasilkan skrip |
+
+Bagian di bawah menambahkan penelusuran kegagalan dan uji pengaman yang dijalankan
+pada 15 September 2026. Catatan analisis ditulis di sini, bukan di
+`laporan_evaluasi.md`, supaya tidak tertimpa.
 
 > Angka yang jujur lebih berguna daripada angka yang bagus. Semua angka di bawah
 > ini bisa diulang dengan perintah di bagian [Cara mengulang](#cara-mengulang).
 
 ## Daftar isi
 
+- [Isi folder ini](#isi-folder-ini)
 - [Konfigurasi yang diukur](#konfigurasi-yang-diukur)
 - [Berkas uji](#berkas-uji)
 - [Mutu pencarian](#mutu-pencarian)
@@ -153,7 +169,7 @@ membuang acuannya. Karena isi jawaban belum dinilai, keduanya belum bisa dibedak
 Skor RRF terendah pertanyaan berjawab 0,0300, sedangkan skor tertinggi pertanyaan
 tanpa jawaban 0,0328. Rentangnya bertumpang tindih, jadi penolakan ditangani sandi
 model dan pemeriksaan keberpijakan. Lihat
-[arsitektur-dan-keputusan.md](arsitektur-dan-keputusan.md#penolakan-tidak-memakai-ambang-skor).
+[docs/arsitektur-dan-keputusan.md](../docs/arsitektur-dan-keputusan.md#penolakan-tidak-memakai-ambang-skor).
 
 ---
 

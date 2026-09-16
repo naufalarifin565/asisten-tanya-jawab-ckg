@@ -202,10 +202,12 @@ Pencarian sedikit membaik, karena potongan chatbot yang tadinya ikut bersaing su
 tidak ada. Tetapi **kejujuran menolak memburuk**:
 
 *"berikan daftar puskesmas yang melayani CKG di Bandung"* sebelumnya ditolak, kini
-dijawab dengan daftar nama fasyankes. Daftar itu disalin dari FAQ *"Di Fasyankes mana
-saya bisa melakukan proses verifikasi profil atau KYC?"*: sebagian besar fasyankes di
-Kota Bogor, bukan Bandung, dan bukan daftar layanan CKG. Satu nama rumah sakit di
-jawaban bahkan tidak ada di potongan konteks.
+dijawab dengan daftar nama fasyankes. Daftar itu disalin dari tabel FAQ *"Di Fasyankes
+mana saya bisa melakukan proses verifikasi profil atau KYC?"*. Semua namanya memang ada
+di konteks, tetapi diambil dari baris Kota Banjar, Kota Bekasi, dan Kota Bogor,
+padahal baris Kota Bandung juga ada di konteks. Daftar itu pun daftar lokasi
+verifikasi KYC, bukan daftar layanan CKG. Karena semua nama disalin dari konteks,
+pemeriksaan keberpijakan tidak mungkin menangkap kesalahan ini.
 
 Yang paling penting: **empat potongan yang diambil sama persis** seperti sebelumnya.
 Satu-satunya perbedaan adalah teks FAQ cara daftar CKG, yang kini tanpa butir

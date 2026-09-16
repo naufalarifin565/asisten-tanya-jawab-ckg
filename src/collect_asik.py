@@ -10,7 +10,7 @@ Kenapa mentahan disimpan apa adanya: supaya pembersihan di chunk.py bisa
 diperbaiki dan dijalankan ulang berkali-kali tanpa perlu mengunduh lagi.
 Server tidak dibebani ulang hanya karena aturan pembersihan kita berubah.
 
-PERINGATAN: alamat bawaan masih lingkungan STAGING (lihat CLAUDE.md §9 no. 2).
+PERINGATAN: alamat bawaan masih lingkungan STAGING (lihat README, "Sebelum meneruskan proyek ini").
 Setiap berkas ditandai lingkungannya di manifest supaya tidak tertukar dengan
 korpus produksi nanti.
 

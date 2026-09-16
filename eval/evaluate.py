@@ -7,7 +7,7 @@ Keluaran:
     layar                        ringkasan
     eval/laporan_evaluasi.md     laporan tertulis siap dilampirkan
 
-Berkas ini yang diminta CLAUDE.md §5, dan laporannya yang diminta §8
+Berkas ini dan laporannya memenuhi definisi selesai proyek
 ("laporan evaluasi dengan angka, termasuk kelemahannya").
 
 === KENAPA TIDAK MENGHITUNG SENDIRI ===
@@ -24,8 +24,8 @@ tahu mana yang benar. Satu definisi, dipakai bersama.
 
 === LAPORANNYA MENCANTUMKAN KELEMAHAN, BUKAN CUMA ANGKA ===
 
-CLAUDE.md §8 meminta laporan "termasuk kelemahannya", dan §10 meminta hasil
-jelek dilaporkan apa adanya. Jadi laporan ini selalu memuat bagian keterbatasan,
+Definisi selesai proyek meminta laporan "termasuk kelemahannya", dan hasil
+jelek harus dilaporkan apa adanya. Jadi laporan ini selalu memuat bagian keterbatasan,
 dan angka yang buruk tidak disembunyikan atau dihaluskan.
 """
 

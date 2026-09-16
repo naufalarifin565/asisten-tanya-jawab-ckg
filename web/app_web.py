@@ -5,7 +5,7 @@
 
 === KENAPA ADA, DAN APA YANG BUKAN ===
 
-Ini ANTARMUKA DEMO LOKAL, bukan deployment. CLAUDE.md §8 menyebut deployment
+Ini ANTARMUKA DEMO LOKAL, bukan deployment. Lingkup awal proyek menaruh deployment
 di luar lingkup satu bulan, dan itu tidak diubah oleh berkas ini: tidak ada
 server publik, tidak ada domain, tidak ada basis data, tidak ada autentikasi.
 Yang ada hanya halaman lokal supaya sistem lebih enak dipakai saat uji coba

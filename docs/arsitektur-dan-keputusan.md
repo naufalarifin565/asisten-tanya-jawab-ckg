@@ -9,6 +9,7 @@ ukuran berkasnya disebutkan di tempatnya.
 
 ## Daftar isi
 
+- [Prinsip wajib](#prinsip-wajib)
 - [Alur sistem](#alur-sistem)
 - [Pengaman dikerjakan kode, bukan dititipkan ke model](#pengaman-dikerjakan-kode-bukan-dititipkan-ke-model)
 - [Korpus](#korpus)
@@ -16,6 +17,27 @@ ukuran berkasnya disebutkan di tempatnya.
 - [Penyusunan jawaban](#penyusunan-jawaban)
 - [Antarmuka](#antarmuka)
 - [Yang sudah dicoba dan gagal](#yang-sudah-dicoba-dan-gagal)
+
+---
+
+## Prinsip wajib
+
+Lima prinsip ini ditetapkan sejak awal proyek dan mengikat seluruh rancangan.
+Perubahan apa pun tidak boleh melanggarnya.
+
+1. **Setiap jawaban wajib menyertakan sumber**: nama dokumen/halaman dan tautannya.
+2. **Dilarang menjawab di luar dokumen.** Kalau informasinya tidak ada di korpus,
+   sistem menyatakannya terus terang dan mengarahkan ke jalur bantuan resmi.
+3. **Bukan alat klinis.** Sistem tidak menafsirkan hasil pemeriksaan seseorang, tidak
+   memberi saran pengobatan, dan tidak menegakkan diagnosis. Pertanyaan klinis
+   diarahkan ke tenaga kesehatan.
+4. **Tidak menyentuh data pribadi.** Seluruh korpus adalah dokumen publik, tanpa data
+   pasien.
+5. **Model open-source, dijalankan lokal**, demi kedaulatan data dan kebijakan internal.
+
+Setiap potongan korpus juga wajib membawa metadata `sasaran`, `jenis`,
+`sumber_nama`, `sumber_url`, `tanggal_ambil`, dan `judul_bagian`. Metadata inilah
+yang memungkinkan penyaringan per kelompok sasaran dan penyertaan sumber yang benar.
 
 ---
 
@@ -261,7 +283,7 @@ dijawab keliru; lihat
 }
 ```
 
-Enam field setelah `teks` adalah metadata wajib (CLAUDE.md §4). Sisanya untuk
+Enam field setelah `teks` adalah metadata wajib (lihat [Prinsip wajib](#prinsip-wajib)). Sisanya untuk
 penelusuran dan evaluasi. `jenis_metode: heuristik` menandai bahwa label `jenis`
 ditebak dari judul, belum diperiksa manual seluruhnya. Potongan dari dokumen yang
 dipangkas informasi chatbot-nya membawa field tambahan `catatan_suntingan`, supaya

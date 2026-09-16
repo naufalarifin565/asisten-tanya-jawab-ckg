@@ -78,7 +78,7 @@ POTONG_MIN = 200
 TUMPANG = 150
 
 # ---------------------------------------------------------------------------
-# Penentuan metadata "jenis" (CLAUDE.md bagian 4)
+# Penentuan metadata "jenis" (metadata wajib)
 #
 # JUJUR: ini heuristik kata kunci, bukan kebenaran. Dipakai supaya 200+ potongan
 # tidak perlu dilabeli tangan satu per satu di minggu pertama. Setiap potongan
@@ -667,7 +667,7 @@ def olah_asik(folder: Path, maks: int, minimum: int, tumpang: int) -> list[dict]
             potongan.append({
                 "id": f"asik:{slug(hal['jalur'])}:{urut}",
                 "teks": teks,
-                # --- metadata wajib (CLAUDE.md bagian 4) ---
+                # --- metadata wajib (docs/arsitektur-dan-keputusan.md, Prinsip wajib) ---
                 "sasaran": "nakes",
                 "jenis": tebak_jenis(judul_bagian or judul, "asik"),
                 "sumber_nama": f"Pusat Bantuan ASIK — {judul}",
@@ -838,7 +838,7 @@ def _pisah_halaman(teks: str) -> tuple[str, list[int]]:
 # potongan: sebuah potongan dibuang kalau memetakan HASIL PEMERIKSAAN ke
 # TINDAKAN MEDIS. Yang dibuang dicatat dan dihitung, tidak dibuang diam-diam.
 #
-# Ini menjaga CLAUDE.md §2 no. 3 di sumbernya. Penapis pertanyaan di answer.py
+# Ini menjaga prinsip wajib no. 3 (bukan alat klinis) di sumbernya. Penapis pertanyaan di answer.py
 # tetap ada, tapi ia lapis kedua -- lapis pertama adalah tidak menyimpan bahan
 # yang tidak boleh dikeluarkan.
 # ---------------------------------------------------------------------------

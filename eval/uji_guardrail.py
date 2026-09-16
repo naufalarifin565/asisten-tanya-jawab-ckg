@@ -3,7 +3,7 @@
     python eval/uji_guardrail.py
 
 Kenapa dipisah dari uji_retrieval.py dan dari LLM: guardrail ini adalah janji
-keselamatan sistem (CLAUDE.md §2 no. 2-3). Janji semacam itu harus bisa diuji
+keselamatan sistem (prinsip wajib no. 2-3). Janji semacam itu harus bisa diuji
 cepat, hasilnya sama setiap kali dijalankan, dan tidak bergantung pada model
 yang bisa berubah jawabannya. Uji ini selesai dalam hitungan detik, jadi tidak
 ada alasan untuk melewatkannya setiap kali kode diubah.

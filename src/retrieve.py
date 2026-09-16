@@ -23,7 +23,7 @@ selesai dalam milidetik, tanpa perlu pustaka pencarian vektor apa pun.
 Kalau menyaring setelah mengambil 5 teratas, pertanyaan masyarakat bisa
 mengambil 5 potongan nakes lalu tersaring habis dan menyisakan nol jawaban.
 Menyaring dulu baru memeringkat menjamin k hasil teratas memang berasal dari
-kelompok yang diminta. Inilah gunanya metadata `sasaran` (CLAUDE.md §4).
+kelompok yang diminta. Inilah gunanya metadata `sasaran` (metadata wajib).
 
 === PENCARIAN HIBRIDA (BAWAAN) ===
 
@@ -167,7 +167,7 @@ class Hasil:
 
     @property
     def rujukan(self) -> str:
-        """Rujukan siap tampil: nama sumber + tautannya (CLAUDE.md §2 no. 1)."""
+        """Rujukan siap tampil: nama sumber + tautannya (prinsip wajib no. 1)."""
         return f"{self.potongan['sumber_nama']} — {self.potongan['sumber_url']}"
 
 
@@ -255,7 +255,7 @@ class Pencari:
         skor_minimum: ambang untuk membuang hasil yang terlalu jauh. Dibiarkan 0
         di sini karena ambang yang benar HARUS ditentukan dari data uji
         (eval/), bukan ditebak. Ini nanti jadi dasar kemampuan menolak menjawab
-        di answer.py (CLAUDE.md §7 no. 3).
+        di answer.py (diukur sebagai kejujuran menolak).
         """
         kandidat = self._saring(sasaran, jenis, sumber)
         if kandidat.size == 0:

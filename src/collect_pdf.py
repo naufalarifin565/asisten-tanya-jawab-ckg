@@ -15,8 +15,8 @@ di antaranya -- separuh dokumen. Isinya tabel tiga kolom:
     ...         | Gizi Kurang | 1. Edukasi gizi ... 2. Lakukan uji kulit
                               | tuberkulin (mantoux) ...
 
-Itu pedoman klinis: memetakan hasil pemeriksaan ke tindakan medis. CLAUDE.md §3
-meminta pedoman klinis DITAHAN DULU, dan §2 no. 3 melarang sistem menafsirkan
+Itu pedoman klinis: memetakan hasil pemeriksaan ke tindakan medis. Rencana awal proyek
+meminta pedoman klinis DITAHAN DULU, dan prinsip wajib no. 3 melarang sistem menafsirkan
 hasil pemeriksaan atau memberi saran pengobatan.
 
 Penapis pertanyaan klinis di answer.py menyaring CARA BERTANYA, bukan isi

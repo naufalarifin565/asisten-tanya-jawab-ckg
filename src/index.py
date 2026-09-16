@@ -19,7 +19,7 @@ potongan -- masih sangat jauh.
 === KENAPA MODEL INI ===
 
 Bawaan: intfloat/multilingual-e5-base
-  * open-source dan jalan sepenuhnya lokal (CLAUDE.md §2 no. 5)
+  * open-source dan jalan sepenuhnya lokal (prinsip wajib no. 5)
   * dilatih multibahasa termasuk Indonesia
   * jendela 512 token, sejalan dengan ambang potongan 1.600 huruf (~400 token)
 

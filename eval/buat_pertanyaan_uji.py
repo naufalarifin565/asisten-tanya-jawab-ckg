@@ -29,7 +29,7 @@ awalan id dokumen acuannya. Cari dokumen yang tepat dengan:
 
 === KOLOM jawaban_acuan SENGAJA KOSONG ===
 
-Untuk menilai KETEPATAN ISI JAWABAN (CLAUDE.md §7 no. 1), jawaban acuan harus
+Untuk menilai KETEPATAN ISI JAWABAN, jawaban acuan harus
 ditulis manusia yang membaca dokumennya. Mengarangnya di sini sama saja menilai
 sistem dengan kunci jawaban buatan sendiri -- angkanya akan bagus dan tidak
 berarti apa-apa.
@@ -264,7 +264,7 @@ LAPANGAN: list[tuple[str, str, str]] = [
 ]
 
 # Pertanyaan yang JAWABANNYA MEMANG TIDAK ADA di korpus. Sistem wajib menolak
-# menjawab, bukan mengarang (CLAUDE.md §2 no. 2-3, §7 no. 3).
+# menjawab, bukan mengarang (prinsip wajib no. 2-3).
 #
 # Sengaja dibuat beragam: ada yang klinis (harus ditahan penapis kode), ada yang
 # sekadar di luar cakupan (harus ditolak lewat jalur lain). Kalau semuanya
@@ -358,7 +358,7 @@ def main() -> int:
     lapor(f"  asal lapangan   : {n_lapangan}   <- yang paling dibutuhkan")
     lapor("\nSeluruh dokumen acuan diverifikasi ada di korpus.")
     if n < 50:
-        lapor(f"CATATAN: CLAUDE.md §7 meminta minimal 50 pertanyaan, sekarang {n}.")
+        lapor(f"CATATAN: rencana evaluasi meminta minimal 50 pertanyaan, sekarang {n}.")
     if n_lapangan == 0:
         lapor("CATATAN: belum ada satu pun pertanyaan dari lapangan. Angka evaluasi")
         lapor("         yang dihasilkan belum tentu bertahan pada pertanyaan nyata.")

@@ -116,7 +116,7 @@ Jangan dilewati.
    **ketepatan isi jawaban belum pernah diukur**. Yang terukur baru ketepatan sumber.
 6. **Sistem ini bukan alat klinis.** Tidak boleh menafsirkan hasil pemeriksaan,
    memberi saran pengobatan, atau menegakkan diagnosis. Prinsip lengkapnya ada di
-   [CLAUDE.md](CLAUDE.md).
+   [docs/arsitektur-dan-keputusan.md](docs/arsitektur-dan-keputusan.md#prinsip-wajib).
 
 ---
 
@@ -430,7 +430,6 @@ Laporan otomatis memisahkan angka pertanyaan sintetis dan pertanyaan lapangan.
 ```
 .
 ├── README.md                  dokumen ini
-├── CLAUDE.md                  konteks proyek, prinsip wajib, rencana awal
 ├── requirements.txt           versi pustaka yang dikunci
 ├── jalankan_web.bat           peluncur Windows (bawaan: mesin ekstraktif)
 ├── jalankan_terminal.bat      peluncur Windows (bawaan: mesin llm)
@@ -501,7 +500,7 @@ Laporan otomatis memisahkan angka pertanyaan sintetis dan pertanyaan lapangan.
    ke `data/raw/<sumber>/`. Contoh paling sederhana: `src/collect_web.py`.
 2. **Tambahkan pengolahannya di `src/chunk.py`**. Setiap potongan wajib membawa
    metadata `sasaran`, `jenis`, `sumber_nama`, `sumber_url`, `tanggal_ambil`, dan
-   `judul_bagian` (CLAUDE.md §4). `sasaran` boleh berupa daftar kalau dokumennya
+   `judul_bagian` (lihat [prinsip wajib](docs/arsitektur-dan-keputusan.md#prinsip-wajib)). `sasaran` boleh berupa daftar kalau dokumennya
    memang menyasar lebih dari satu kelompok.
 3. Jalankan `python src/chunk.py`, lalu `python src/index.py`.
 4. **Tambahkan pertanyaan uji** untuk sumber baru di `eval/buat_pertanyaan_uji.py`,
@@ -586,4 +585,3 @@ dan `eval/` sebagai gerbang setiap perubahan.
 - [eval/README.md](eval/README.md): angka lengkap, penelusuran kegagalan, uji pengaman tambahan
 - [docs/panduan-demo.md](docs/panduan-demo.md): urutan demo dan jawaban untuk pertanyaan yang sering muncul
 - [eval/laporan_evaluasi.md](eval/laporan_evaluasi.md): laporan yang dihasilkan otomatis oleh `evaluate.py`
-- [CLAUDE.md](CLAUDE.md): konteks proyek, prinsip wajib, dan hal yang belum dikonfirmasi

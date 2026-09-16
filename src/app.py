@@ -15,7 +15,7 @@ memuat ulang model 6 GB setiap pertanyaan -- sekitar 60 detik terbuang per
 pertanyaan, padahal menjawabnya sendiri cuma 10 detik. Di sini model dimuat
 SEKALI lalu dipakai terus selama sesi berjalan.
 
-Sengaja dibuat di terminal, bukan web. CLAUDE.md §8 meminta "antarmuka chat
+Sengaja dibuat di terminal, bukan web. Definisi selesai proyek meminta "antarmuka chat
 sederhana yang bisa dipakai", dan yang perlu dibuktikan adalah mutu jawabannya,
 bukan tampilannya. Menambah kerangka web berarti menambah dependensi dan hal
 baru yang harus dijelaskan, tanpa mengubah satu pun angka evaluasi.

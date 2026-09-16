@@ -118,7 +118,7 @@ BANTUAN_RESMI = (
 )
 
 # ---------------------------------------------------------------------------
-# Penapis pertanyaan klinis (CLAUDE.md §2 no. 3)
+# Penapis pertanyaan klinis (prinsip wajib no. 3)
 #
 # Sistem ini BUKAN alat klinis. Ia tidak menafsirkan hasil pemeriksaan
 # seseorang, tidak memberi saran pengobatan, dan tidak menegakkan diagnosis.
@@ -260,7 +260,7 @@ def pertanyaan_klinis(pertanyaan: str) -> bool:
 # dokumen berjudul "daftar pertanyaan yang bisa diajukan". Penolakan itu
 # benar secara aturan, tapi buruk sebagai pengalaman pemakaian.
 #
-# Ini BUKAN pelanggaran CLAUDE.md §2 no. 2. Larangannya adalah mengarang
+# Ini BUKAN pelanggaran prinsip wajib no. 2. Larangannya adalah mengarang
 # jawaban TENTANG ISI DOKUMEN. Menjelaskan cakupan sistem itu perkara lain --
 # asalkan daftarnya dibangkitkan dari korpus yang benar-benar ada dan TIDAK
 # diberi sitasi, supaya tidak ada yang mengira ini kutipan dokumen.

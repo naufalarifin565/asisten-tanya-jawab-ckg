@@ -3,7 +3,7 @@
     python eval/uji_jawaban.py --mesin ekstraktif     # cepat, tanpa LLM
     python eval/uji_jawaban.py --mesin llm            # perlu model bahasa
 
-Tiga dari empat hal yang diminta CLAUDE.md §7 diukur di sini:
+Tiga dari empat ukuran evaluasi proyek diukur di sini:
 
   2. KETEPATAN SUMBER   -- apakah dokumen yang dikutip memang dokumen acuannya?
                            Dilaporkan DUA angka, dan ini penting: mesin

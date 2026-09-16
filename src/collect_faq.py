@@ -35,7 +35,7 @@ from utils import DATA_MENTAH, ambil, hari_ini, lapor, sesi, sha256_teks, tulis_
 
 PANGKAL = "https://satusehat.kemkes.go.id/mobile"
 
-# categoryId diambil dari CLAUDE.md §3. Nama pendek supaya tidak perlu menyalin UUID.
+# categoryId diambil dari alamat halaman FAQ SATUSEHAT Mobile. Nama pendek supaya tidak perlu menyalin UUID.
 KATEGORI = {
     "fasyankes": {
         "id": "7cd776af-e9d8-496a-b7fd-1f149db25232",
@@ -116,7 +116,7 @@ KATEGORI = {
 #   aplikasi yang sama. Memasukkannya menambah ratusan potongan yang bersaing
 #   di setiap pencarian tanpa pernah menjawab satu pun pertanyaan CKG.
 #
-#   MELANGGAR BATAS KLINIS (CLAUDE.md §2 no. 3) -- ini yang perlu diwaspadai,
+#   MELANGGAR BATAS KLINIS (prinsip wajib no. 3) -- ini yang perlu diwaspadai,
 #   karena justru kategori terbesar yang belum diambil:
 #     * Diari Kesehatan (29 topik) memuat "Apa yang dapat saya lakukan jika
 #       kadar kolesterol saya tinggi?", "Apakah saya memiliki kanker paru?",

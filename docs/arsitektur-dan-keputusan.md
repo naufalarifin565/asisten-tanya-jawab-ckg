@@ -108,19 +108,22 @@ perbaikan selesai.
 
 | Sumber | Potongan | Dokumen | Sasaran |
 |---|---|---|---|
-| Pusat Bantuan ASIK (staging) | 178 | 162 | tenaga kesehatan |
-| Juknis CKG (Kepmenkes 84/2026) | 88 | 29 | tenaga kesehatan |
+| Pusat Bantuan ASIK (staging) | 169 | 156 | tenaga kesehatan |
+| Juknis CKG (Kepmenkes 84/2026) | 86 | 29 | tenaga kesehatan |
 | FAQ Verifikasi Profil (KYC) | 56 | 17 | masyarakat |
-| FAQ CKG Umum | 50 | 32 | masyarakat |
-| Juknis CKG Sekolah (Kepmenkes 770/2025) | 48 | 17 | tenaga kesehatan, sekolah |
+| FAQ CKG Umum | 49 | 32 | masyarakat |
+| Juknis CKG Sekolah (Kepmenkes 770/2025) | 47 | 17 | tenaga kesehatan, sekolah |
 | FAQ CKG Fasyankes | 40 | 40 | tenaga kesehatan |
-| FAQ CKG Sekolah | 17 | 15 | sekolah |
+| FAQ CKG Sekolah | 15 | 15 | sekolah |
 | FAQ Akun dan Keamanan SATUSEHAT | 15 | 15 | masyarakat |
 | Ayo Sehat | 14 | 3 | masyarakat, sekolah |
 | FAQ Resume Medis SATUSEHAT | 10 | 10 | masyarakat |
 | FAQ Kendala Login SATUSEHAT Mobile | 9 | 7 | masyarakat |
 | FAQ Profil Terhubung | 8 | 8 | masyarakat |
-| **Jumlah** | **533** | **355** | |
+| **Jumlah** | **518** | **349** | |
+
+Angka di atas sudah tanpa informasi chatbot WhatsApp; lihat
+[Informasi chatbot WhatsApp dibuang](#informasi-chatbot-whatsapp-dibuang).
 
 Empat kategori "prasyarat CKG" (KYC, akun, login, profil terhubung) bukan tentang
 CKG langsung, melainkan langkah yang harus dilewati sebelum bisa mendaftar.
@@ -128,7 +131,7 @@ Kategori itu ditambahkan setelah menyadari sistem bisa menjawab *"bagaimana cara
 daftar CKG?"* tetapi bungkam begitu penanya tersangkut di langkah pertama
 (*"saya tidak bisa login"*), padahal justru di situ orang paling butuh bantuan.
 
-Sebanyak 95 potongan (18%) Pusat Bantuan ASIK membahas program di luar CKG
+Sebanyak 91 potongan (18%) Pusat Bantuan ASIK membahas program di luar CKG
 (imunisasi, ibu hamil, bayi dan balita, remaja). Potongan ini dipertahankan karena
 merupakan bagian dari aplikasi pencatatan yang sama, tetapi dapat bersaing dengan
 dokumen CKG dalam pencarian.
@@ -141,8 +144,8 @@ setengah prosedur, dan jawabannya jadi **salah**, bukan sekadar kurang lengkap.
 
 Potongan hanya dibelah kalau lebih dari 1.600 karakter (sekitar 400 token, di bawah
 jendela 512 token model embedding), berurutan di batas heading, lalu paragraf,
-lalu kalimat. Hasilnya 303 dari 355 dokumen (85%) muat utuh dalam satu potongan,
-dengan median panjang potongan 631 karakter.
+lalu kalimat. Hasilnya 302 dari 349 dokumen (87%) muat utuh dalam satu potongan,
+dengan median panjang potongan 641 karakter.
 
 ### Kenapa Juknis CKG Sekolah dicari sampai ketemu
 
@@ -154,7 +157,7 @@ kalimatnya sendiri di BAB II:
 Selama dokumen itu belum masuk, sasaran `sekolah` hanya punya 20 potongan, semuanya
 FAQ dan halaman kampanye tanpa satu pun dasar ketentuan. Dokumennya adalah
 **Kepmenkes HK.01.07/MENKES/770/2025**, ditemukan di JDIH Kemenkes. Setelah masuk,
-sasaran `sekolah` naik ke 68 potongan.
+sasaran `sekolah` naik ke 68 potongan (65 setelah informasi chatbot WhatsApp dibuang).
 
 ### Satu potongan boleh menyasar dua kelompok
 
@@ -201,6 +204,37 @@ SATUSEHAT Mobile punya 26 kategori FAQ, yang diambil hanya 8.
 
 Daftar lengkap beserta alasannya ada di kepala berkas `src/collect_faq.py`.
 
+### Informasi chatbot WhatsApp dibuang
+
+Pada 16 September 2026 pembimbing lapangan menyampaikan bahwa layanan chatbot
+WhatsApp sudah dihentikan Kemenkes, yaitu WhatsApp Chatbot Kemenkes RI untuk
+pendaftaran dan kuesioner CKG, serta ASIK WhatsApp Chatbot untuk kader dan nakes
+mencatat data posyandu. Dokumen sumbernya belum diperbarui, sehingga sistem sempat
+menjawab *"cara daftar CKG"* dengan langkah menghubungi nomor chatbot yang sudah tidak
+aktif. Jawaban itu bersumber resmi, tetapi menyesatkan orang yang mengikutinya.
+
+Penyaringannya dikerjakan di `src/chunk.py`, **bukan** dengan menyunting `data/raw/`.
+Mentahan tetap salinan asli server, sementara keputusan ini tercatat, bisa diulang,
+dan mudah dibatalkan kalau layanannya aktif kembali:
+
+- 6 halaman Pusat Bantuan ASIK yang pokok bahasannya chatbot tidak diambil
+  (`HALAMAN_CHATBOT_WA`).
+- 15 dokumen atau bagian lain dipangkas hanya pada kalimat chatbot-nya
+  (`ATURAN_CHATBOT_WA`), misalnya *"kuesioner mandiri pada aplikasi SSM atau WA
+  Chatbot Kemenkes"* menjadi *"kuesioner mandiri pada aplikasi SSM"*, dan butir
+  *"2. WhatsApp Chatbot Kemenkes RI"* di FAQ cara daftar CKG dibuang lalu butir
+  sesudahnya dinomori ulang.
+- Aturannya sengaja spesifik per kalimat, karena kata WhatsApp juga dipakai untuk hal
+  yang masih berlaku: kode OTP, isian nomor WhatsApp, grup WhatsApp guru, serta
+  notifikasi dan rapor hasil lewat WhatsApp. Semua itu tidak disentuh.
+- `chunk.py` memeriksa sendiri bahwa tidak ada lagi kata "chatbot" atau nomor
+  chatbot di korpus, dan mencetak peringatan kalau masih ada.
+
+Korpus turun dari 533 menjadi 518 potongan (355 menjadi 349 dokumen). Pencarian
+sedikit membaik, tetapi satu pertanyaan tanpa jawaban yang sebelumnya ditolak kini
+dijawab keliru; lihat
+[eval/README.md](../eval/README.md#dampak-pembuangan-informasi-chatbot-whatsapp).
+
 ### Bentuk satu baris korpus
 
 ```json
@@ -229,7 +263,9 @@ Daftar lengkap beserta alasannya ada di kepala berkas `src/collect_faq.py`.
 
 Enam field setelah `teks` adalah metadata wajib (CLAUDE.md §4). Sisanya untuk
 penelusuran dan evaluasi. `jenis_metode: heuristik` menandai bahwa label `jenis`
-ditebak dari judul, belum diperiksa manual seluruhnya.
+ditebak dari judul, belum diperiksa manual seluruhnya. Potongan dari dokumen yang
+dipangkas informasi chatbot-nya membawa field tambahan `catatan_suntingan`, supaya
+jelas teksnya tidak lagi sama persis dengan sumber aslinya.
 
 ---
 
@@ -237,10 +273,10 @@ ditebak dari judul, belum diperiksa manual seluruhnya.
 
 ### Tanpa basis data vektor
 
-Korpus ini ratusan potongan. Mencari yang paling mirip dari 533 vektor adalah satu
+Korpus ini ratusan potongan. Mencari yang paling mirip dari 518 vektor adalah satu
 perkalian matriks NumPy yang selesai dalam milidetik. Chroma, FAISS, atau Qdrant
 dirancang untuk jutaan vektor; memakainya di sini hanya menambah dependensi tanpa
-membuat pencarian lebih cepat atau lebih tepat. Indeksnya hanya sekitar 1,5 MB.
+membuat pencarian lebih cepat atau lebih tepat. Indeksnya hanya sekitar 1,4 MB.
 
 Pertimbangkan lagi kalau korpus sudah puluhan ribu potongan.
 
@@ -270,18 +306,18 @@ puluhan) tidak sebanding, dan menjumlahkannya butuh penyetelan bobot yang mudah
 dicurigai dicari-cari agar hasilnya bagus. Konstanta `RRF_K = 60` diambil dari
 makalah aslinya dan tidak disetel.
 
-Diukur ulang pada 87 pertanyaan (15 September 2026):
+Diukur ulang pada 87 pertanyaan dan korpus 518 potongan (16 September 2026):
 
 | Ukuran | Embedding saja | Hibrida |
 |---|---|---|
-| Recall@1 | 57,5% | 63,0% |
-| Recall@3 | 76,7% | 82,2% |
-| Recall@10 | 89,0% | 89,0% |
-| MRR | 0,684 | 0,729 |
+| Recall@1 | 56,2% | 63,0% |
+| Recall@3 | 76,7% | 83,6% |
+| Recall@10 | 89,0% | 90,4% |
+| MRR | 0,678 | 0,733 |
 
-Recall@10 sama, artinya BM25 terutama memperbaiki urutan dokumen yang sudah
-terambil. Pada kelompok masyarakat, Recall@3 hibrida justru turun satu pertanyaan
-(13 → 12 dari 17).
+Recall@10 hanya naik satu pertanyaan, artinya BM25 terutama memperbaiki urutan
+dokumen yang sudah terambil. Pada kelompok masyarakat Recall@3 keduanya sama
+(12 dari 17), tetapi MRR hibrida lebih tinggi.
 
 ### Reranking belum dipasang
 
@@ -309,6 +345,15 @@ menjawab, lalu **kode** yang mendeteksi sandi itu dan mengganti seluruh jawaban
 dengan penolakan baku. Kode juga menolak jawaban yang kata isinya hampir tidak
 muncul di potongan mana pun (`AMBANG_BERPIJAK = 0,15`). Ambang ini terbukti terlalu
 longgar; lihat [bagian pengaman](#pengaman-dikerjakan-kode-bukan-dititipkan-ke-model).
+
+**Sandi dari model ternyata rapuh.** Setelah informasi chatbot WhatsApp dibuang
+(16 September 2026), pertanyaan *"berikan daftar puskesmas yang melayani CKG di
+Bandung"* mendapat empat potongan konteks yang sama persis seperti sebelumnya; hanya
+teks salah satunya yang berubah karena butir chatbot dihapus. Perubahan kecil itu
+membuat model berhenti memberi sandi dan menyalin daftar fasyankes lokasi verifikasi
+KYC sebagai jawaban. Keputusan menolak yang bergantung pada model bahasa kecil tidak
+stabil terhadap perubahan konteks yang tampak tidak berkaitan, jadi setiap perubahan
+korpus wajib diikuti evaluasi ulang.
 
 ### Sumber hanya dari potongan yang benar-benar dipakai
 

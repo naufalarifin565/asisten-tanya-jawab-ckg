@@ -534,6 +534,103 @@ def potong(judul_dokumen: str, teks: str, maks: int, minimum: int, tumpang: int)
 
 
 # ---------------------------------------------------------------------------
+# Informasi chatbot WhatsApp dibuang: layanannya sudah dihentikan
+#
+# Pada 16 September 2026 pembimbing lapangan menyampaikan bahwa layanan chatbot
+# WhatsApp sudah dihapus Kemenkes, yaitu WhatsApp Chatbot Kemenkes RI untuk
+# pendaftaran dan kuesioner CKG (0811 10 500 567 / 0812-7887-8812) dan ASIK
+# WhatsApp Chatbot untuk kader/nakes mencatat data posyandu.
+#
+# Dokumen sumbernya belum diperbarui, sehingga sistem sempat menjawab "cara daftar
+# CKG" dengan langkah menghubungi chatbot yang sudah tidak ada. Jawaban itu memang
+# bersumber resmi, tetapi tetap menyesatkan orang yang mengikutinya.
+#
+# Mentahan di data/raw/ SENGAJA tidak diubah karena merupakan salinan apa adanya
+# dari server. Penyaringan dilakukan di sini supaya tercatat, bisa diulang, dan
+# mudah dibatalkan kalau layanannya diaktifkan kembali.
+#
+# Yang TIDAK dibuang karena bukan chatbot: kode OTP lewat WhatsApp, isian nomor
+# WhatsApp, grup WhatsApp guru, serta notifikasi dan rapor hasil lewat WhatsApp.
+#
+# Dua cara:
+#   1. Halaman Pusat Bantuan ASIK yang pokok bahasannya chatbot tidak diambil.
+#      Halaman induk "ASIK Whatsapp" ikut, karena isinya campuran chatbot dan
+#      notifikasi, sedangkan notifikasi sudah dibahas lengkap di halaman
+#      "Notifikasi WhatsApp ASIK" yang tetap diambil.
+#   2. Dokumen lain yang hanya menyinggung chatbot dipangkas bagian itu saja.
+#      Aturannya sengaja spesifik per kalimat, bukan "hapus semua yang menyebut
+#      WhatsApp", karena kata itu juga dipakai untuk hal yang masih berlaku.
+#      Huruf butir di Juknis tidak disusun ulang, jadi bisa muncul loncatan
+#      seperti "b." langsung ke "d.".
+# ---------------------------------------------------------------------------
+HALAMAN_CHATBOT_WA = {
+    "informasi-umum-asik-whatsapp",
+    "informasi-umum-asik-whatsapp-asik-whatsapp-chatbot",
+    "informasi-umum-asik-whatsapp-registrasi-asik-whatsapp",
+    "bayi-balita-asik-chatbot-bayi-balita",
+    "bayi-balita-asik-chatbot-bayi-balita-registrasi-chatbot-asik",
+    "bayi-balita-asik-chatbot-bayi-balita-alur-pencatatan-chatbot-asik",
+}
+
+ATURAN_CHATBOT_WA: list[tuple[re.Pattern, str]] = [
+    # --- Pusat Bantuan ASIK: chatbot sebagai kanal/platform dalam daftar dan tabel
+    (re.compile(r"\n[ \t]*\d+\.\s*ASIK WhatsApp Chatbot:[^\n]*"), ""),
+    (re.compile(r"ASIK memiliki tiga kanal utama"), "ASIK memiliki dua kanal utama"),
+    (re.compile(r"\n[ \t]*\d+\.\s*\*\*ASIK Chatbot\*\*:[^\n]*"), ""),
+    (re.compile(r"menggunakan tiga platform dengan fungsi"), "menggunakan dua platform dengan fungsi"),
+    (re.compile(r"\n[^\n|]*\|\s*Whatsapp\s*\|[^\n]*", re.I), ""),
+    (re.compile(r"\n[ \t]*\*\s*\[Panduan pencatatan melalui Whatsapp Chatbot\]\([^)]*\)", re.I), ""),
+    (re.compile(r"\nASIK Chatbot \|[^\n]*"), ""),
+    (re.compile(r"melalui WhatsApp atau ASIK Mobile"), "melalui ASIK Mobile"),
+    (re.compile(r"melalui ASIK Mobile atau WhatsApp"), "melalui ASIK Mobile"),
+    # --- FAQ SATUSEHAT
+    (re.compile(r"melalui aplikasi SATUSEHAT Mobile, WhatsApp Kemenkes RI 0811 10 500 567, atau"),
+     "melalui aplikasi SATUSEHAT Mobile atau"),
+    # --- Juknis CKG (Kepmenkes 84/2026); teks PDF, jadi pergantian baris bisa di mana saja
+    (re.compile(r"c\.\s+Jika mengalami kesulitan untuk mendaftar melalui SSM,\s+pendaftaran CKG dapat"
+                r"\s+dilakukan melalui WA Chatbot\s+Kementerian Kesehatan di nomor\s+\(0812-7887-8812\);\s*"), ""),
+    (re.compile(r"melalui aplikasi SSM atau melalui\s+WA Chatbot\s+Kementerian Kesehatan\s+\(0812-7887-8812\)"),
+     "melalui aplikasi SSM"),
+    (re.compile(r"\bSSM\s+atau\s+(?:atau\s+)?(?:Whatsapp\s+\(WA\)|WA)\s+Chatbot\s+Kemenkes", re.I), "SSM"),
+    (re.compile(r"\bSSM/WA\s+chatbot\s+Kemenkes", re.I), "SSM"),
+    (re.compile(r"Tiket pendaftaran di SSM/WA\b"), "Tiket pendaftaran di SSM"),
+    # --- Juknis CKG Sekolah (Kepmenkes 770/2025)
+    (re.compile(r"melalui SATUSEHAT Mobile atau\s+WhatsApp Chatbot Kemenkes RI"), "melalui SATUSEHAT Mobile"),
+    (re.compile(r"b\.\s+Pendaftaran melalui WhatsApp Chatbot\n.*?(?=\nc\.\s)", re.S), ""),
+    (re.compile(r"melalui akun SSM atau WhatsApp(\s+masing-masing)"), r"melalui akun SSM\1"),
+]
+
+# Dipakai main() untuk memastikan tidak ada yang tersisa setelah penyaringan.
+POLA_SISA_CHATBOT_WA = re.compile(r"chat\s?bot|0812-7887-8812|0811\s?10\s?500\s?567", re.I)
+
+DIBUANG_CHATBOT_WA: list[str] = []        # judul halaman yang tidak diambil
+DISUNTING_CHATBOT_WA: set[str] = set()    # awalan id dokumen yang dipangkas
+
+
+def _hapus_butir_daftar_wa(teks: str) -> tuple[str, int]:
+    """FAQ cara daftar CKG: buang butir "2. WhatsApp Chatbot Kemenkes RI" beserta
+    sub-langkahnya, lalu geser butir sesudahnya dari "3." menjadi "2."."""
+    m = re.search(r"\n2\.\s*WhatsApp Chatbot Kemenkes RI.*?(?=\n3\.|\Z)", teks, re.S)
+    if not m:
+        return teks, 0
+    sisa = re.sub(r"^\n3\.", "\n2.", teks[m.end():], count=1)
+    return teks[:m.start()] + sisa, 1
+
+
+def buang_info_chatbot_wa(teks: str) -> tuple[str, int]:
+    """Pangkas penyebutan chatbot WhatsApp dari teks satu dokumen.
+
+    Kembalikan (teks, jumlah_penggantian). Teks dirapikan ulang hanya kalau ada
+    yang diganti, supaya dokumen lain tidak berubah sedikit pun.
+    """
+    teks, n = _hapus_butir_daftar_wa(teks)
+    for pola, ganti in ATURAN_CHATBOT_WA:
+        teks, k = pola.subn(ganti, teks)
+        n += k
+    return (rapikan_spasi(teks) if n else teks), n
+
+
+# ---------------------------------------------------------------------------
 # Perakitan potongan per sumber
 # ---------------------------------------------------------------------------
 def olah_asik(folder: Path, maks: int, minimum: int, tumpang: int) -> list[dict]:
@@ -554,6 +651,13 @@ def olah_asik(folder: Path, maks: int, minimum: int, tumpang: int) -> list[dict]
 
         judul, isi, ada_gambar = bersihkan_asik(berkas.read_text(encoding="utf-8"))
         judul = judul or hal["judul"]
+        # Layanan chatbot WhatsApp sudah dihentikan; lihat HALAMAN_CHATBOT_WA.
+        if slug(hal["jalur"]) in HALAMAN_CHATBOT_WA:
+            DIBUANG_CHATBOT_WA.append(judul)
+            continue
+        isi, n_wa = buang_info_chatbot_wa(isi)
+        if n_wa:
+            DISUNTING_CHATBOT_WA.add(f"asik:{slug(hal['jalur'])}")
         if not isi:
             lapor(f"  (kosong setelah dibersihkan) {hal['judul']}")
             continue
@@ -603,6 +707,10 @@ def olah_faq(folder: Path, maks: int, minimum: int, tumpang: int) -> list[dict]:
             if not jawaban:
                 lapor(f"  (kosong) {rekam['pertanyaan'][:60]}")
                 continue
+
+            jawaban, n_wa = buang_info_chatbot_wa(jawaban)
+            if n_wa:
+                DISUNTING_CHATBOT_WA.add(f"faq_{rekam['kategori_kunci']}:{rekam['id']}")
 
             pertanyaan = rekam["pertanyaan"].strip()
             # Satu topik = satu potongan. Dipotong HANYA kalau jawabannya panjang,
@@ -667,6 +775,9 @@ def olah_web(folder: Path, maks: int, minimum: int, tumpang: int) -> list[dict]:
             judul_h1 = m.group(1).strip()
             isi = isi[m.end():].strip()
             judul = f"{hal['nama']} — {judul_h1}" if judul_h1.lower() not in hal["nama"].lower() else hal["nama"]
+        isi, n_wa = buang_info_chatbot_wa(isi)
+        if n_wa:
+            DISUNTING_CHATBOT_WA.add(f"web:{slug(hal['berkas'])}")
         if not isi:
             continue
 
@@ -917,6 +1028,10 @@ def olah_juknis(folder: Path, maks: int, minimum: int, tumpang: int,
 
         for judul_bagian, blok in bagian:
             bersih, halaman = _pisah_halaman(blok)
+            bersih, n_wa = buang_info_chatbot_wa(bersih)
+            if n_wa:
+                DISUNTING_CHATBOT_WA.add(
+                    f"{sumber_id}:bab-{bab['angka'].lower()}:{slug(judul_bagian or 'utama')}")
             if len(bersih) < 60:  # sisa pemotongan yang tidak bermakna
                 continue
 
@@ -1088,6 +1203,19 @@ def main() -> int:
     if not potongan:
         lapor("Tidak ada yang bisa diolah. Jalankan skrip pengumpul dulu.")
         return 1
+
+    # Potongan dari dokumen yang dipangkas info chatbot-nya diberi catatan, supaya
+    # jelas teksnya tidak lagi sama persis dengan sumber aslinya.
+    for pot in potongan:
+        if pot["id"].rsplit(":", 1)[0] in DISUNTING_CHATBOT_WA:
+            pot["catatan_suntingan"] = "informasi chatbot WhatsApp dihapus (layanan dihentikan)"
+    if DIBUANG_CHATBOT_WA or DISUNTING_CHATBOT_WA:
+        lapor(f"      Chatbot WhatsApp: {len(DIBUANG_CHATBOT_WA)} halaman ASIK tidak diambil, "
+              f"{len(DISUNTING_CHATBOT_WA)} dokumen/bagian dipangkas")
+    sisa_wa = [p["id"] for p in potongan if POLA_SISA_CHATBOT_WA.search(p["teks"])]
+    if sisa_wa:
+        lapor(f"      PERINGATAN: {len(sisa_wa)} potongan masih menyebut chatbot WhatsApp: "
+              f"{', '.join(sisa_wa[:5])}")
 
     # Buang potongan berisi teks identik (mis. halaman pengantar yang terduplikasi).
     # HARUS setelah SEMUA sumber dikumpulkan: kalau ada sumber yang ditambahkan

@@ -3,9 +3,9 @@
   "awalan_dokumen": "passage: ",
   "awalan_pertanyaan": "query: ",
   "dimensi": 768,
-  "jumlah_potongan": 533,
+  "jumlah_potongan": 518,
   "dinormalkan": true,
   "korpus": "C:\\MAGANG KEMENKES 2026\\data\\processed\\korpus.jsonl",
-  "sidik_korpus": "db90bdc1c915aeea33362c3b3ae6617ad4919a4f76168068864db8eea14a6f92",
-  "tanggal_indeks": "2026-09-03"
+  "sidik_korpus": "c281a04baa1447c999dabff1901527eab9297bf5b5fad75d06a57e00bb26b2c1",
+  "tanggal_indeks": "2026-09-16"
 }

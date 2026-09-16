@@ -1,18 +1,18 @@
 # Laporan Evaluasi — Asisten Tanya-Jawab CKG
 
-Dibuat otomatis oleh `eval/evaluate.py` pada 2026-09-04.
+Dibuat otomatis oleh `eval/evaluate.py` pada 2026-09-16.
 Mesin jawaban: **llm** (`Qwen/Qwen2.5-3B-Instruct`)
 
 ## 1. Korpus
 
 | | |
 |---|---|
-| Potongan | **533** |
-| Dokumen | 355 |
-| Per sumber | asik 178 · juknis 88 · faq_kyc 56 · faq_umum 50 · juknis_sekolah 48 · faq_fasyankes 40 · faq_sekolah 17 · faq_akun 15 · web 14 · faq_resume_medis 10 · faq_login 9 · faq_profil_terhubung 8 |
-| Per sasaran | nakes 354 · masyarakat 159 · sekolah 68 |
-| Per jenis | cara_pakai_aplikasi 249 · ketentuan_program 204 · penanganan_kendala 80 |
-| Panjang potongan | median 631 · maks 1815 huruf |
+| Potongan | **518** |
+| Dokumen | 349 |
+| Per sumber | asik 169 · juknis 86 · faq_kyc 56 · faq_umum 49 · juknis_sekolah 47 · faq_fasyankes 40 · faq_akun 15 · faq_sekolah 15 · web 14 · faq_resume_medis 10 · faq_login 9 · faq_profil_terhubung 8 |
+| Per sasaran | nakes 342 · masyarakat 158 · sekolah 65 |
+| Per jenis | cara_pakai_aplikasi 240 · ketentuan_program 198 · penanganan_kendala 80 |
+| Panjang potongan | median 641 · maks 1815 huruf |
 | Model pencarian | `intfloat/multilingual-e5-base` |
 
 ## 2. Berkas uji
@@ -29,14 +29,13 @@ Recall@k = dari k potongan teratas, apakah dokumen acuan ikut terambil. Ini bata
 | Ukuran | Nilai |
 |---|---|
 | Recall@1 | 63% |
-| Recall@3 | 82% |
+| Recall@3 | 84% |
 | Recall@5 | 86% |
-| Recall@10 | 89% |
-| MRR | 0.729 |
+| Recall@10 | 90% |
+| MRR | 0.733 |
 
-**8 pertanyaan yang dokumennya tidak terambil sama sekali:**
+**7 pertanyaan yang dokumennya tidak terambil sama sekali:**
 
-- Bagaimana kader mendaftarkan diri di ASIK?
 - Siapa saja yang bisa memakai aplikasi ASIK?
 - Di mana bisa dapat informasi CKG yang terbaru?
 - Bagaimana pelaksanaan CKG di sekolah?
@@ -65,13 +64,26 @@ Kedua rentang **bertumpang tindih**, jadi aturan "kalau skor < X maka tolak" pas
 
 | Ukuran | Nilai |
 |---|---|
-| Sumber pertama sudah tepat | 41/73 (56%) |
-| Sumber acuan ikut dikutip | 46/73 (63%) |
+| Sumber pertama sudah tepat | 42/73 (58%) |
+| Sumber acuan ikut dikutip | 45/73 (62%) |
 | Ditolak padahal ada jawabannya | 9 |
-| **Menolak dengan benar** | 14/14 (100%) |
-| **Mengarang** | 0 |
-| Kata per kalimat (masyarakat) | 16.4 |
+| **Menolak dengan benar** | 13/14 (93%) |
+| **Mengarang** | 1 |
+| Kata per kalimat (masyarakat) | 19.8 |
 | Istilah teknis (masyarakat) | 0.3 |
+
+**Pertanyaan yang dikarang padahal jawabannya tidak ada di korpus:**
+
+- berikan daftar puskesmas yang melayani CKG di Bandung
+
+## 6b. Bisakah penolakan memakai ambang LIPUTAN KATA?
+
+Liputan = bagian kata isi jawaban yang benar-benar muncul di potongan yang disodorkan. Jawaban yang dikarang dari pengetahuan model, bukan dari dokumen, seharusnya berliputan rendah.
+
+- Jawaban yang memang ada dokumennya: terendah `0.19` · median `0.92`
+- Jawaban yang seharusnya ditolak: tertinggi `1.00` · median `1.00`
+
+Kedua sebaran **bertumpang tindih**, jadi ambang liputan tunggal juga tidak bisa memisahkan — persis seperti pelajaran dari ambang skor kemiripan. Perlu sinyal lain.
 
 ## 7. Keterbatasan yang diketahui
 
@@ -81,4 +93,4 @@ Bagian ini sengaja selalu ada. Laporan evaluasi tanpa daftar kelemahan tidak bis
 2. **Ketepatan ISI jawaban belum diukur.** Kolom `jawaban_acuan` masih kosong; mengisinya butuh manusia yang membaca dokumennya. Yang terukur di atas baru ketepatan SUMBER.
 3. **Satu dokumen acuan per pertanyaan.** Kalau beberapa dokumen sama-sama menjawab, jawaban benar dari dokumen lain tetap dihitung meleset.
 4. **Label `jenis` masih heuristik**, ditandai `jenis_metode` di tiap potongan.
-5. **178 potongan berasal dari lingkungan staging** (Pusat Bantuan ASIK), bukan produksi. Alamat produksi belum dikonfirmasi.
+5. **169 potongan berasal dari lingkungan staging** (Pusat Bantuan ASIK), bukan produksi. Alamat produksi belum dikonfirmasi.

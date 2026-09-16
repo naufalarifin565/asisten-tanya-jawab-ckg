@@ -288,7 +288,7 @@ LABEL_KATEGORI = {
     "ibu-hamil": "Layanan ibu hamil",
     "bayi-balita": "Layanan bayi dan balita",
     "remaja": "Remaja dan usia sekolah",
-    "informasi-umum": "Pengenalan aplikasi ASIK (mobile, website, WhatsApp)",
+    "informasi-umum": "Pengenalan aplikasi ASIK (mobile dan website)",
     "Cek Kesehatan Gratis - Fasyankes": "Pertanyaan petugas seputar CKG di fasyankes",
     "Cek Kesehatan Gratis Ulang Tahun / Umum": "Cek Kesehatan Gratis untuk masyarakat",
 }

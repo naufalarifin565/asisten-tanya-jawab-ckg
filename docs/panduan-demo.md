@@ -38,7 +38,7 @@ Kalau ditanya angka, tunjukkan berkasnya, jangan mengandalkan ingatan.
 
 ### 1. Mulai dari halaman depan, jangan langsung bertanya
 
-Tunjukkan tiga angka di atas: **533 potongan · 355 dokumen · 12 sumber resmi**.
+Tunjukkan tiga angka di atas: **518 potongan · 349 dokumen · 12 sumber resmi**.
 
 > "Sistem ini tidak menjawab dari pengetahuan umum model. Ia hanya menjawab dari
 > dokumen resmi ini: Pusat Bantuan ASIK, FAQ SATUSEHAT Mobile, Juknis CKG, Juknis CKG
@@ -102,10 +102,10 @@ bagaimana cara mengganti oli motor?
 
 Buka [eval/README.md](../eval/README.md).
 
-> "87 pertanyaan uji, 14 di antaranya sengaja tidak ada jawabannya. Recall@3 82%,
-> tidak ada pengarangan pada berkas uji. Tetapi 9 pertanyaan yang ada jawabannya
-> ditolak, dan pada uji tambahan dua pertanyaan klinis yang lolos penapis dijawab
-> dengan informasi karangan model."
+> "87 pertanyaan uji, 14 di antaranya sengaja tidak ada jawabannya. Recall@3 84%.
+> Satu pertanyaan tanpa jawaban masih dijawab keliru, 9 pertanyaan yang ada
+> jawabannya ditolak, dan pada uji tambahan dua pertanyaan klinis yang lolos
+> penapis dijawab dengan informasi karangan model."
 
 ---
 
@@ -115,11 +115,6 @@ Buka [eval/README.md](../eval/README.md).
 > Sistem ini hanya menjawab dari 12 sumber resmi, selalu menyertakan sumber, dan
 > menolak kalau jawabannya tidak ada. Semuanya berjalan lokal; pertanyaan tidak
 > pernah keluar dari komputer ini.
-
-**"Apa bedanya dengan chatbot WhatsApp ASIK yang sudah ada?"**
-> Chatbot itu untuk **memasukkan data**. Ini untuk **menjawab pertanyaan cara
-> mencatat**. Perbedaan fungsinya perlu dikonfirmasi ke pemilik chatbot supaya tidak
-> duplikat.
 
 **"Datanya aman? Dikirim ke mana?"**
 > Tidak ke mana-mana. Model dijalankan lokal dan sudah diuji dengan akses internet

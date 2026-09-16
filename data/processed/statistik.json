@@ -1,56 +1,56 @@
 {
-  "tanggal_olah": "2026-09-03",
-  "jumlah_potongan": 533,
-  "jumlah_dokumen": 355,
+  "tanggal_olah": "2026-09-16",
+  "jumlah_potongan": 518,
+  "jumlah_dokumen": 349,
   "karakter": {
     "min": 91,
-    "median": 631,
+    "median": 641,
     "maks": 1815,
-    "rata2": 821
+    "rata2": 825
   },
   "perkiraan_token_maks": 454,
   "per_sumber": {
-    "asik": 178,
-    "juknis": 88,
+    "asik": 169,
+    "juknis": 86,
     "faq_kyc": 56,
-    "faq_umum": 50,
-    "juknis_sekolah": 48,
+    "faq_umum": 49,
+    "juknis_sekolah": 47,
     "faq_fasyankes": 40,
-    "faq_sekolah": 17,
     "faq_akun": 15,
+    "faq_sekolah": 15,
     "web": 14,
     "faq_resume_medis": 10,
     "faq_login": 9,
     "faq_profil_terhubung": 8
   },
   "per_sasaran": {
-    "nakes": 354,
-    "masyarakat": 159,
-    "sekolah": 68
+    "nakes": 342,
+    "masyarakat": 158,
+    "sekolah": 65
   },
   "per_jenis": {
-    "cara_pakai_aplikasi": 249,
-    "ketentuan_program": 204,
+    "cara_pakai_aplikasi": 240,
+    "ketentuan_program": 198,
     "penanganan_kendala": 80
   },
   "per_kategori": {
     "Verifikasi Profil (KYC)": 56,
-    "Cek Kesehatan Gratis Ulang Tahun / Umum": 50,
-    "bab-iii": 42,
+    "Cek Kesehatan Gratis Ulang Tahun / Umum": 49,
     "Cek Kesehatan Gratis - Fasyankes": 40,
+    "bab-iii": 40,
     "imunisasi": 29,
     "ibu-hamil": 27,
-    "bab-ii": 26,
     "akun": 25,
+    "bab-ii": 25,
     "bab-vi": 24,
-    "bayi-balita": 23,
-    "informasi-umum": 22,
     "bab-vii": 21,
-    "Cek Kesehatan Gratis - Sekolah": 17,
+    "bayi-balita": 19,
+    "informasi-umum": 17,
     "remaja": 16,
     "user-management": 15,
     "ptm": 15,
     "Akun dan Keamanan": 15,
+    "Cek Kesehatan Gratis - Sekolah": 15,
     "ayosehat": 14,
     "Resume Medis": 10,
     "Kendala Login SATUSEHAT Mobile": 9,
@@ -62,6 +62,6 @@
     "bab-ix": 2,
     "bab-v": 2
   },
-  "dokumen_terpotong": 52,
-  "potongan_dengan_gambar_di_sumber": 11
+  "dokumen_terpotong": 47,
+  "potongan_dengan_gambar_di_sumber": 9
 }

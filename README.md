@@ -449,6 +449,7 @@ Laporan otomatis memisahkan angka pertanyaan sintetis dan pertanyaan lapangan.
 │
 ├── web/
 │   ├── app_web.py             antarmuka web (Flask + waitress, satu thread pekerja model)
+│   ├── tunnel_qr.py           buka tunnel Cloudflare saat demo dan tampilkan QR alamatnya
 │   ├── templates/index.html
 │   └── static/                logo
 │

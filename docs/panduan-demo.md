@@ -109,7 +109,46 @@ Buka [eval/README.md](../eval/README.md).
 
 ---
 
-## C. Kalau ditanya, ini jawabannya
+## C. Kalau penonton ingin mencoba sendiri dari ponsel
+
+Dua cara, dan keduanya hanya dinyalakan selama demo berlangsung.
+
+**Jaringan lokal (paling aman).** Jalankan server dengan `python web/app_web.py --host 0.0.0.0`,
+lalu buat QR alamatnya:
+
+```bash
+python web/tunnel_qr.py --alamat http://192.168.1.10:5000   # ganti dengan IP laptop
+```
+
+Syaratnya penonton berada di Wi-Fi yang sama, dan Wi-Fi itu tidak memblokir
+komunikasi antarperangkat.
+
+**Tunnel Cloudflare (bisa diakses dari mana saja).** Server tetap berjalan di terminal
+pertama, lalu di terminal kedua:
+
+```bash
+python web/tunnel_qr.py            # menjalankan cloudflared sekaligus membuat QR
+python web/tunnel_qr.py --buka     # sekalian membuka gambar QR untuk ditampilkan
+```
+
+Alamat quick tunnel berbeda setiap kali dijalankan, jadi QR-nya dibuat saat itu juga
+dari alamat yang baru terbit, dan disimpan sebagai `qr-demo.png`.
+
+Tiga hal yang perlu diingat sebelum memakai tunnel:
+
+- Siapa pun yang punya alamatnya bisa membuka sistem ini, tanpa kata sandi.
+  **Pengaman klinis masih bocor**, jadi pengunjung bisa saja mendapat jawaban klinis
+  karangan yang tetap berhias sumber resmi.
+- Korpusnya berasal dari server staging Pusat Bantuan ASIK dan izinnya belum
+  dikonfirmasi. Tunnel menyajikan isi itu ke internet.
+- Jawaban diproses satu per satu di GPU laptop, sekitar 5 detik per pertanyaan.
+  Sepuluh orang memindai bersamaan berarti mengantre.
+
+Tekan Ctrl+C di terminal tunnel begitu demo selesai.
+
+---
+
+## D. Kalau ditanya, ini jawabannya
 
 **"Apa bedanya dengan ChatGPT?"**
 > Sistem ini hanya menjawab dari 12 sumber resmi, selalu menyertakan sumber, dan
@@ -136,7 +175,7 @@ Buka [eval/README.md](../eval/README.md).
 
 ---
 
-## D. Yang sebaiknya TIDAK dilakukan
+## E. Yang sebaiknya TIDAK dilakukan
 
 - **Jangan pakai `--mesin ekstraktif` saat demo.** Mesin itu tidak bisa menolak
   menjawab.
@@ -149,7 +188,7 @@ Buka [eval/README.md](../eval/README.md).
 
 ---
 
-## E. Kalau ada yang salah saat demo
+## F. Kalau ada yang salah saat demo
 
 | Gejala | Sebabnya | Tindakan |
 |---|---|---|
